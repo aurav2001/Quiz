@@ -1,0 +1,6 @@
+# Git ignore rules for Quiz app
+node_modules/
+.DS_Store
+*.log
+.tempmediaStorage/
+.system_generated/

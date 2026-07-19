@@ -1,0 +1,4802 @@
+[
+    {
+        "id": 1,
+        "levelId": 1,
+        "levelName": "Level 1: Present Simple Tense",
+        "question": "Translate: 'Main roz subah daudta hoon.'",
+        "options": [
+            "I run every morning.",
+            "I am running every morning.",
+            "I have run every morning.",
+            "I will run every morning."
+        ],
+        "correct": 0,
+        "hint": "Routine activities ke liye simple V1 lagta hai.",
+        "rationale": "'Main roz subah daudta hoon' ek routine habit hai. Simple Present (Subject + V1) aayega: 'I run every morning.'"
+    },
+    {
+        "id": 2,
+        "levelId": 1,
+        "levelName": "Level 1: Present Simple Tense",
+        "question": "Translate: 'Wo English bolta hai.'",
+        "options": [
+            "He speak English.",
+            "He speaks English.",
+            "He is speaking English.",
+            "He speaks the English."
+        ],
+        "correct": 1,
+        "hint": "Singular subject (He/She/It) ke sath verb + s/es aata hai.",
+        "rationale": "He singular subject hai, isliye simple present habits me V1+s 'speaks' aayega: 'He speaks English.'"
+    },
+    {
+        "id": 3,
+        "levelId": 1,
+        "levelName": "Level 1: Present Simple Tense",
+        "question": "Translate: 'Kya tum mujhe jante ho?'",
+        "options": [
+            "Do you know me?",
+            "Are you knowing me?",
+            "Did you know me?",
+            "Do you knows me?"
+        ],
+        "correct": 0,
+        "hint": "Present Simple interrogatives start with Do/Does.",
+        "rationale": "You ke sath simple questions me 'Do' aage aata hai + V1: 'Do you know me?'"
+    },
+    {
+        "id": 4,
+        "levelId": 1,
+        "levelName": "Level 1: Present Simple Tense",
+        "question": "Translate: 'Main jhoot nahi bolta.'",
+        "options": [
+            "I do not tell a lie.",
+            "I am not telling a lie.",
+            "I does not tell a lie.",
+            "I did not tell a lie."
+        ],
+        "correct": 0,
+        "hint": "Negative in Present Simple with I use 'do not'.",
+        "rationale": "Present Simple negative format for 'I' is 'do not + V1': 'I do not tell a lie.'"
+    },
+    {
+        "id": 5,
+        "levelId": 1,
+        "levelName": "Level 1: Present Simple Tense",
+        "question": "Translate: 'Suraj purv mein ugta hai.'",
+        "options": [
+            "The sun rises in the east.",
+            "The sun rise in the east.",
+            "The sun is rising in the east.",
+            "The sun rose in the east."
+        ],
+        "correct": 0,
+        "hint": "Universal truth ke liye standard simple present.",
+        "rationale": "Sun singular subject aur universal truth hai, isliye simple V1+s: 'The sun rises in the east.'"
+    },
+    {
+        "id": 6,
+        "levelId": 1,
+        "levelName": "Level 1: Present Simple Tense",
+        "question": "Translate: 'Bache shor machate hain.'",
+        "options": [
+            "Children make a noise.",
+            "Children makes a noise.",
+            "Children are making a noise.",
+            "Children made a noise."
+        ],
+        "correct": 0,
+        "hint": "Children plural subject hai.",
+        "rationale": "Plural subject ke sath simple V1 without s/es lagta hai: 'Children make a noise.'"
+    },
+    {
+        "id": 7,
+        "levelId": 1,
+        "levelName": "Level 1: Present Simple Tense",
+        "question": "Translate: 'Wo yahan nahi rehta.'",
+        "options": [
+            "He does not live here.",
+            "He do not live here.",
+            "He is not living here.",
+            "He did not live here."
+        ],
+        "correct": 0,
+        "hint": "He ke sath negative helper.",
+        "rationale": "Singular He ke sath simple present negative 'does not' hota hai: 'He does not live here.'"
+    },
+    {
+        "id": 8,
+        "levelId": 1,
+        "levelName": "Level 1: Present Simple Tense",
+        "question": "Translate: 'Kya wo padhati hai?'",
+        "options": [
+            "Does she teach?",
+            "Do she teach?",
+            "Is she teaching?",
+            "Does she teaches?"
+        ],
+        "correct": 0,
+        "hint": "Does ke sath V1 aati hai, s/es hat jata hai.",
+        "rationale": "Does he/she/it + V1 structure: 'Does she teach?'"
+    },
+    {
+        "id": 9,
+        "levelId": 1,
+        "levelName": "Level 1: Present Simple Tense",
+        "question": "Translate: 'Hum cricket khelte hain.'",
+        "options": [
+            "We play cricket.",
+            "We plays cricket.",
+            "We are playing cricket.",
+            "We played cricket."
+        ],
+        "correct": 0,
+        "hint": "We plural subject habit.",
+        "rationale": "Simple Present plural class syntax: 'We play cricket.'"
+    },
+    {
+        "id": 10,
+        "levelId": 1,
+        "levelName": "Level 1: Present Simple Tense",
+        "question": "Translate: 'Mera bhai bank mein kaam karta hai.'",
+        "options": [
+            "My brother works in a bank.",
+            "My brother work in a bank.",
+            "My brother working in a bank.",
+            "My brother is working in a bank."
+        ],
+        "correct": 0,
+        "hint": "Brother singular subject.",
+        "rationale": "Singular status work routine: 'My brother works in a bank.'"
+    },
+    {
+        "id": 11,
+        "levelId": 1,
+        "levelName": "Level 1: Present Simple Tense",
+        "question": "Translate: 'Tum mujhe kyun bulate ho?'",
+        "options": [
+            "Why do you call me?",
+            "Why are you calling me?",
+            "Why do you calls me?",
+            "Why did you call me?"
+        ],
+        "correct": 0,
+        "hint": "Wh- question format in simple present.",
+        "rationale": "Wh- word + do/does + subject + V1: 'Why do you call me?'"
+    },
+    {
+        "id": 12,
+        "levelId": 1,
+        "levelName": "Level 1: Present Simple Tense",
+        "question": "Translate: 'Main shakahari khana khata hoon.'",
+        "options": [
+            "I eat vegetarian food.",
+            "I eats vegetarian food.",
+            "I am eating vegetarian food.",
+            "I have eaten vegetarian food."
+        ],
+        "correct": 0,
+        "hint": "I ke sath habit.",
+        "rationale": "I + V1 structure: 'I eat vegetarian food.'"
+    },
+    {
+        "id": 13,
+        "levelId": 1,
+        "levelName": "Level 1: Present Simple Tense",
+        "question": "Translate: 'Wo kabhi jhoot nahi bolti.'",
+        "options": [
+            "She never tells a lie.",
+            "She never tell a lie.",
+            "She is never telling a lie.",
+            "She does never tell a lie."
+        ],
+        "correct": 0,
+        "hint": "'Never' ke sath negative helper ki jarurat nahi padti.",
+        "rationale": "She + never + V1+s: 'She never tells a lie.'"
+    },
+    {
+        "id": 14,
+        "levelId": 1,
+        "levelName": "Level 1: Present Simple Tense",
+        "question": "Translate: 'Kya tum dhoomprapan karte ho?'",
+        "options": [
+            "Do you smoke?",
+            "Do you smokes?",
+            "Are you smoking?",
+            "Did you smoke?"
+        ],
+        "correct": 0,
+        "hint": "Do you question.",
+        "rationale": "Simple present check: 'Do you smoke?'"
+    },
+    {
+        "id": 15,
+        "levelId": 1,
+        "levelName": "Level 1: Present Simple Tense",
+        "question": "Translate: 'Taare raat me chamakate hain.'",
+        "options": [
+            "Stars shine at night.",
+            "Stars shines at night.",
+            "Stars are shining at night.",
+            "Stars shone at night."
+        ],
+        "correct": 0,
+        "hint": "Stars plural factual status.",
+        "rationale": "Plural subject stars + V1: 'Stars shine at night.'"
+    },
+    {
+        "id": 16,
+        "levelId": 1,
+        "levelName": "Level 1: Present Simple Tense",
+        "question": "Translate: 'Mujhe chai pasand nahi hai.'",
+        "options": [
+            "I do not like tea.",
+            "I am not liking tea.",
+            "I does not like tea.",
+            "I don't likes tea."
+        ],
+        "correct": 0,
+        "hint": "Present preference state.",
+        "rationale": "Simple negative preference: 'I do not like tea.'"
+    },
+    {
+        "id": 17,
+        "levelId": 1,
+        "levelName": "Level 1: Present Simple Tense",
+        "question": "Translate: 'Kya baarish hoti hai yahan?'",
+        "options": [
+            "Does it rain here?",
+            "Do it rain here?",
+            "Is it raining here?",
+            "Does it rains here?"
+        ],
+        "correct": 0,
+        "hint": "It singular query helper.",
+        "rationale": "It ke sath question syntax 'Does it + V1': 'Does it rain here?'"
+    },
+    {
+        "id": 18,
+        "levelId": 1,
+        "levelName": "Level 1: Present Simple Tense",
+        "question": "Translate: 'Wo subah jaldi uthta hai.'",
+        "options": [
+            "He gets up early in the morning.",
+            "He get up early in the morning.",
+            "He is getting up early in the morning.",
+            "He got up early in the morning."
+        ],
+        "correct": 0,
+        "hint": "Singular habit utility.",
+        "rationale": "V1+s gets up syntax: 'He gets up early in the morning.'"
+    },
+    {
+        "id": 19,
+        "levelId": 1,
+        "levelName": "Level 1: Present Simple Tense",
+        "question": "Translate: 'Hum har saal picnic par jaate hain.'",
+        "options": [
+            "We go on a picnic every year.",
+            "We goes on a picnic every year.",
+            "We are going on a picnic every year.",
+            "We went on a picnic every year."
+        ],
+        "correct": 0,
+        "hint": "We regular yearly habit.",
+        "rationale": "We plural + V1: 'We go on a picnic every year.'"
+    },
+    {
+        "id": 20,
+        "levelId": 1,
+        "levelName": "Level 1: Present Simple Tense",
+        "question": "Translate: 'Kya tum use jaante ho?'",
+        "options": [
+            "Do you know him?",
+            "Do you knows him?",
+            "Are you knowing him?",
+            "Did you know him?"
+        ],
+        "correct": 0,
+        "hint": "Standard acquaintance question.",
+        "rationale": "Simple present question: 'Do you know him?'"
+    },
+    {
+        "id": 21,
+        "levelId": 1,
+        "levelName": "Level 1: Present Simple Tense",
+        "question": "Translate: 'Gaye ghaas khati hai.'",
+        "options": [
+            "The cow eats grass.",
+            "The cow eat grass.",
+            "The cow is eating grass.",
+            "The cow eaten grass."
+        ],
+        "correct": 0,
+        "hint": "Cow singular subject factual check.",
+        "rationale": "Cow singular + V1+s: 'The cow eats grass.'"
+    },
+    {
+        "id": 22,
+        "levelId": 1,
+        "levelName": "Level 1: Present Simple Tense",
+        "question": "Translate: 'Main roz dhoodh peeta hoon.'",
+        "options": [
+            "I drink milk every day.",
+            "I drinks milk every day.",
+            "I am drinking milk every day.",
+            "I have drunk milk every day."
+        ],
+        "correct": 0,
+        "hint": "Daily habit checking.",
+        "rationale": "I + V1: 'I drink milk every day.'"
+    },
+    {
+        "id": 23,
+        "levelId": 1,
+        "levelName": "Level 1: Present Simple Tense",
+        "question": "Translate: 'Kya wo gaana gaati hai?'",
+        "options": [
+            "Does she sing a song?",
+            "Do she sing a song?",
+            "Is she singing a song?",
+            "Does she sings a song?"
+        ],
+        "correct": 0,
+        "hint": "Singular girl active song request.",
+        "rationale": "Does + she + V1: 'Does she sing a song?'"
+    },
+    {
+        "id": 24,
+        "levelId": 1,
+        "levelName": "Level 1: Present Simple Tense",
+        "question": "Translate: 'Mere pita mujhe pocket money dete hain.'",
+        "options": [
+            "My father gives me pocket money.",
+            "My father give me pocket money.",
+            "My father is giving me pocket money.",
+            "My father gives pocket money to me."
+        ],
+        "correct": 0,
+        "hint": "Father singular present habit.",
+        "rationale": "Father singular + gives: 'My father gives me pocket money.'"
+    },
+    {
+        "id": 25,
+        "levelId": 1,
+        "levelName": "Level 1: Present Simple Tense",
+        "question": "Translate: 'Wo akele rehte hain.'",
+        "options": [
+            "They live alone.",
+            "They lives alone.",
+            "They are living alone.",
+            "They lived alone."
+        ],
+        "correct": 0,
+        "hint": "Plural subject habitat check.",
+        "rationale": "They + V1: 'They live alone.'"
+    },
+    {
+        "id": 26,
+        "levelId": 2,
+        "levelName": "Level 2: Present Continuous Tense",
+        "question": "Translate: 'Main abhi padh raha hoon.'",
+        "options": [
+            "I am studying now.",
+            "I was studying now.",
+            "I study now.",
+            "I will study now."
+        ],
+        "correct": 0,
+        "hint": "Continuous state helper for I.",
+        "rationale": "Present continuous format 'I am + V-ing': 'I am studying now.'"
+    },
+    {
+        "id": 27,
+        "levelId": 2,
+        "levelName": "Level 2: Present Continuous Tense",
+        "question": "Translate: 'Bache park mein khel rahe hain.'",
+        "options": [
+            "Children are playing in the park.",
+            "Children is playing in the park.",
+            "Children were playing in the park.",
+            "Children play in the park."
+        ],
+        "correct": 0,
+        "hint": "Children is plural subject present helper.",
+        "rationale": "Plural children + 'are playing': 'Children are playing in the park.'"
+    },
+    {
+        "id": 28,
+        "levelId": 2,
+        "levelName": "Level 2: Present Continuous Tense",
+        "question": "Translate: 'Mummy khana bana rahi hain.'",
+        "options": [
+            "Mother is cooking food.",
+            "Mother was cooking food.",
+            "Mother cooks food.",
+            "Mother are cooking food."
+        ],
+        "correct": 0,
+        "hint": "Mother singular present helper.",
+        "rationale": "Mother singular + 'is cooking': 'Mother is cooking food.'"
+    },
+    {
+        "id": 29,
+        "levelId": 2,
+        "levelName": "Level 2: Present Continuous Tense",
+        "question": "Translate: 'Bahar baarish ho rahi hai.'",
+        "options": [
+            "It is raining outside.",
+            "It was raining outside.",
+            "It rains outside.",
+            "It will rain outside."
+        ],
+        "correct": 0,
+        "hint": "Weather continuous active check.",
+        "rationale": "It + 'is raining': 'It is raining outside.'"
+    },
+    {
+        "id": 30,
+        "levelId": 2,
+        "levelName": "Level 2: Present Continuous Tense",
+        "question": "Translate: 'Kya tum sun rahe ho?'",
+        "options": [
+            "Are you listening?",
+            "Do you listen?",
+            "Were you listening?",
+            "Are you listning?"
+        ],
+        "correct": 0,
+        "hint": "You continuous query format.",
+        "rationale": "You plural helper 'Are' + V-ing: 'Are you listening?'"
+    },
+    {
+        "id": 31,
+        "levelId": 2,
+        "levelName": "Level 2: Present Continuous Tense",
+        "question": "Translate: 'Wo jhoot bol rahi hai.'",
+        "options": [
+            "She is telling a lie.",
+            "She was telling a lie.",
+            "She tells a lie.",
+            "She has told a lie."
+        ],
+        "correct": 0,
+        "hint": "She singular helper.",
+        "rationale": "She + 'is telling': 'She is telling a lie.'"
+    },
+    {
+        "id": 32,
+        "levelId": 2,
+        "levelName": "Level 2: Present Continuous Tense",
+        "question": "Translate: 'Hum film dekh rahe hain.'",
+        "options": [
+            "We are watching a movie.",
+            "We is watching a movie.",
+            "We were watching a movie.",
+            "We watch a movie."
+        ],
+        "correct": 0,
+        "hint": "We plural helper.",
+        "rationale": "We + 'are watching': 'We are watching a movie.'"
+    },
+    {
+        "id": 33,
+        "levelId": 2,
+        "levelName": "Level 2: Present Continuous Tense",
+        "question": "Translate: 'Kya wo ro raha hai?'",
+        "options": [
+            "Is he crying?",
+            "Does he cry?",
+            "Was he crying?",
+            "Is he cry?"
+        ],
+        "correct": 0,
+        "hint": "He singular query helper.",
+        "rationale": "He helper 'Is' + V-ing: 'Is he crying?'"
+    },
+    {
+        "id": 34,
+        "levelId": 2,
+        "levelName": "Level 2: Present Continuous Tense",
+        "question": "Translate: 'Mera phone baj raha hai.'",
+        "options": [
+            "My phone is ringing.",
+            "My phone ring.",
+            "My phone was ringing.",
+            "My phone has rung."
+        ],
+        "correct": 0,
+        "hint": "Phone singular helper.",
+        "rationale": "Phone + 'is ringing': 'My phone is ringing.'"
+    },
+    {
+        "id": 35,
+        "levelId": 2,
+        "levelName": "Level 2: Present Continuous Tense",
+        "question": "Translate: 'Wo log yahan aa rahe hain.'",
+        "options": [
+            "They are coming here.",
+            "They was coming here.",
+            "They will come here.",
+            "They come here."
+        ],
+        "correct": 0,
+        "hint": "They plural helper.",
+        "rationale": "They + 'are coming': 'They are coming here.'"
+    },
+    {
+        "id": 36,
+        "levelId": 2,
+        "levelName": "Level 2: Present Continuous Tense",
+        "question": "Translate: 'Tum kya kar rahe ho?'",
+        "options": [
+            "What are you doing?",
+            "What you are doing?",
+            "What do you do?",
+            "What did you do?"
+        ],
+        "correct": 0,
+        "hint": "Wh- question continuous format.",
+        "rationale": "Wh- word + are/is + subject + V-ing: 'What are you doing?'"
+    },
+    {
+        "id": 37,
+        "levelId": 2,
+        "levelName": "Level 2: Present Continuous Tense",
+        "question": "Translate: 'Main tumhara intezar kar raha hoon.'",
+        "options": [
+            "I am waiting for you.",
+            "I was waiting for you.",
+            "I wait for you.",
+            "I have waited for you."
+        ],
+        "correct": 0,
+        "hint": "Wait ke sath fixed preposition 'for'.",
+        "rationale": "I am waiting + for you: 'I am waiting for you.'"
+    },
+    {
+        "id": 38,
+        "levelId": 2,
+        "levelName": "Level 2: Present Continuous Tense",
+        "question": "Translate: 'Hawa chal rahi hai.'",
+        "options": [
+            "The wind is blowing.",
+            "The wind is flowing.",
+            "Wind blows.",
+            "Wind was blowing."
+        ],
+        "correct": 0,
+        "hint": "Wind blowing active status.",
+        "rationale": "Wind + 'is blowing': 'The wind is blowing.'"
+    },
+    {
+        "id": 39,
+        "levelId": 2,
+        "levelName": "Level 2: Present Continuous Tense",
+        "question": "Translate: 'Wo apna laptop chal raha hai.'",
+        "options": [
+            "He is using his laptop.",
+            "He uses his laptop.",
+            "He is run his laptop.",
+            "He was using his laptop."
+        ],
+        "correct": 0,
+        "hint": "Present continuous usage.",
+        "rationale": "He + 'is using': 'He is using his laptop.'"
+    },
+    {
+        "id": 40,
+        "levelId": 2,
+        "levelName": "Level 2: Present Continuous Tense",
+        "question": "Translate: 'Kya tum mazaak kar rahe ho?'",
+        "options": [
+            "Are you joking?",
+            "Do you joke?",
+            "Were you joking?",
+            "Are you jokes?"
+        ],
+        "correct": 0,
+        "hint": "Joking query format.",
+        "rationale": "You helper 'Are' + joking: 'Are you joking?' / 'Are you kidding?'"
+    },
+    {
+        "id": 41,
+        "levelId": 2,
+        "levelName": "Level 2: Present Continuous Tense",
+        "question": "Translate: 'Wo kapde dho rahi hai.'",
+        "options": [
+            "She is washing clothes.",
+            "She washes clothes.",
+            "She was washing clothes.",
+            "She is wash clothes."
+        ],
+        "correct": 0,
+        "hint": "Present continuous wash actions.",
+        "rationale": "She + 'is washing': 'She is washing clothes.'"
+    },
+    {
+        "id": 42,
+        "levelId": 2,
+        "levelName": "Level 2: Present Continuous Tense",
+        "question": "Translate: 'Main kuch bada soch raha hoon.'",
+        "options": [
+            "I am thinking of something big.",
+            "I think of something big.",
+            "I was thinking of something big.",
+            "I am think something big."
+        ],
+        "correct": 0,
+        "hint": "Thinking continuous state.",
+        "rationale": "I + 'am thinking': 'I am thinking of something big.'"
+    },
+    {
+        "id": 43,
+        "levelId": 2,
+        "levelName": "Level 2: Present Continuous Tense",
+        "question": "Translate: 'Kya baarish ho rahi hai?'",
+        "options": [
+            "Is it raining?",
+            "Does it rain?",
+            "Was it raining?",
+            "Is it rain?"
+        ],
+        "correct": 0,
+        "hint": "Rain query format.",
+        "rationale": "It helper 'Is' + V-ing: 'Is it raining?'"
+    },
+    {
+        "id": 44,
+        "levelId": 2,
+        "levelName": "Level 2: Present Continuous Tense",
+        "question": "Translate: 'Dono bhai jhagad rahe hain.'",
+        "options": [
+            "Both brothers are fighting.",
+            "Both brothers is fighting.",
+            "Both brothers was fighting.",
+            "Both brothers fight."
+        ],
+        "correct": 0,
+        "hint": "Brothers plural helper.",
+        "rationale": "Plural subject + 'are fighting': 'Both brothers are fighting.'"
+    },
+    {
+        "id": 45,
+        "levelId": 2,
+        "levelName": "Level 2: Present Continuous Tense",
+        "question": "Translate: 'Wo mujhe ghura raha hai.'",
+        "options": [
+            "He is staring at me.",
+            "He stares at me.",
+            "He was staring at me.",
+            "He is staring on me."
+        ],
+        "correct": 0,
+        "hint": "Stare ke sath fixed preposition check.",
+        "rationale": "Stare takes 'at' preposition: 'He is staring at me.'"
+    },
+    {
+        "id": 46,
+        "levelId": 2,
+        "levelName": "Level 2: Present Continuous Tense",
+        "question": "Translate: 'Hum nayi car kharid rahe hain.'",
+        "options": [
+            "We are buying a new car.",
+            "We was buying a new car.",
+            "We buy a new car.",
+            "We will buy a new car."
+        ],
+        "correct": 0,
+        "hint": "Continuous future plan class.",
+        "rationale": "We + 'are buying': 'We are buying a new car.'"
+    },
+    {
+        "id": 47,
+        "levelId": 2,
+        "levelName": "Level 2: Present Continuous Tense",
+        "question": "Translate: 'Tum kahan ja rahe ho?'",
+        "options": [
+            "Where are you going?",
+            "Where you are going?",
+            "Where do you go?",
+            "Where were you going?"
+        ],
+        "correct": 0,
+        "hint": "Where continuous query format.",
+        "rationale": "Where + are + you + V-ing: 'Where are you going?'"
+    },
+    {
+        "id": 48,
+        "levelId": 2,
+        "levelName": "Level 2: Present Continuous Tense",
+        "question": "Translate: 'Wo so nahi raha hai.'",
+        "options": [
+            "He is not sleeping.",
+            "He do not sleep.",
+            "He was not sleeping.",
+            "He hasn't slept."
+        ],
+        "correct": 0,
+        "hint": "Negative continuous format.",
+        "rationale": "He + 'is not' + sleeping: 'He is not sleeping.'"
+    },
+    {
+        "id": 49,
+        "levelId": 2,
+        "levelName": "Level 2: Present Continuous Tense",
+        "question": "Translate: 'Kya tum dhyan de rahe ho?'",
+        "options": [
+            "Are you paying attention?",
+            "Do you pay attention?",
+            "Were you paying attention?",
+            "Are you pay attention?"
+        ],
+        "correct": 0,
+        "hint": "Attention phrase check.",
+        "rationale": "Pay attention present continuous query: 'Are you paying attention?'"
+    },
+    {
+        "id": 50,
+        "levelId": 2,
+        "levelName": "Level 2: Present Continuous Tense",
+        "question": "Translate: 'Boondabaandi ho rahi hai.'",
+        "options": [
+            "It is drizzling.",
+            "It is raining.",
+            "It is storming.",
+            "It drizzled."
+        ],
+        "correct": 0,
+        "hint": "Drizzle (slow rain drops) continuous status.",
+        "rationale": "Drizzle continuous: 'It is drizzling.'"
+    },
+    {
+        "id": 51,
+        "levelId": 3,
+        "levelName": "Level 3: Present Perfect Tense",
+        "question": "Translate: 'Maine khana kha liya hai.'",
+        "options": [
+            "I have eaten food.",
+            "I has eaten food.",
+            "I ate food.",
+            "I have eat food."
+        ],
+        "correct": 0,
+        "hint": "Present Perfect formula: Subject + has/have + V3.",
+        "rationale": "I के sath 'have' aur V3 of eat 'eaten': 'I have eaten food.' / 'I have had food.'"
+    },
+    {
+        "id": 52,
+        "levelId": 3,
+        "levelName": "Level 3: Present Perfect Tense",
+        "question": "Translate: 'Wo ghar chala gaya hai.'",
+        "options": [
+            "He has gone home.",
+            "He have gone home.",
+            "He went home.",
+            "He has go home."
+        ],
+        "correct": 0,
+        "hint": "He ke sath helper + V3.",
+        "rationale": "He + 'has' + V3 of go 'gone': 'He has gone home.'"
+    },
+    {
+        "id": 53,
+        "levelId": 3,
+        "levelName": "Level 3: Present Perfect Tense",
+        "question": "Translate: 'Kya tumne use dekha hai?'",
+        "options": [
+            "Have you seen him?",
+            "Did you see him?",
+            "Has you seen him?",
+            "Have you saw him?"
+        ],
+        "correct": 0,
+        "hint": "You query present perfect format.",
+        "rationale": "You helper 'Have' + V3 of see 'seen': 'Have you seen him?'"
+    },
+    {
+        "id": 54,
+        "levelId": 3,
+        "levelName": "Level 3: Present Perfect Tense",
+        "question": "Translate: 'Maine apna homework poora kar liya hai.'",
+        "options": [
+            "I have completed my homework.",
+            "I has completed my homework.",
+            "I completed my homework.",
+            "I have complete my homework."
+        ],
+        "correct": 0,
+        "hint": "Completion status present perfect.",
+        "rationale": "I + 'have completed': 'I have completed my homework.'"
+    },
+    {
+        "id": 55,
+        "levelId": 3,
+        "levelName": "Level 3: Present Perfect Tense",
+        "question": "Translate: 'Train abhi abhi aayi hai.'",
+        "options": [
+            "The train has just arrived.",
+            "The train arrived just.",
+            "The train had just arrived.",
+            "The train is just arriving."
+        ],
+        "correct": 0,
+        "hint": "Just (abhi abhi) placement.",
+        "rationale": "Just helper fits between has/have and V3: 'The train has just arrived.'"
+    },
+    {
+        "id": 56,
+        "levelId": 3,
+        "levelName": "Level 3: Present Perfect Tense",
+        "question": "Translate: 'Kya unhone match jeet liya hai?'",
+        "options": [
+            "Have they won the match?",
+            "Has they won the match?",
+            "Did they win the match?",
+            "Have they win the match?"
+        ],
+        "correct": 0,
+        "hint": "They plural query.",
+        "rationale": "They helper 'Have' + V3 of win 'won': 'Have they won the match?'"
+    },
+    {
+        "id": 57,
+        "levelId": 3,
+        "levelName": "Level 3: Present Perfect Tense",
+        "question": "Translate: 'Maine ye film pehle hi dekh li hai.'",
+        "options": [
+            "I have already seen this movie.",
+            "I already saw this movie.",
+            "I has already seen this movie.",
+            "I have already see this movie."
+        ],
+        "correct": 0,
+        "hint": "Already placement.",
+        "rationale": "Already goes between have and V3: 'I have already seen this movie.'"
+    },
+    {
+        "id": 58,
+        "levelId": 3,
+        "levelName": "Level 3: Present Perfect Tense",
+        "question": "Translate: 'Wo so gaya hai.'",
+        "options": [
+            "He has gone to sleep.",
+            "He went to sleep.",
+            "He is sleeping.",
+            "He have gone to sleep."
+        ],
+        "correct": 0,
+        "hint": "He sleep state transition.",
+        "rationale": "He + 'has' + V3: 'He has gone to sleep.'"
+    },
+    {
+        "id": 59,
+        "levelId": 3,
+        "levelName": "Level 3: Present Perfect Tense",
+        "question": "Translate: 'Humne naya ghar kharida hai.'",
+        "options": [
+            "We have bought a new house.",
+            "We has bought a new house.",
+            "We bought a new house.",
+            "We have buy a new house."
+        ],
+        "correct": 0,
+        "hint": "We plural helper.",
+        "rationale": "We + 'have' + V3 of buy 'bought': 'We have bought a new house.'"
+    },
+    {
+        "id": 60,
+        "levelId": 3,
+        "levelName": "Level 3: Present Perfect Tense",
+        "question": "Translate: 'Kya usne tumhara pen liya hai?'",
+        "options": [
+            "Has he taken your pen?",
+            "Have he taken your pen?",
+            "Did he take your pen?",
+            "Has he take your pen?"
+        ],
+        "correct": 0,
+        "hint": "He singular query.",
+        "rationale": "He helper 'Has' + V3 of take 'taken': 'Has he taken your pen?'"
+    },
+    {
+        "id": 61,
+        "levelId": 3,
+        "levelName": "Level 3: Present Perfect Tense",
+        "question": "Translate: 'Wo log abhi tak nahi aaye hain.'",
+        "options": [
+            "They have not arrived yet.",
+            "They did not arrive yet.",
+            "They has not arrived yet.",
+            "They have not arrive yet."
+        ],
+        "correct": 0,
+        "hint": "Yet ke sath present perfect negative format.",
+        "rationale": "They + 'have not' + V3 + yet: 'They have not arrived yet.'"
+    },
+    {
+        "id": 62,
+        "levelId": 3,
+        "levelName": "Level 3: Present Perfect Tense",
+        "question": "Translate: 'Mera phone gum ho gaya hai.'",
+        "options": [
+            "I have lost my phone.",
+            "I lost my phone.",
+            "I has lost my phone.",
+            "My phone is losting."
+        ],
+        "correct": 0,
+        "hint": "Present result of past action.",
+        "rationale": "I + 'have lost' (V3 of lose): 'I have lost my phone.'"
+    },
+    {
+        "id": 63,
+        "levelId": 3,
+        "levelName": "Level 3: Present Perfect Tense",
+        "question": "Translate: 'Kya tum kabhi Delhi gaye ho?'",
+        "options": [
+            "Have you ever been to Delhi?",
+            "Have you ever gone to Delhi?",
+            "Did you ever go to Delhi?",
+            "Both A & B"
+        ],
+        "correct": 3,
+        "hint": "Experience query for travel check.",
+        "rationale": "Spoken English uses both 'been to' and 'gone to' for visits. Both A & B are correct."
+    },
+    {
+        "id": 64,
+        "levelId": 3,
+        "levelName": "Level 3: Present Perfect Tense",
+        "question": "Translate: 'Usne sach bol diya hai.'",
+        "options": [
+            "He has told the truth.",
+            "He have told the truth.",
+            "He spoke the truth.",
+            "He has tell the truth."
+        ],
+        "correct": 0,
+        "hint": "Tell V3 format.",
+        "rationale": "He + 'has told': 'He has told the truth.'"
+    },
+    {
+        "id": 65,
+        "levelId": 3,
+        "levelName": "Level 3: Present Perfect Tense",
+        "question": "Translate: 'Papa ne mujhe paise diye hain.'",
+        "options": [
+            "Father has given me money.",
+            "Father have given me money.",
+            "Father gave me money.",
+            "Father is given me money."
+        ],
+        "correct": 0,
+        "hint": "Father singular present perfect.",
+        "rationale": "Father + 'has given': 'My father has given me money.'"
+    },
+    {
+        "id": 66,
+        "levelId": 3,
+        "levelName": "Level 3: Present Perfect Tense",
+        "question": "Translate: 'Humne apna khana poora kar liya hai.'",
+        "options": [
+            "We have finished our meal.",
+            "We has finished our meal.",
+            "We finished our meal.",
+            "We have finish our meal."
+        ],
+        "correct": 0,
+        "hint": "We plural completed status.",
+        "rationale": "We + 'have finished': 'We have finished our meal.'"
+    },
+    {
+        "id": 67,
+        "levelId": 3,
+        "levelName": "Level 3: Present Perfect Tense",
+        "question": "Translate: 'Kya usne tumhe bataya hai?'",
+        "options": [
+            "Has she told you?",
+            "Have she told you?",
+            "Did she tell you?",
+            "Has she tell you?"
+        ],
+        "correct": 0,
+        "hint": "She singular query present perfect.",
+        "rationale": "She helper 'Has' + V3 of tell 'told': 'Has she told you?' / 'Has she informed you?'"
+    },
+    {
+        "id": 68,
+        "levelId": 3,
+        "levelName": "Level 3: Present Perfect Tense",
+        "question": "Translate: 'Maine abhi tak ye kitab nahi padhi hai.'",
+        "options": [
+            "I have not read this book yet.",
+            "I did not read this book yet.",
+            "I has not read this book yet.",
+            "I have not readed this book."
+        ],
+        "correct": 0,
+        "hint": "Read V3 syntax (pronunciation shifts to 'red' but spelling is same).",
+        "rationale": "I + 'have not' + V3 read + yet: 'I have not read this book yet.'"
+    },
+    {
+        "id": 69,
+        "levelId": 3,
+        "levelName": "Level 3: Present Perfect Tense",
+        "question": "Translate: 'Dhobi ne kapde dho diye hain.'",
+        "options": [
+            "The washerman has washed clothes.",
+            "The washerman have washed clothes.",
+            "The washerman washed clothes.",
+            "The washerman is washed clothes."
+        ],
+        "correct": 0,
+        "hint": "Washerman singular helper.",
+        "rationale": "Washerman + 'has washed': 'The washerman has washed the clothes.'"
+    },
+    {
+        "id": 70,
+        "levelId": 3,
+        "levelName": "Level 3: Present Perfect Tense",
+        "question": "Translate: 'Kya bache so gaye hain?'",
+        "options": [
+            "Have children gone to sleep?",
+            "Has children gone to sleep?",
+            "Did children sleep?",
+            "Are children slept?"
+        ],
+        "correct": 0,
+        "hint": "Children plural query present perfect.",
+        "rationale": "Children plural helper 'Have' + V3: 'Have the children gone to sleep?'"
+    },
+    {
+        "id": 71,
+        "levelId": 3,
+        "levelName": "Level 3: Present Perfect Tense",
+        "question": "Translate: 'Wo yahan se chali gayi hai.'",
+        "options": [
+            "She has left from here.",
+            "She have left from here.",
+            "She left from here.",
+            "She has go from here."
+        ],
+        "correct": 0,
+        "hint": "Leave V3 form.",
+        "rationale": "She + 'has' + V3 left: 'She has left from here.'"
+    },
+    {
+        "id": 72,
+        "levelId": 3,
+        "levelName": "Level 3: Present Perfect Tense",
+        "question": "Translate: 'Maine sab samajh liya hai.'",
+        "options": [
+            "I have understood everything.",
+            "I has understood everything.",
+            "I understood everything.",
+            "I am understood everything."
+        ],
+        "correct": 0,
+        "hint": "Understand V3 format.",
+        "rationale": "I + 'have understood': 'I have understood everything.'"
+    },
+    {
+        "id": 73,
+        "levelId": 3,
+        "levelName": "Level 3: Present Perfect Tense",
+        "question": "Translate: 'Kya usne kaam khatam kiya hai?'",
+        "options": [
+            "Has he finished the work?",
+            "Have he finished the work?",
+            "Did he finish the work?",
+            "Has he finish the work?"
+        ],
+        "correct": 0,
+        "hint": "He singular finished query.",
+        "rationale": "He helper 'Has' + V3: 'Has he finished the work?'"
+    },
+    {
+        "id": 74,
+        "levelId": 3,
+        "levelName": "Level 3: Present Perfect Tense",
+        "question": "Translate: 'Humne aapse boht kuch seekha hai.'",
+        "options": [
+            "We have learned a lot from you.",
+            "We has learned a lot from you.",
+            "We learned a lot from you.",
+            "We are learned a lot from you."
+        ],
+        "correct": 0,
+        "hint": "Learn V3 structure.",
+        "rationale": "We + 'have learned': 'We have learned a lot from you.'"
+    },
+    {
+        "id": 75,
+        "levelId": 3,
+        "levelName": "Level 3: Present Perfect Tense",
+        "question": "Translate: 'Kya suraj nikal aaya hai?'",
+        "options": [
+            "Has the sun risen?",
+            "Has the sun rose?",
+            "Did the sun rise?",
+            "Is the sun risen?"
+        ],
+        "correct": 0,
+        "hint": "Rise V3 format.",
+        "rationale": "Sun singular helper 'Has' + V3 risen: 'Has the sun risen?'"
+    },
+    {
+        "id": 76,
+        "levelId": 4,
+        "levelName": "Level 4: Present Perfect Continuous",
+        "question": "Translate: 'Subah se baarish ho rahi hai.'",
+        "options": [
+            "It has been raining since morning.",
+            "It is raining since morning.",
+            "It was raining since morning.",
+            "It has been raining for morning."
+        ],
+        "correct": 0,
+        "hint": "Formula: It + has been + raining + since morning (point of time).",
+        "rationale": "Present Perfect Continuous helper 'has been' + V-ing. Morning point of time ke liye 'since' aayega: 'It has been raining since morning.'"
+    },
+    {
+        "id": 77,
+        "levelId": 4,
+        "levelName": "Level 4: Present Perfect Continuous",
+        "question": "Translate: 'Wo do ghante se padh raha hai.'",
+        "options": [
+            "He has been studying for two hours.",
+            "He is studying for two hours.",
+            "He have been studying for two hours.",
+            "He has been studying since two hours."
+        ],
+        "correct": 0,
+        "hint": "Duration of time (two hours) uses 'for'.",
+        "rationale": "He singular + 'has been' + V-ing + for two hours: 'He has been studying for two hours.'"
+    },
+    {
+        "id": 78,
+        "levelId": 4,
+        "levelName": "Level 4: Present Perfect Continuous",
+        "question": "Translate: 'Main 2015 se Delhi mein reh raha hoon.'",
+        "options": [
+            "I have been living in Delhi since 2015.",
+            "I am living in Delhi since 2015.",
+            "I has been living in Delhi since 2015.",
+            "I have been living in Delhi for 2015."
+        ],
+        "correct": 0,
+        "hint": "Specific year (2015) uses 'since'.",
+        "rationale": "I + 'have been' + V-ing + since 2015: 'I have been living in Delhi since 2015.'"
+    },
+    {
+        "id": 79,
+        "levelId": 4,
+        "levelName": "Level 4: Present Perfect Continuous",
+        "question": "Translate: 'Kya tum do din se kaam kar rahe ho?'",
+        "options": [
+            "Have you been working for two days?",
+            "Has you been working for two days?",
+            "Are you working for two days?",
+            "Have you working since two days?"
+        ],
+        "correct": 0,
+        "hint": "You interrogative present perfect continuous.",
+        "rationale": "You helper 'Have' + been + working + for two days: 'Have you been working for two days?'"
+    },
+    {
+        "id": 80,
+        "levelId": 4,
+        "levelName": "Level 4: Present Perfect Continuous",
+        "question": "Translate: 'Bache do ghante se shor macha rahe hain.'",
+        "options": [
+            "Children have been making a noise for two hours.",
+            "Children are making a noise for two hours.",
+            "Children has been making a noise for two hours.",
+            "Children were making a noise for two hours."
+        ],
+        "correct": 0,
+        "hint": "Children plural helper.",
+        "rationale": "Children + 'have been' + V-ing + for two hours: 'Children have been making a noise for two hours.'"
+    },
+    {
+        "id": 81,
+        "levelId": 4,
+        "levelName": "Level 4: Present Perfect Continuous",
+        "question": "Translate: 'Mummy subah se kapde dho rahi hain.'",
+        "options": [
+            "Mother has been washing clothes since morning.",
+            "Mother is washing clothes since morning.",
+            "Mother has washed clothes since morning.",
+            "Mother has been washing clothes for morning."
+        ],
+        "correct": 0,
+        "hint": "Mother singular point of time.",
+        "rationale": "Mother + 'has been washing' + since morning: 'Mother has been washing clothes since morning.'"
+    },
+    {
+        "id": 82,
+        "levelId": 4,
+        "levelName": "Level 4: Present Perfect Continuous",
+        "question": "Translate: 'Wo do din se soya nahi hai.'",
+        "options": [
+            "He has not been sleeping for two days.",
+            "He has not slept for two days.",
+            "He is not sleeping for two days.",
+            "Both A & B"
+        ],
+        "correct": 3,
+        "hint": "Duration negative state checking.",
+        "rationale": "Present Perfect Continuous negative ('has not been sleeping') and Present Perfect ('has not slept') both work for duration negative expressions. Both A & B are correct."
+    },
+    {
+        "id": 83,
+        "levelId": 4,
+        "levelName": "Level 4: Present Perfect Continuous",
+        "question": "Translate: 'Kya wo bachpan se cricket khel raha hai?'",
+        "options": [
+            "Has he been playing cricket since childhood?",
+            "Have he been playing cricket since childhood?",
+            "Is he playing cricket since childhood?",
+            "Has he playing cricket for childhood?"
+        ],
+        "correct": 0,
+        "hint": "Childhood point of time check.",
+        "rationale": "He helper 'Has' + been + V-ing + since childhood: 'Has he been playing cricket since childhood?'"
+    },
+    {
+        "id": 84,
+        "levelId": 4,
+        "levelName": "Level 4: Present Perfect Continuous",
+        "question": "Translate: 'Hum do saal se English seekh rahe hain.'",
+        "options": [
+            "We have been learning English for two years.",
+            "We is learning English for two years.",
+            "We has been learning English for two years.",
+            "We have been learning English since two years."
+        ],
+        "correct": 0,
+        "hint": "Two years duration check.",
+        "rationale": "We + 'have been learning' + for two years: 'We have been learning English for two years.'"
+    },
+    {
+        "id": 85,
+        "levelId": 4,
+        "levelName": "Level 4: Present Perfect Continuous",
+        "question": "Translate: 'Papa do ghante se phone par baat kar rahe hain.'",
+        "options": [
+            "Father has been talking on the phone for two hours.",
+            "Father is talking on the phone for two hours.",
+            "Father have been talking on the phone for two hours.",
+            "Father was talking on the phone since two hours."
+        ],
+        "correct": 0,
+        "hint": "Father singular present duration.",
+        "rationale": "Father + 'has been talking' + for two hours: 'My father has been talking on the phone for two hours.'"
+    },
+    {
+        "id": 86,
+        "levelId": 4,
+        "levelName": "Level 4: Present Perfect Continuous",
+        "question": "Translate: 'Kya tum kal raat se ro rahe ho?'",
+        "options": [
+            "Have you been crying since last night?",
+            "Are you crying since last night?",
+            "Has you been crying since last night?",
+            "Have you been crying for last night?"
+        ],
+        "correct": 0,
+        "hint": "Last night point of time check.",
+        "rationale": "You helper 'Have' + been + crying + since last night: 'Have you been crying since last night?'"
+    },
+    {
+        "id": 87,
+        "levelId": 4,
+        "levelName": "Level 4: Present Perfect Continuous",
+        "question": "Translate: 'Wo do din se yahan nahi aa raha hai.'",
+        "options": [
+            "He has not been coming here for two days.",
+            "He is not coming here for two days.",
+            "He have not been coming here for two days.",
+            "He had not been coming since two days."
+        ],
+        "correct": 0,
+        "hint": "He negative continuous duration.",
+        "rationale": "He + 'has not been coming' + for two days: 'He has not been coming here for two days.'"
+    },
+    {
+        "id": 88,
+        "levelId": 4,
+        "levelName": "Level 4: Present Perfect Continuous",
+        "question": "Translate: 'Mera bhai subah se game khel raha hai.'",
+        "options": [
+            "My brother has been playing games since morning.",
+            "My brother is playing games since morning.",
+            "My brother have been playing games since morning.",
+            "My brother has played games since morning."
+        ],
+        "correct": 0,
+        "hint": "Brother singular point of time check.",
+        "rationale": "Brother + 'has been playing' + since morning: 'My brother has been playing games since morning.'"
+    },
+    {
+        "id": 89,
+        "levelId": 4,
+        "levelName": "Level 4: Present Perfect Continuous",
+        "question": "Translate: 'Kya wo do ghante se so rahi hai?'",
+        "options": [
+            "Has she been sleeping for two hours?",
+            "Is she sleeping for two hours?",
+            "Have she been sleeping for two hours?",
+            "Has she sleeping since two hours?"
+        ],
+        "correct": 0,
+        "hint": "She query helper.",
+        "rationale": "She helper 'Has' + been + V-ing + for two hours: 'Has she been sleeping for two hours?'"
+    },
+    {
+        "id": 90,
+        "levelId": 4,
+        "levelName": "Level 4: Present Perfect Continuous",
+        "question": "Translate: 'Wo bachpan se English bol rahe hain.'",
+        "options": [
+            "They have been speaking English since childhood.",
+            "They are speaking English since childhood.",
+            "They has been speaking English since childhood.",
+            "They have been speaking English for childhood."
+        ],
+        "correct": 0,
+        "hint": "They plural point of time childhood.",
+        "rationale": "They + 'have been speaking' + since childhood: 'They have been speaking English since childhood.'"
+    },
+    {
+        "id": 91,
+        "levelId": 4,
+        "levelName": "Level 4: Present Perfect Continuous",
+        "question": "Translate: 'Main ek ghante se kitab dhoondh raha hoon.'",
+        "options": [
+            "I have been looking for the book for an hour.",
+            "I am looking for the book for an hour.",
+            "I has been looking for the book for an hour.",
+            "I have been looking for the book since an hour."
+        ],
+        "correct": 0,
+        "hint": "Hour is duration class (an hour/one hour uses for).",
+        "rationale": "I + 'have been looking for' + for an hour: 'I have been looking for the book for an hour.'"
+    },
+    {
+        "id": 92,
+        "levelId": 4,
+        "levelName": "Level 4: Present Perfect Continuous",
+        "question": "Translate: 'Tum kabse mera intezar kar rahe ho?'",
+        "options": [
+            "How long have you been waiting for me?",
+            "Since when are you waiting for me?",
+            "How long has you been waiting for me?",
+            "Both A & B"
+        ],
+        "correct": 3,
+        "hint": "Duration query spoken standards.",
+        "rationale": "Both 'How long have you been waiting' and 'Since when have you been waiting' are commonly used. Both are correct."
+    },
+    {
+        "id": 93,
+        "levelId": 4,
+        "levelName": "Level 4: Present Perfect Continuous",
+        "question": "Translate: 'Wo do saal se naukri dhoondh raha hai.'",
+        "options": [
+            "He has been looking for a job for two years.",
+            "He is looking for a job for two years.",
+            "He have been looking for a job for two years.",
+            "He has been looking for a job since two years."
+        ],
+        "correct": 0,
+        "hint": "Job search duration.",
+        "rationale": "He + 'has been looking for' + for two years: 'He has been looking for a job for two years.'"
+    },
+    {
+        "id": 94,
+        "levelId": 4,
+        "levelName": "Level 4: Present Perfect Continuous",
+        "question": "Translate: 'Baraf subah se gir rahi hai.'",
+        "options": [
+            "It has been snowing since morning.",
+            "It is snowing since morning.",
+            "It was snowing since morning.",
+            "It has been snowing for morning."
+        ],
+        "correct": 0,
+        "hint": "Snow weather present duration.",
+        "rationale": "It + 'has been snowing' + since morning: 'It has been snowing since morning.'"
+    },
+    {
+        "id": 95,
+        "levelId": 4,
+        "levelName": "Level 4: Present Perfect Continuous",
+        "question": "Translate: 'Kya tum ghante bhar se khel rahe ho?'",
+        "options": [
+            "Have you been playing for an hour?",
+            "Are you playing for an hour?",
+            "Has you been playing for an hour?",
+            "Have you playing since an hour?"
+        ],
+        "correct": 0,
+        "hint": "You interrogative duration.",
+        "rationale": "You helper 'Have' + been + V-ing + for an hour: 'Have you been playing for an hour?'"
+    },
+    {
+        "id": 96,
+        "levelId": 4,
+        "levelName": "Level 4: Present Perfect Continuous",
+        "question": "Translate: 'Mera dost do din se bimar chal raha hai.'",
+        "options": [
+            "My friend has been ill for two days.",
+            "My friend is ill since two days.",
+            "My friend has been ailing for two days.",
+            "Both A & C"
+        ],
+        "correct": 3,
+        "hint": "Ill state duration.",
+        "rationale": "Both state perfect 'has been ill for' and continuous 'has been ailing for' translate this accurately. Both are correct."
+    },
+    {
+        "id": 97,
+        "levelId": 4,
+        "levelName": "Level 4: Present Perfect Continuous",
+        "question": "Translate: 'Wo do mahine se driving seekh rahi hai.'",
+        "options": [
+            "She has been learning driving for two months.",
+            "She is learning driving for two months.",
+            "She have been learning driving for two months.",
+            "She has been learning driving since two months."
+        ],
+        "correct": 0,
+        "hint": "Two months duration check.",
+        "rationale": "She + 'has been learning' + for two months: 'She has been learning driving for two months.'"
+    },
+    {
+        "id": 98,
+        "levelId": 4,
+        "levelName": "Level 4: Present Perfect Continuous",
+        "question": "Translate: 'Kya tum subah se gaana ga rahe ho?'",
+        "options": [
+            "Have you been singing since morning?",
+            "Are you singing since morning?",
+            "Has you been singing since morning?",
+            "Have you been singing for morning."
+        ],
+        "correct": 0,
+        "hint": "You query point of time.",
+        "rationale": "You helper 'Have' + been + singing + since morning: 'Have you been singing since morning?'"
+    },
+    {
+        "id": 99,
+        "levelId": 4,
+        "levelName": "Level 4: Present Perfect Continuous",
+        "question": "Translate: 'Main das minute se chai bana raha hoon.'",
+        "options": [
+            "I have been making tea for ten minutes.",
+            "I am making tea for ten minutes.",
+            "I has been making tea for ten minutes.",
+            "I have been making tea since ten minutes."
+        ],
+        "correct": 0,
+        "hint": "Ten minutes is duration.",
+        "rationale": "I + 'have been making' + for ten minutes: 'I have been making tea for ten minutes.'"
+    },
+    {
+        "id": 100,
+        "levelId": 4,
+        "levelName": "Level 4: Present Perfect Continuous",
+        "question": "Translate: 'Wo do din se mujhse baat nahi kar rahi hai.'",
+        "options": [
+            "She has not been talking to me for two days.",
+            "She is not talking to me for two days.",
+            "She have not been talking to me for two days.",
+            "She hasn't talked to me since two days."
+        ],
+        "correct": 0,
+        "hint": "She negative contact duration.",
+        "rationale": "She + 'has not been talking' + for two days: 'She has not been talking to me for two days.'"
+    },
+    {
+        "id": 101,
+        "levelId": 5,
+        "levelName": "Level 5: Past Simple Tense",
+        "question": "Translate: 'Main kal wahan gaya.'",
+        "options": [
+            "I went there yesterday.",
+            "I have gone there yesterday.",
+            "I was go there yesterday.",
+            "I go there yesterday."
+        ],
+        "correct": 0,
+        "hint": "Completed past event V2 helper.",
+        "rationale": "Yesterday finished action simple past V2: 'I went there yesterday.'"
+    },
+    {
+        "id": 102,
+        "levelId": 5,
+        "levelName": "Level 5: Past Simple Tense",
+        "question": "Translate: 'Usne mujhe ek kahani sunayi.'",
+        "options": [
+            "He told me a story.",
+            "He tells me a story.",
+            "He has told me a story.",
+            "He was tell me a story."
+        ],
+        "correct": 0,
+        "hint": "Tell past V2 form.",
+        "rationale": "Simple Past (Subject + V2): 'He told me a story.'"
+    },
+    {
+        "id": 103,
+        "levelId": 5,
+        "levelName": "Level 5: Past Simple Tense",
+        "question": "Translate: 'Kya tumne kal match dekha?'",
+        "options": [
+            "Did you watch the match yesterday?",
+            "Did you watched the match yesterday?",
+            "Do you watch the match yesterday?",
+            "Were you watch the match yesterday?"
+        ],
+        "correct": 0,
+        "hint": "Did questions take V1 (watch) not V2 (watched).",
+        "rationale": "Did + subject + V1 structure: 'Did you watch the match yesterday?'"
+    },
+    {
+        "id": 104,
+        "levelId": 5,
+        "levelName": "Level 5: Past Simple Tense",
+        "question": "Translate: 'Maine use kuch nahi bataya.'",
+        "options": [
+            "I did not tell him anything.",
+            "I did not told him anything.",
+            "I was not tell him anything.",
+            "I don't tell him anything."
+        ],
+        "correct": 0,
+        "hint": "Negative past takes did not + V1.",
+        "rationale": "Subject + 'did not + V1': 'I did not tell him anything.'"
+    },
+    {
+        "id": 105,
+        "levelId": 5,
+        "levelName": "Level 5: Past Simple Tense",
+        "question": "Translate: 'Mera phone kal gum ho gaya.'",
+        "options": [
+            "I lost my phone yesterday.",
+            "I have lost my phone yesterday.",
+            "I had lost my phone yesterday.",
+            "I was lose my phone yesterday."
+        ],
+        "correct": 0,
+        "hint": "Lose past V2 form.",
+        "rationale": "Subject + V2 (lost) + temporal yesterday: 'I lost my phone yesterday.'"
+    },
+    {
+        "id": 106,
+        "levelId": 5,
+        "levelName": "Level 5: Past Simple Tense",
+        "question": "Translate: 'Kya wo kal aayi thi?'",
+        "options": [
+            "Did she come yesterday?",
+            "Did she came yesterday?",
+            "Was she come yesterday?",
+            "Had she come yesterday?"
+        ],
+        "correct": 0,
+        "hint": "Interrogative past query.",
+        "rationale": "Did + she + V1: 'Did she come yesterday?'"
+    },
+    {
+        "id": 107,
+        "levelId": 5,
+        "levelName": "Level 5: Past Simple Tense",
+        "question": "Translate: 'Bacho ne kal padhai nahi ki.'",
+        "options": [
+            "Children did not study yesterday.",
+            "Children did not studied yesterday.",
+            "Children were not study yesterday.",
+            "Children do not study yesterday."
+        ],
+        "correct": 0,
+        "hint": "Negative plural past simple.",
+        "rationale": "Children + 'did not + V1': 'Children did not study yesterday.'"
+    },
+    {
+        "id": 108,
+        "levelId": 5,
+        "levelName": "Level 5: Past Simple Tense",
+        "question": "Translate: 'Humne pichle saal ek car kharidi.'",
+        "options": [
+            "We bought a car last year.",
+            "We buy a car last year.",
+            "We have bought a car last year.",
+            "We had bought a car last year."
+        ],
+        "correct": 0,
+        "hint": "Last year simple V2.",
+        "rationale": "We + V2 bought: 'We bought a car last year.'"
+    },
+    {
+        "id": 109,
+        "levelId": 5,
+        "levelName": "Level 5: Past Simple Tense",
+        "question": "Translate: 'Kya tumne mujhe bulaya?'",
+        "options": [
+            "Did you call me?",
+            "Did you called me?",
+            "Were you call me?",
+            "Do you call me?"
+        ],
+        "correct": 0,
+        "hint": "Simple query past.",
+        "rationale": "Did + you + V1: 'Did you call me?'"
+    },
+    {
+        "id": 110,
+        "levelId": 5,
+        "levelName": "Level 5: Past Simple Tense",
+        "question": "Translate: 'Usne kal mujhe call kiya tha.'",
+        "options": [
+            "He called me yesterday.",
+            "He has called me yesterday.",
+            "He calls me yesterday.",
+            "He was call me yesterday."
+        ],
+        "correct": 0,
+        "hint": "Call past simple.",
+        "rationale": "He + V2 called + yesterday: 'He called me yesterday.'"
+    },
+    {
+        "id": 111,
+        "levelId": 5,
+        "levelName": "Level 5: Past Simple Tense",
+        "question": "Translate: 'Maine use bazaar mein dekha.'",
+        "options": [
+            "I saw him in the market.",
+            "I seen him in the market.",
+            "I was see him in the market.",
+            "I have seen him in the market."
+        ],
+        "correct": 0,
+        "hint": "See V2 format.",
+        "rationale": "Subject + V2 saw: 'I saw him in the market.'"
+    },
+    {
+        "id": 112,
+        "levelId": 5,
+        "levelName": "Level 5: Past Simple Tense",
+        "question": "Translate: 'Kya wo wahan gaye the?'",
+        "options": [
+            "Did they go there?",
+            "Did they went there?",
+            "Were they go there?",
+            "Have they gone there?"
+        ],
+        "correct": 0,
+        "hint": "They query simple past.",
+        "rationale": "Did + they + V1: 'Did they go there?'"
+    },
+    {
+        "id": 113,
+        "levelId": 5,
+        "levelName": "Level 5: Past Simple Tense",
+        "question": "Translate: 'Mummy ne kal jalebi banayi.'",
+        "options": [
+            "Mother made jalebi yesterday.",
+            "Mother makes jalebi yesterday.",
+            "Mother was make jalebi yesterday.",
+            "Mother has made jalebi yesterday."
+        ],
+        "correct": 0,
+        "hint": "Make past V2 is made.",
+        "rationale": "Mother + made + yesterday: 'Mother made jalebi yesterday.'"
+    },
+    {
+        "id": 114,
+        "levelId": 5,
+        "levelName": "Level 5: Past Simple Tense",
+        "question": "Translate: 'Hum kal party mein nahi gaye.'",
+        "options": [
+            "We did not go to the party yesterday.",
+            "We did not went to the party yesterday.",
+            "We were not go to the party yesterday.",
+            "We don't go to the party yesterday."
+        ],
+        "correct": 0,
+        "hint": "Negative path simple.",
+        "rationale": "We + 'did not go': 'We did not go to the party yesterday.'"
+    },
+    {
+        "id": 115,
+        "levelId": 5,
+        "levelName": "Level 5: Past Simple Tense",
+        "question": "Translate: 'Usne mujhe ek pen uphar mein diya.'",
+        "options": [
+            "He gifted me a pen.",
+            "He gifts me a pen.",
+            "He was gift me a pen.",
+            "He has gifted me a pen."
+        ],
+        "correct": 0,
+        "hint": "Gift past V2 is gifted / gave.",
+        "rationale": "Subject + V2: 'He gifted me a pen.' / 'He gave me a pen as a gift.'"
+    },
+    {
+        "id": 116,
+        "levelId": 5,
+        "levelName": "Level 5: Past Simple Tense",
+        "question": "Translate: 'Kya tumne apna kaam poora kiya?'",
+        "options": [
+            "Did you finish your work?",
+            "Did you finished your work?",
+            "Were you finish your work?",
+            "Do you finished your work?"
+        ],
+        "correct": 0,
+        "hint": "Finish query past.",
+        "rationale": "Did + you + V1: 'Did you finish your work?'"
+    },
+    {
+        "id": 117,
+        "levelId": 5,
+        "levelName": "Level 5: Past Simple Tense",
+        "question": "Translate: 'Kal raat baarish hui.'",
+        "options": [
+            "It rained last night.",
+            "It rains last night.",
+            "It was raining last night.",
+            "It has rained last night."
+        ],
+        "correct": 0,
+        "hint": "Rain V2 is rained.",
+        "rationale": "It + V2 rained + last night: 'It rained last night.'"
+    },
+    {
+        "id": 118,
+        "levelId": 5,
+        "levelName": "Level 5: Past Simple Tense",
+        "question": "Translate: 'Bacho ne shor machaya.'",
+        "options": [
+            "Children made a noise.",
+            "Children make a noise.",
+            "Children was making a noise.",
+            "Children has made a noise."
+        ],
+        "correct": 0,
+        "hint": "Make V2 is made.",
+        "rationale": "Children + V2 made: 'The children made a noise.'"
+    },
+    {
+        "id": 119,
+        "levelId": 5,
+        "levelName": "Level 5: Past Simple Tense",
+        "question": "Translate: 'Usne sawal ka jawab nahi diya.'",
+        "options": [
+            "He did not answer the question.",
+            "He did not answered the question.",
+            "He was not answer the question.",
+            "He doesn't answer the question."
+        ],
+        "correct": 0,
+        "hint": "Answer past negative.",
+        "rationale": "He + 'did not' + V1: 'He did not answer the question.'"
+    },
+    {
+        "id": 120,
+        "levelId": 5,
+        "levelName": "Level 5: Past Simple Tense",
+        "question": "Translate: 'Kya tumne chabi khoyi?'",
+        "options": [
+            "Did you lose the keys?",
+            "Did you lost the keys?",
+            "Were you lose the keys?",
+            "Do you lose the keys?"
+        ],
+        "correct": 0,
+        "hint": "Lose V1 vs Lost V2 query.",
+        "rationale": "Did + you + V1 (lose): 'Did you lose the keys?'"
+    },
+    {
+        "id": 121,
+        "levelId": 5,
+        "levelName": "Level 5: Past Simple Tense",
+        "question": "Translate: 'Mujhe kal ek patra mila.'",
+        "options": [
+            "I received a letter yesterday.",
+            "I receive a letter yesterday.",
+            "I was receive a letter yesterday.",
+            "I have received a letter yesterday."
+        ],
+        "correct": 0,
+        "hint": "Receive past V2 is received.",
+        "rationale": "I + V2 received: 'I received a letter yesterday.'"
+    },
+    {
+        "id": 122,
+        "levelId": 5,
+        "levelName": "Level 5: Past Simple Tense",
+        "question": "Translate: 'Unhone humara swagat kiya.'",
+        "options": [
+            "They welcomed us.",
+            "They welcome us.",
+            "They was welcomed us.",
+            "They have welcomed us."
+        ],
+        "correct": 0,
+        "hint": "Welcome V2 welcomed.",
+        "rationale": "They + V2: 'They welcomed us.'"
+    },
+    {
+        "id": 123,
+        "levelId": 5,
+        "levelName": "Level 5: Past Simple Tense",
+        "question": "Translate: 'Kya usne khana khaya?'",
+        "options": [
+            "Did he eat food?",
+            "Did he ate food?",
+            "Was he eat food?",
+            "Had he eat food?"
+        ],
+        "correct": 0,
+        "hint": "Eat V1 query.",
+        "rationale": "Did + he + V1 (eat): 'Did he eat food?'"
+    },
+    {
+        "id": 124,
+        "levelId": 5,
+        "levelName": "Level 5: Past Simple Tense",
+        "question": "Translate: 'Maine pichle hafte ek movie dekhi.'",
+        "options": [
+            "I watched a movie last week.",
+            "I watch a movie last week.",
+            "I have watched a movie last week.",
+            "I had watched a movie last week."
+        ],
+        "correct": 0,
+        "hint": "Last week finished time V2 check.",
+        "rationale": "I + V2 watched + last week: 'I watched a movie last week.'"
+    },
+    {
+        "id": 125,
+        "levelId": 5,
+        "levelName": "Level 5: Past Simple Tense",
+        "question": "Translate: 'Hum kal jaldi so gaye.'",
+        "options": [
+            "We slept early yesterday.",
+            "We sleep early yesterday.",
+            "We were sleep early yesterday.",
+            "We had slept early yesterday."
+        ],
+        "correct": 0,
+        "hint": "Sleep V2 is slept.",
+        "rationale": "We + V2 slept + early + yesterday: 'We slept early yesterday.'"
+    },
+    {
+        "id": 126,
+        "levelId": 6,
+        "levelName": "Level 6: Past Continuous Tense",
+        "question": "Translate: 'Main so raha tha.'",
+        "options": [
+            "I was sleeping.",
+            "I were sleeping.",
+            "I am sleeping.",
+            "I slept."
+        ],
+        "correct": 0,
+        "hint": "I ke sath past continuous helper is 'was'.",
+        "rationale": "I singular + 'was sleeping': 'I was sleeping.'"
+    },
+    {
+        "id": 127,
+        "levelId": 6,
+        "levelName": "Level 6: Past Continuous Tense",
+        "question": "Translate: 'Bache shor macha rahe the.'",
+        "options": [
+            "Children were making a noise.",
+            "Children was making a noise.",
+            "Children are making a noise.",
+            "Children made a noise."
+        ],
+        "correct": 0,
+        "hint": "Children plural subject past helper is 'were'.",
+        "rationale": "Children plural + 'were making': 'Children were making a noise.'"
+    },
+    {
+        "id": 128,
+        "levelId": 6,
+        "levelName": "Level 6: Past Continuous Tense",
+        "question": "Translate: 'Mummy kapde dho rahi thi.'",
+        "options": [
+            "Mother was washing clothes.",
+            "Mother were washing clothes.",
+            "Mother is washing clothes.",
+            "Mother washed clothes."
+        ],
+        "correct": 0,
+        "hint": "Mother singular past helper.",
+        "rationale": "Mother + 'was washing': 'Mother was washing clothes.'"
+    },
+    {
+        "id": 129,
+        "levelId": 6,
+        "levelName": "Level 6: Past Continuous Tense",
+        "question": "Translate: 'Kal is samay baarish ho rahi thi.'",
+        "options": [
+            "It was raining at this time yesterday.",
+            "It is raining at this time yesterday.",
+            "It rains at this time yesterday.",
+            "It had rained at this time yesterday."
+        ],
+        "correct": 0,
+        "hint": "Weather past continuous status.",
+        "rationale": "It + 'was raining' + yesterday: 'It was raining at this time yesterday.'"
+    },
+    {
+        "id": 130,
+        "levelId": 6,
+        "levelName": "Level 6: Past Continuous Tense",
+        "question": "Translate: 'Kya tum so rahe the?'",
+        "options": [
+            "Were you sleeping?",
+            "Was you sleeping?",
+            "Are you sleeping?",
+            "Did you sleep?"
+        ],
+        "correct": 0,
+        "hint": "You past continuous query.",
+        "rationale": "You helper 'Were' + V-ing: 'Were you sleeping?'"
+    },
+    {
+        "id": 131,
+        "levelId": 6,
+        "levelName": "Level 6: Past Continuous Tense",
+        "question": "Translate: 'Wo ro nahi rahi thi.'",
+        "options": [
+            "She was not crying.",
+            "She were not crying.",
+            "She is not crying.",
+            "She didn't cry."
+        ],
+        "correct": 0,
+        "hint": "She singular past continuous negative.",
+        "rationale": "She + 'was not crying': 'She was not crying.'"
+    },
+    {
+        "id": 132,
+        "levelId": 6,
+        "levelName": "Level 6: Past Continuous Tense",
+        "question": "Translate: 'Hum movie dekh rahe the.'",
+        "options": [
+            "We were watching a movie.",
+            "We was watching a movie.",
+            "We are watching a movie.",
+            "We watched a movie."
+        ],
+        "correct": 0,
+        "hint": "We plural past helper.",
+        "rationale": "We + 'were watching': 'We were watching a movie.'"
+    },
+    {
+        "id": 133,
+        "levelId": 6,
+        "levelName": "Level 6: Past Continuous Tense",
+        "question": "Translate: 'Kya papa TV dekh rahe the?'",
+        "options": [
+            "Was father watching TV?",
+            "Were father watching TV?",
+            "Is father watching TV?",
+            "Did father watch TV?"
+        ],
+        "correct": 0,
+        "hint": "Father singular query helper past.",
+        "rationale": "Father helper 'Was' + V-ing: 'Was father watching TV?'"
+    },
+    {
+        "id": 134,
+        "levelId": 6,
+        "levelName": "Level 6: Past Continuous Tense",
+        "question": "Translate: 'Hawa chal rahi thi.'",
+        "options": [
+            "The wind was blowing.",
+            "The wind were blowing.",
+            "The wind was flowing.",
+            "Wind blew."
+        ],
+        "correct": 0,
+        "hint": "Wind blowing past continuous.",
+        "rationale": "Wind + 'was blowing': 'The wind was blowing.'"
+    },
+    {
+        "id": 135,
+        "levelId": 6,
+        "levelName": "Level 6: Past Continuous Tense",
+        "question": "Translate: 'Wo log yahan aa rahe the.'",
+        "options": [
+            "They were coming here.",
+            "They was coming here.",
+            "They are coming here.",
+            "They came here."
+        ],
+        "correct": 0,
+        "hint": "They plural past helper.",
+        "rationale": "They + 'were coming': 'They were coming here.'"
+    },
+    {
+        "id": 136,
+        "levelId": 6,
+        "levelName": "Level 6: Past Continuous Tense",
+        "question": "Translate: 'Tum kal kya kar rahe the?'",
+        "options": [
+            "What were you doing yesterday?",
+            "What was you doing yesterday?",
+            "What are you doing yesterday?",
+            "What did you do yesterday?"
+        ],
+        "correct": 0,
+        "hint": "Wh- question past continuous.",
+        "rationale": "Wh- word + were + you + V-ing: 'What were you doing yesterday?'"
+    },
+    {
+        "id": 137,
+        "levelId": 6,
+        "levelName": "Level 6: Past Continuous Tense",
+        "question": "Translate: 'Main tumhara intezar kar raha tha.'",
+        "options": [
+            "I was waiting for you.",
+            "I were waiting for you.",
+            "I am waiting for you.",
+            "I waited for you."
+        ],
+        "correct": 0,
+        "hint": "Wait past continuous with I.",
+        "rationale": "I + 'was waiting' + for: 'I was waiting for you.'"
+    },
+    {
+        "id": 138,
+        "levelId": 6,
+        "levelName": "Level 6: Past Continuous Tense",
+        "question": "Translate: 'Billi dhoodh pee rahi thi.'",
+        "options": [
+            "The cat was drinking milk.",
+            "The cat were drinking milk.",
+            "Cat drinks milk.",
+            "Cat is drinking milk."
+        ],
+        "correct": 0,
+        "hint": "Cat singular past continuous.",
+        "rationale": "Cat + 'was drinking': 'The cat was drinking milk.'"
+    },
+    {
+        "id": 139,
+        "levelId": 6,
+        "levelName": "Level 6: Past Continuous Tense",
+        "question": "Translate: 'Kya wo kal gaana ga rahi thi?'",
+        "options": [
+            "Was she singing a song yesterday?",
+            "Were she singing a song yesterday?",
+            "Is she singing a song yesterday?",
+            "Did she sing a song yesterday?"
+        ],
+        "correct": 0,
+        "hint": "She query past continuous.",
+        "rationale": "She helper 'Was' + V-ing: 'Was she singing a song yesterday?'"
+    },
+    {
+        "id": 140,
+        "levelId": 6,
+        "levelName": "Level 6: Past Continuous Tense",
+        "question": "Translate: 'Wo log baatein kar rahe the.'",
+        "options": [
+            "They were talking.",
+            "They was talking.",
+            "They are talking.",
+            "They talked."
+        ],
+        "correct": 0,
+        "hint": "They plural past talk check.",
+        "rationale": "They + 'were talking': 'They were talking.'"
+    },
+    {
+        "id": 141,
+        "levelId": 6,
+        "levelName": "Level 6: Past Continuous Tense",
+        "question": "Translate: 'Main kal gaadi chala raha tha.'",
+        "options": [
+            "I was driving a car yesterday.",
+            "I were driving a car yesterday.",
+            "I am driving a car yesterday.",
+            "I drove a car yesterday."
+        ],
+        "correct": 0,
+        "hint": "Drive continuous past.",
+        "rationale": "I + 'was driving': 'I was driving a car yesterday.'"
+    },
+    {
+        "id": 142,
+        "levelId": 6,
+        "levelName": "Level 6: Past Continuous Tense",
+        "question": "Translate: 'Kya tum mera naam pukar rahe the?'",
+        "options": [
+            "Were you calling my name?",
+            "Was you calling my name?",
+            "Are you calling my name?",
+            "Did you call my name?"
+        ],
+        "correct": 0,
+        "hint": "You call continuous past.",
+        "rationale": "You helper 'Were' + calling: 'Were you calling my name?'"
+    },
+    {
+        "id": 143,
+        "levelId": 6,
+        "levelName": "Level 6: Past Continuous Tense",
+        "question": "Translate: 'Dhoop nikal rahi thi.'",
+        "options": [
+            "The sun was shining.",
+            "The sun is shining.",
+            "Sun shone.",
+            "Sun were shining."
+        ],
+        "correct": 0,
+        "hint": "Sun past continuous shine.",
+        "rationale": "Sun + 'was shining': 'The sun was shining.'"
+    },
+    {
+        "id": 144,
+        "levelId": 6,
+        "levelName": "Level 6: Past Continuous Tense",
+        "question": "Translate: 'Hum patra likh rahe the.'",
+        "options": [
+            "We were writing a letter.",
+            "We was writing a letter.",
+            "We write a letter.",
+            "We are writing a letter."
+        ],
+        "correct": 0,
+        "hint": "We plural writing past.",
+        "rationale": "We + 'were writing': 'We were writing a letter.'"
+    },
+    {
+        "id": 145,
+        "levelId": 6,
+        "levelName": "Level 6: Past Continuous Tense",
+        "question": "Translate: 'Kya wo dhyan de raha tha?'",
+        "options": [
+            "Was he paying attention?",
+            "Were he paying attention?",
+            "Is he paying attention?",
+            "Did he pay attention?"
+        ],
+        "correct": 0,
+        "hint": "He query past continuous attention.",
+        "rationale": "He helper 'Was' + paying attention: 'Was he paying attention?'"
+    },
+    {
+        "id": 146,
+        "levelId": 6,
+        "levelName": "Level 6: Past Continuous Tense",
+        "question": "Translate: 'Kutte भौंक rahe the.'",
+        "options": [
+            "Dogs were barking.",
+            "Dogs was barking.",
+            "Dogs are barking.",
+            "Dogs barked."
+        ],
+        "correct": 0,
+        "hint": "Dogs plural past continuous.",
+        "rationale": "Dogs plural + 'were barking': 'The dogs were barking.'"
+    },
+    {
+        "id": 147,
+        "levelId": 6,
+        "levelName": "Level 6: Past Continuous Tense",
+        "question": "Translate: 'Main kuch dhoondh raha tha.'",
+        "options": [
+            "I was looking for something.",
+            "I were looking for something.",
+            "I am looking for something.",
+            "I looked for something."
+        ],
+        "correct": 0,
+        "hint": "Look for past continuous.",
+        "rationale": "I + 'was looking for': 'I was looking for something.'"
+    },
+    {
+        "id": 148,
+        "levelId": 6,
+        "levelName": "Level 6: Past Continuous Tense",
+        "question": "Translate: 'Kya wo roti bana rahi thi?'",
+        "options": [
+            "Was she making chapatis?",
+            "Were she making chapatis?",
+            "Is she making chapatis?",
+            "Did she make chapatis?"
+        ],
+        "correct": 0,
+        "hint": "She query past cook.",
+        "rationale": "She helper 'Was' + V-ing: 'Was she making chapatis?' / 'Was she rolling chapatis?'"
+    },
+    {
+        "id": 149,
+        "levelId": 6,
+        "levelName": "Level 6: Past Continuous Tense",
+        "question": "Translate: 'Wo apna room saaf kar rahi thi.'",
+        "options": [
+            "She was cleaning her room.",
+            "She were cleaning her room.",
+            "She cleaned her room.",
+            "She is cleaning her room."
+        ],
+        "correct": 0,
+        "hint": "Clean past continuous.",
+        "rationale": "She + 'was cleaning': 'She was cleaning her room.'"
+    },
+    {
+        "id": 150,
+        "levelId": 6,
+        "levelName": "Level 6: Past Continuous Tense",
+        "question": "Translate: 'Kya tum unse mil rahe the?'",
+        "options": [
+            "Were you meeting them?",
+            "Was you meeting them?",
+            "Did you meet them?",
+            "Are you meeting them?"
+        ],
+        "correct": 0,
+        "hint": "You query meet past continuous.",
+        "rationale": "You helper 'Were' + meeting: 'Were you meeting them?'"
+    },
+    {
+        "id": 151,
+        "levelId": 7,
+        "levelName": "Level 7: Past Perfect Tense",
+        "question": "Translate: 'Doctor ke aane se pehle rogi mar chuka tha.'",
+        "options": [
+            "The patient had died before the doctor came.",
+            "The patient died before the doctor had come.",
+            "The patient has died before the doctor came.",
+            "The patient was dead before the doctor came."
+        ],
+        "correct": 0,
+        "hint": "Past of the past action uses 'had + V3' and the later action uses simple past V2.",
+        "rationale": "Jo action pehle completed tha (patient's death) uske liye Past Perfect 'had died' aur jo baad me hua (doctor's arrival) uske liye Simple Past 'came' lagta hai: 'The patient had died before the doctor came.'"
+    },
+    {
+        "id": 152,
+        "levelId": 7,
+        "levelName": "Level 7: Past Perfect Tense",
+        "question": "Translate: 'Mere station pahunchne se pehle train ja chuki thi.'",
+        "options": [
+            "The train had left before I reached the station.",
+            "The train left before I had reached the station.",
+            "The train has left before I reached the station.",
+            "The train had left before I had reached."
+        ],
+        "correct": 0,
+        "hint": "Train's departure pehle hua, arrival baad me.",
+        "rationale": "Pehle completed task ke liye 'had left' + V2 'reached': 'The train had left before I reached the station.'"
+    },
+    {
+        "id": 153,
+        "levelId": 7,
+        "levelName": "Level 7: Past Perfect Tense",
+        "question": "Translate: 'Maine ye khabar pehle hi sun li thi.'",
+        "options": [
+            "I had already heard this news.",
+            "I have already heard this news.",
+            "I already heard this news.",
+            "I had already hear this news."
+        ],
+        "correct": 0,
+        "hint": "Present perfect vs past perfect check.",
+        "rationale": "Past coordinate completed state: 'I had already heard this news.'"
+    },
+    {
+        "id": 154,
+        "levelId": 7,
+        "levelName": "Level 7: Past Perfect Tense",
+        "question": "Translate: 'Kya tumne pehle hi khana kha liya tha?'",
+        "options": [
+            "Had you already eaten food?",
+            "Have you already eaten food?",
+            "Did you already eat food?",
+            "Had you already eat food?"
+        ],
+        "correct": 0,
+        "hint": "Interrogative past perfect.",
+        "rationale": "Had + subject + already + V3: 'Had you already eaten food?'"
+    },
+    {
+        "id": 155,
+        "levelId": 7,
+        "levelName": "Level 7: Past Perfect Tense",
+        "question": "Translate: 'Mere aane se pehle wo so chuki thi.'",
+        "options": [
+            "She had fallen asleep before I arrived.",
+            "She fell asleep before I had arrived.",
+            "She has fallen asleep before I arrived.",
+            "She was sleeping before I arrived."
+        ],
+        "correct": 0,
+        "hint": "Earlier past completion.",
+        "rationale": "She + 'had fallen' + V2 'arrived': 'She had fallen asleep before I arrived.'"
+    },
+    {
+        "id": 156,
+        "levelId": 7,
+        "levelName": "Level 7: Past Perfect Tense",
+        "question": "Translate: 'Papa ke dafter jaane ke baad baarish shuru hui.'",
+        "options": [
+            "The rain started after father had gone to the office.",
+            "The rain had started after father went to the office.",
+            "The rain started after father went to the office.",
+            "Rain started after father has gone."
+        ],
+        "correct": 0,
+        "hint": "'After' clause mein had + V3 lagta hai kyunki wo pehle completed tha.",
+        "rationale": "Baad waale action simple past + 'after' + earlier past perfect: 'The rain started after father had gone to the office.'"
+    },
+    {
+        "id": 157,
+        "levelId": 7,
+        "levelName": "Level 7: Past Perfect Tense",
+        "question": "Translate: 'Maine use pehle kabhi nahi dekha tha.'",
+        "options": [
+            "I had never seen him before.",
+            "I have never seen him before.",
+            "I never saw him before.",
+            "I had never see him before."
+        ],
+        "correct": 0,
+        "hint": "Never before past perfect format.",
+        "rationale": "I + 'had never seen' + before: 'I had never seen him before.'"
+    },
+    {
+        "id": 158,
+        "levelId": 7,
+        "levelName": "Level 7: Past Perfect Tense",
+        "question": "Translate: 'Kya wo ja chuka tha?'",
+        "options": [
+            "Had he gone?",
+            "Has he gone?",
+            "Did he go?",
+            "Had he go?"
+        ],
+        "correct": 0,
+        "hint": "Simple query past perfect.",
+        "rationale": "Had + subject + V3: 'Had he gone?'"
+    },
+    {
+        "id": 159,
+        "levelId": 7,
+        "levelName": "Level 7: Past Perfect Tense",
+        "question": "Translate: 'Hum kal tak kaam khatam kar chuke the.'",
+        "options": [
+            "We had finished the work by yesterday.",
+            "We finished the work by yesterday.",
+            "We have finished the work by yesterday.",
+            "We had finish the work by yesterday."
+        ],
+        "correct": 0,
+        "hint": "By yesterday limit past perfect.",
+        "rationale": "We + 'had finished': 'We had finished the work by yesterday.'"
+    },
+    {
+        "id": 160,
+        "levelId": 7,
+        "levelName": "Level 7: Past Perfect Tense",
+        "question": "Translate: 'Kya tumne mujhe call kiya tha?'",
+        "options": [
+            "Had you called me?",
+            "Have you called me?",
+            "Did you call me?",
+            "Had you call me?"
+        ],
+        "correct": 0,
+        "hint": "Past perfect simple query.",
+        "rationale": "Had + you + V3 (called): 'Had you called me?'"
+    },
+    {
+        "id": 161,
+        "levelId": 7,
+        "levelName": "Level 7: Past Perfect Tense",
+        "question": "Translate: 'Maine pichle saal graduation poori kar li thi.'",
+        "options": [
+            "I had completed my graduation last year.",
+            "I completed my graduation last year.",
+            "I have completed my graduation last year.",
+            "I had complete my graduation last year."
+        ],
+        "correct": 0,
+        "hint": "Graduation completion in past status.",
+        "rationale": "Had + V3 for past target timeline completion: 'I had completed my graduation last year.'"
+    },
+    {
+        "id": 162,
+        "levelId": 7,
+        "levelName": "Level 7: Past Perfect Tense",
+        "question": "Translate: 'Train chali gayi thi jab main station pahuncha.'",
+        "options": [
+            "The train had left when I reached the station.",
+            "The train left when I had reached the station.",
+            "The train has left when I reached the station.",
+            "Train left when I reached."
+        ],
+        "correct": 0,
+        "hint": "Parallel time point earlier past check.",
+        "rationale": "Train had departed earlier: 'The train had left when I reached the station.'"
+    },
+    {
+        "id": 163,
+        "levelId": 7,
+        "levelName": "Level 7: Past Perfect Tense",
+        "question": "Translate: 'Usne pehle hi ticket book kar li thi.'",
+        "options": [
+            "He had already booked the tickets.",
+            "He has already booked the tickets.",
+            "He already booked the tickets.",
+            "He had already book the tickets."
+        ],
+        "correct": 0,
+        "hint": "Already ticket book.",
+        "rationale": "He + 'had already booked': 'He had already booked the tickets.'"
+    },
+    {
+        "id": 164,
+        "levelId": 7,
+        "levelName": "Level 7: Past Perfect Tense",
+        "question": "Translate: 'Kya unhone match shuru kar diya था?'",
+        "options": [
+            "Had they started the match?",
+            "Have they started the match?",
+            "Did they start the match?",
+            "Had they start the match?"
+        ],
+        "correct": 0,
+        "hint": "Plural past perfect query.",
+        "rationale": "Had + they + V3: 'Had they started the match?'"
+    },
+    {
+        "id": 165,
+        "levelId": 7,
+        "levelName": "Level 7: Past Perfect Tense",
+        "question": "Translate: 'Maine use sach bata diya tha.'",
+        "options": [
+            "I had told him the truth.",
+            "I have told him the truth.",
+            "I told him the truth.",
+            "I had tell him the truth."
+        ],
+        "correct": 0,
+        "hint": "Tell past perfect V3.",
+        "rationale": "I + 'had told': 'I had told him the truth.'"
+    },
+    {
+        "id": 166,
+        "levelId": 7,
+        "levelName": "Level 7: Past Perfect Tense",
+        "question": "Translate: 'Ghar pahunchne se pehle andhera ho chuka tha.'",
+        "options": [
+            "It had become dark before I reached home.",
+            "It became dark before I had reached home.",
+            "It has become dark before I reached home.",
+            "It was dark before I reached."
+        ],
+        "correct": 0,
+        "hint": "Earlier dark completion.",
+        "rationale": "It + 'had become' + before V2 'reached': 'It had become dark before I reached home.'"
+    },
+    {
+        "id": 167,
+        "levelId": 7,
+        "levelName": "Level 7: Past Perfect Tense",
+        "question": "Translate: 'Kya wo wahan pehle gayi thi?'",
+        "options": [
+            "Had she gone there before?",
+            "Has she gone there before?",
+            "Did she go there before?",
+            "Had she go there before?"
+        ],
+        "correct": 0,
+        "hint": "She query before past perfect.",
+        "rationale": "Had + she + V3 + before: 'Had she gone there before?'"
+    },
+    {
+        "id": 168,
+        "levelId": 7,
+        "levelName": "Level 7: Past Perfect Tense",
+        "question": "Translate: 'Humne pehle hi faisla kar liya tha.'",
+        "options": [
+            "We had already decided.",
+            "We have already decided.",
+            "We already decided.",
+            "We had already decide."
+        ],
+        "correct": 0,
+        "hint": "Decide past perfect status.",
+        "rationale": "We + 'had already decided': 'We had already decided.'"
+    },
+    {
+        "id": 169,
+        "levelId": 7,
+        "levelName": "Level 7: Past Perfect Tense",
+        "question": "Translate: 'Kya usne khana bana liya tha?'",
+        "options": [
+            "Had she cooked food?",
+            "Has she cooked food?",
+            "Did she cook food?",
+            "Had she cook food?"
+        ],
+        "correct": 0,
+        "hint": "She query cook perfect.",
+        "rationale": "Had + she + V3: 'Had she cooked food?'"
+    },
+    {
+        "id": 170,
+        "levelId": 7,
+        "levelName": "Level 7: Past Perfect Tense",
+        "question": "Translate: 'Suraj dhalne se pehle hum ghar aa chuke the.'",
+        "options": [
+            "We had reached home before the sun set.",
+            "We reached home before the sun had set.",
+            "We have reached home before the sun set.",
+            "We had reached home before the sun sets."
+        ],
+        "correct": 0,
+        "hint": "Sun sets past V2 is 'set'.",
+        "rationale": "We + 'had reached' + before sun V2 set: 'We had reached home before the sun set.'"
+    },
+    {
+        "id": 171,
+        "levelId": 7,
+        "levelName": "Level 7: Past Perfect Tense",
+        "question": "Translate: 'Maine pichle hafte ek patra likha tha.'",
+        "options": [
+            "I had written a letter last week.",
+            "I wrote a letter last week.",
+            "I have written a letter last week.",
+            "I write a letter last week."
+        ],
+        "correct": 0,
+        "hint": "Letter last week perfect check.",
+        "rationale": "I + 'had written': 'I had written a letter last week.'"
+    },
+    {
+        "id": 172,
+        "levelId": 7,
+        "levelName": "Level 7: Past Perfect Tense",
+        "question": "Translate: 'Kya tumne sach sun liya tha?'",
+        "options": [
+            "Had you heard the truth?",
+            "Have you heard the truth?",
+            "Did you hear the truth?",
+            "Had you hear the truth?"
+        ],
+        "correct": 0,
+        "hint": "Hear V3 is heard.",
+        "rationale": "Had + you + V3: 'Had you heard the truth?'"
+    },
+    {
+        "id": 173,
+        "levelId": 7,
+        "levelName": "Level 7: Past Perfect Tense",
+        "question": "Translate: 'Wo ja chuki thi.'",
+        "options": [
+            "She had left.",
+            "She has left.",
+            "She was left.",
+            "She left."
+        ],
+        "correct": 0,
+        "hint": "She left past perfect.",
+        "rationale": "She + 'had left' (V3 of leave): 'She had left.'"
+    },
+    {
+        "id": 174,
+        "levelId": 7,
+        "levelName": "Level 7: Past Perfect Tense",
+        "question": "Translate: 'Bachon ne apna kam khatam kar liya tha.'",
+        "options": [
+            "Children had finished their work.",
+            "Children has finished their work.",
+            "Children finished their work.",
+            "Children had finish their work."
+        ],
+        "correct": 0,
+        "hint": "Children plural past perfect.",
+        "rationale": "Children + 'had finished': 'The children had finished their work.'"
+    },
+    {
+        "id": 175,
+        "levelId": 7,
+        "levelName": "Level 7: Past Perfect Tense",
+        "question": "Translate: 'Kya tumne use pehle dekha tha?'",
+        "options": [
+            "Had you seen him before?",
+            "Have you seen him before?",
+            "Did you see him before?",
+            "Had you saw him before?"
+        ],
+        "correct": 0,
+        "hint": "Acquaintance query past perfect.",
+        "rationale": "Had + you + V3 + before: 'Had you seen him before?'"
+    },
+    {
+        "id": 176,
+        "levelId": 8,
+        "levelName": "Level 8: Past Perfect Continuous",
+        "question": "Translate: 'Main do ghante se tumhara intezar kar raha tha.'",
+        "options": [
+            "I had been waiting for you for two hours.",
+            "I was waiting for you for two hours.",
+            "I have been waiting for you for two hours.",
+            "I had been waiting for you since two hours."
+        ],
+        "correct": 0,
+        "hint": "Past duration period check.",
+        "rationale": "Past Perfect Continuous syntax 'had been + V-ing' + for two hours: 'I had been waiting for you for two hours.'"
+    },
+    {
+        "id": 177,
+        "levelId": 8,
+        "levelName": "Level 8: Past Perfect Continuous",
+        "question": "Translate: 'Kal subah se baarish ho rahi thi.'",
+        "options": [
+            "It had been raining since yesterday morning.",
+            "It was raining since yesterday morning.",
+            "It has been raining since yesterday morning.",
+            "It had been raining for yesterday morning."
+        ],
+        "correct": 0,
+        "hint": "Specific point 'yesterday morning' uses 'since'.",
+        "rationale": "It + 'had been raining' + since yesterday morning: 'It had been raining since yesterday morning.'"
+    },
+    {
+        "id": 178,
+        "levelId": 8,
+        "levelName": "Level 8: Past Perfect Continuous",
+        "question": "Translate: 'Wo do saal se naukri ki talaash kar raha था.'",
+        "options": [
+            "He had been looking for a job for two years.",
+            "He was looking for a job for two years.",
+            "He has been looking for a job for two years.",
+            "He had been looking for a job since two years."
+        ],
+        "correct": 0,
+        "hint": "Job search past duration.",
+        "rationale": "He + 'had been looking' + for two years: 'He had been looking for a job for two years.'"
+    },
+    {
+        "id": 179,
+        "levelId": 8,
+        "levelName": "Level 8: Past Perfect Continuous",
+        "question": "Translate: 'Kya tum do din se kaam kar rahe the?'",
+        "options": [
+            "Had you been working for two days?",
+            "Were you working for two days?",
+            "Have you been working for two days?",
+            "Had you working since two days?"
+        ],
+        "correct": 0,
+        "hint": "You interrogative query past duration.",
+        "rationale": "You helper 'Had' + been + V-ing + for two days: 'Had you been working for two days?'"
+    },
+    {
+        "id": 180,
+        "levelId": 8,
+        "levelName": "Level 8: Past Perfect Continuous",
+        "question": "Translate: 'Hum subah se match dekh rahe the.'",
+        "options": [
+            "We had been watching the match since morning.",
+            "We were watching the match since morning.",
+            "We has been watching the match since morning.",
+            "We had been watching the match for morning."
+        ],
+        "correct": 0,
+        "hint": "Morning point of time check.",
+        "rationale": "We + 'had been watching' + since morning: 'We had been watching the match since morning.'"
+    },
+    {
+        "id": 181,
+        "levelId": 8,
+        "levelName": "Level 8: Past Perfect Continuous",
+        "question": "Translate: 'Bache do ghante se ro rahe the.'",
+        "options": [
+            "Children had been crying for two hours.",
+            "Children were crying for two hours.",
+            "Children has been crying for two hours.",
+            "Children had been crying since two hours."
+        ],
+        "correct": 0,
+        "hint": "Children plural past duration.",
+        "rationale": "Children + 'had been crying' + for two hours: 'The children had been crying for two hours.'"
+    },
+    {
+        "id": 182,
+        "levelId": 8,
+        "levelName": "Level 8: Past Perfect Continuous",
+        "question": "Translate: 'Wo bachpan se wahan reh rahi thi.'",
+        "options": [
+            "She had been living there since childhood.",
+            "She was living there since childhood.",
+            "She has been living there since childhood.",
+            "She had been living there for childhood."
+        ],
+        "correct": 0,
+        "hint": "Childhood point of time check.",
+        "rationale": "She + 'had been living' + since childhood: 'She had been living there since childhood.'"
+    },
+    {
+        "id": 183,
+        "levelId": 8,
+        "levelName": "Level 8: Past Perfect Continuous",
+        "question": "Translate: 'Kya wo subah se gaana ga raha tha?'",
+        "options": [
+            "Had he been singing since morning?",
+            "Was he been singing since morning?",
+            "Have he been singing since morning?",
+            "Had he playing since morning?"
+        ],
+        "correct": 0,
+        "hint": "He query point of time.",
+        "rationale": "He helper 'Had' + been + V-ing + since morning: 'Had he been singing since morning?'"
+    },
+    {
+        "id": 184,
+        "levelId": 8,
+        "levelName": "Level 8: Past Perfect Continuous",
+        "question": "Translate: 'Main ghante bhar se gaadi chala raha tha.'",
+        "options": [
+            "I had been driving for an hour.",
+            "I was driving for an hour.",
+            "I have been driving for an hour.",
+            "I had been driving since an hour."
+        ],
+        "correct": 0,
+        "hint": "Hour duration check.",
+        "rationale": "I + 'had been driving' + for an hour: 'I had been driving for an hour.'"
+    },
+    {
+        "id": 185,
+        "levelId": 8,
+        "levelName": "Level 8: Past Perfect Continuous",
+        "question": "Translate: 'Papa do din se yatra kar rahe the.'",
+        "options": [
+            "Father had been travelling for two days.",
+            "Father was travelling for two days.",
+            "Father has been travelling for two days.",
+            "Father had been travelling since two days."
+        ],
+        "correct": 0,
+        "hint": "Father singular past duration.",
+        "rationale": "Father + 'had been travelling' + for two days: 'My father had been travelling for two days.'"
+    },
+    {
+        "id": 186,
+        "levelId": 8,
+        "levelName": "Level 8: Past Perfect Continuous",
+        "question": "Translate: 'Kya tum kal se bimar chal rahe the?'",
+        "options": [
+            "Had you been ill since yesterday?",
+            "Were you ill since yesterday?",
+            "Have you been ill since yesterday?",
+            "Had you been ailing for yesterday?"
+        ],
+        "correct": 0,
+        "hint": "Ill state past duration.",
+        "rationale": "State verb ill with duration 'had been ill since': 'Had you been ill since yesterday?'"
+    },
+    {
+        "id": 187,
+        "levelId": 8,
+        "levelName": "Level 8: Past Perfect Continuous",
+        "question": "Translate: 'Wo do din se soya nahi tha.'",
+        "options": [
+            "He had not been sleeping for two days.",
+            "He was not sleeping for two days.",
+            "He hadn't slept for two days.",
+            "Both A & C"
+        ],
+        "correct": 3,
+        "hint": "Negative past duration options.",
+        "rationale": "Both 'had not been sleeping' and 'hadn't slept' are valid negative representations. Both A & C are correct."
+    },
+    {
+        "id": 188,
+        "levelId": 8,
+        "levelName": "Level 8: Past Perfect Continuous",
+        "question": "Translate: 'Mera dost do saal se gaana seekh raha tha.'",
+        "options": [
+            "My friend had been learning singing for two years.",
+            "My friend was learning singing for two years.",
+            "My friend has been learning singing for two years.",
+            "My friend had been learning singing since two years."
+        ],
+        "correct": 0,
+        "hint": "Friend singular duration.",
+        "rationale": "Friend + 'had been learning' + for two years: 'My friend had been learning singing for two years.'"
+    },
+    {
+        "id": 189,
+        "levelId": 8,
+        "levelName": "Level 8: Past Perfect Continuous",
+        "question": "Translate: 'Kya wo do mahine se driving seekh rahi thi?'",
+        "options": [
+            "Had she been learning driving for two months?",
+            "Was she learning driving for two months?",
+            "Have she been learning driving for two months?",
+            "Had she learning since two months?"
+        ],
+        "correct": 0,
+        "hint": "She query past duration.",
+        "rationale": "She helper 'Had' + been + V-ing + for two months: 'Had she been learning driving for two months?'"
+    },
+    {
+        "id": 190,
+        "levelId": 8,
+        "levelName": "Level 8: Past Perfect Continuous",
+        "question": "Translate: 'Baraf raat se gir rahi thi.'",
+        "options": [
+            "It had been snowing since night.",
+            "It was snowing since night.",
+            "It has been snowing since night.",
+            "It had been snowing for night."
+        ],
+        "correct": 0,
+        "hint": "Snow past duration.",
+        "rationale": "It + 'had been snowing' + since night: 'It had been snowing since night.'"
+    },
+    {
+        "id": 191,
+        "levelId": 8,
+        "levelName": "Level 8: Past Perfect Continuous",
+        "question": "Translate: 'Hum das minute se chai bana rahe the.'",
+        "options": [
+            "We had been making tea for ten minutes.",
+            "We were making tea for ten minutes.",
+            "We has been making tea for ten minutes.",
+            "We had been making tea since ten minutes."
+        ],
+        "correct": 0,
+        "hint": "Ten minutes duration.",
+        "rationale": "We + 'had been making' + for ten minutes: 'We had been making tea for ten minutes.'"
+    },
+    {
+        "id": 192,
+        "levelId": 8,
+        "levelName": "Level 8: Past Perfect Continuous",
+        "question": "Translate: 'Kya tum ghante bhar se intezar kar rahe the?'",
+        "options": [
+            "Had you been waiting for an hour?",
+            "Were you waiting for an hour?",
+            "Have you been waiting for an hour?",
+            "Had you waiting since an hour?"
+        ],
+        "correct": 0,
+        "hint": "You query duration hour.",
+        "rationale": "You helper 'Had' + been + waiting + for an hour: 'Had you been waiting for an hour?'"
+    },
+    {
+        "id": 193,
+        "levelId": 8,
+        "levelName": "Level 8: Past Perfect Continuous",
+        "question": "Translate: 'Kutte subah se bhonk rahe the.'",
+        "options": [
+            "Dogs had been barking since morning.",
+            "Dogs were barking since morning.",
+            "Dogs has been barking since morning.",
+            "Dogs had been barking for morning."
+        ],
+        "correct": 0,
+        "hint": "Dogs plural point of time.",
+        "rationale": "Dogs + 'had been barking' + since morning: 'The dogs had been barking since morning.'"
+    },
+    {
+        "id": 194,
+        "levelId": 8,
+        "levelName": "Level 8: Past Perfect Continuous",
+        "question": "Translate: 'Wo do din se mujhse baat nahi kar raha tha.'",
+        "options": [
+            "He had not been talking to me for two days.",
+            "He was not talking to me for two days.",
+            "He has not been talking to me for two days.",
+            "He hadn't talked to me since two days."
+        ],
+        "correct": 0,
+        "hint": "He negative talk duration.",
+        "rationale": "He + 'had not been talking' + for two days: 'He had not been talking to me for two days.'"
+    },
+    {
+        "id": 195,
+        "levelId": 8,
+        "levelName": "Level 8: Past Perfect Continuous",
+        "question": "Translate: 'Kya wo do ghante se ro rahi thi?'",
+        "options": [
+            "Had she been crying for two hours?",
+            "Was she crying for two hours?",
+            "Have she been crying for two hours?",
+            "Had she crying since two hours?"
+        ],
+        "correct": 0,
+        "hint": "She query past duration.",
+        "rationale": "She helper 'Had' + been + V-ing + for two hours: 'Had she been crying for two hours?'"
+    },
+    {
+        "id": 196,
+        "levelId": 8,
+        "levelName": "Level 8: Past Perfect Continuous",
+        "question": "Translate: 'Main bachpan se coding kar raha tha.'",
+        "options": [
+            "I had been coding since childhood.",
+            "I was coding since childhood.",
+            "I have been coding since childhood.",
+            "I had been coding for childhood."
+        ],
+        "correct": 0,
+        "hint": "Childhood point of time past duration.",
+        "rationale": "I + 'had been coding' + since childhood: 'I had been coding since childhood.'"
+    },
+    {
+        "id": 197,
+        "levelId": 8,
+        "levelName": "Level 8: Past Perfect Continuous",
+        "question": "Translate: 'Mera bhai do ghante se gaana sun raha था.'",
+        "options": [
+            "My brother had been listening to music for two hours.",
+            "My brother was listening to music for two hours.",
+            "My brother has been listening to music for two hours.",
+            "My brother had been listening to music since two hours."
+        ],
+        "correct": 0,
+        "hint": "Brother singular past duration.",
+        "rationale": "Brother + 'had been listening to' + for two hours: 'My brother had been listening to music for two hours.'"
+    },
+    {
+        "id": 198,
+        "levelId": 8,
+        "levelName": "Level 8: Past Perfect Continuous",
+        "question": "Translate: 'Kya tum subah se computer chala rahe the?'",
+        "options": [
+            "Had you been using the computer since morning?",
+            "Were you using the computer since morning?",
+            "Have you been using the computer since morning?",
+            "Had you using since morning?"
+        ],
+        "correct": 0,
+        "hint": "You query point of time.",
+        "rationale": "You helper 'Had' + been + using + since morning: 'Had you been using the computer since morning?'"
+    },
+    {
+        "id": 199,
+        "levelId": 8,
+        "levelName": "Level 8: Past Perfect Continuous",
+        "question": "Translate: 'Wo do saal se yahan kaam kar rahe the.'",
+        "options": [
+            "They had been working here for two years.",
+            "They were working here for two years.",
+            "They has been working here for two years.",
+            "They had been working here since two years."
+        ],
+        "correct": 0,
+        "hint": "They plural past duration.",
+        "rationale": "They + 'had been working' + for two years: 'They had been working here for two years.'"
+    },
+    {
+        "id": 200,
+        "levelId": 8,
+        "levelName": "Level 8: Past Perfect Continuous",
+        "question": "Translate: 'Kya suraj subah se chamak raha tha?'",
+        "options": [
+            "Had the sun been shining since morning?",
+            "Was the sun shining since morning?",
+            "Has the sun been shining since morning?",
+            "Had the sun shining for morning?"
+        ],
+        "correct": 0,
+        "hint": "Sun query point of time.",
+        "rationale": "Sun helper 'Had' + been + V-ing + since morning: 'Had the sun been shining since morning?'"
+    },
+    {
+        "id": 201,
+        "levelId": 9,
+        "levelName": "Level 9: Future Simple Tense",
+        "question": "Translate: 'Main kal tumse milunga.'",
+        "options": [
+            "I will meet you tomorrow.",
+            "I met you tomorrow.",
+            "I meet you tomorrow.",
+            "I would meet you tomorrow."
+        ],
+        "correct": 0,
+        "hint": "Simple future will + V1 structure.",
+        "rationale": "I + 'will' + V1 meet: 'I will meet you tomorrow.' / 'I shall meet you tomorrow.'"
+    },
+    {
+        "id": 202,
+        "levelId": 9,
+        "levelName": "Level 9: Future Simple Tense",
+        "question": "Translate: 'Wo kal gaana gayega.'",
+        "options": [
+            "He will sing a song tomorrow.",
+            "He sang a song tomorrow.",
+            "He sings a song tomorrow.",
+            "He will be singing a song tomorrow."
+        ],
+        "correct": 0,
+        "hint": "He future will.",
+        "rationale": "He + 'will' + V1 sing + tomorrow: 'He will sing a song tomorrow.'"
+    },
+    {
+        "id": 203,
+        "levelId": 9,
+        "levelName": "Level 9: Future Simple Tense",
+        "question": "Translate: 'Kya tum aayoge?'",
+        "options": [
+            "Will you come?",
+            "Shall you come?",
+            "Are you coming?",
+            "Do you come?"
+        ],
+        "correct": 0,
+        "hint": "You query future simple.",
+        "rationale": "Will + you + V1: 'Will you come?'"
+    },
+    {
+        "id": 204,
+        "levelId": 9,
+        "levelName": "Level 9: Future Simple Tense",
+        "question": "Translate: 'Main tumhara saath dunga.'",
+        "options": [
+            "I will support you.",
+            "I support you.",
+            "I would support you.",
+            "I will be support you."
+        ],
+        "correct": 0,
+        "hint": "Promise/Future support.",
+        "rationale": "I + 'will support': 'I will support you.' / 'I will stand by you.'"
+    },
+    {
+        "id": 205,
+        "levelId": 9,
+        "levelName": "Level 9: Future Simple Tense",
+        "question": "Translate: 'Bache kal park nahi jayenge.'",
+        "options": [
+            "Children will not go to the park tomorrow.",
+            "Children do not go to the park tomorrow.",
+            "Children would not go to the park tomorrow.",
+            "Children will not be going to the park."
+        ],
+        "correct": 0,
+        "hint": "Negative future.",
+        "rationale": "Children + 'will not go': 'Children will not go to the park tomorrow.'"
+    },
+    {
+        "id": 206,
+        "levelId": 9,
+        "levelName": "Level 9: Future Simple Tense",
+        "question": "Translate: 'Kya wo kal school jayegi?'",
+        "options": [
+            "Will she go to school tomorrow?",
+            "Does she go to school tomorrow?",
+            "Will she goes to school tomorrow?",
+            "Shall she go to school tomorrow?"
+        ],
+        "correct": 0,
+        "hint": "She query future.",
+        "rationale": "Will + she + V1: 'Will she go to school tomorrow?'"
+    },
+    {
+        "id": 207,
+        "levelId": 9,
+        "levelName": "Level 9: Future Simple Tense",
+        "question": "Translate: 'Hum pichle saal ki tarah is saal bhi jeetenge.'",
+        "options": [
+            "We will win this year too like last year.",
+            "We win this year too like last year.",
+            "We would win this year like last year.",
+            "We will be winning this year like last year."
+        ],
+        "correct": 0,
+        "hint": "Future win.",
+        "rationale": "We + 'will win': 'We will win this year too like last year.'"
+    },
+    {
+        "id": 208,
+        "levelId": 9,
+        "levelName": "Level 9: Future Simple Tense",
+        "question": "Translate: 'Kya wo sach bolega?'",
+        "options": [
+            "Will he tell the truth?",
+            "Does he tell the truth?",
+            "Will he tells the truth?",
+            "Shall he tell the truth?"
+        ],
+        "correct": 0,
+        "hint": "He query future truth.",
+        "rationale": "Will + he + V1 (tell): 'Will he tell the truth?'"
+    },
+    {
+        "id": 209,
+        "levelId": 9,
+        "levelName": "Level 9: Future Simple Tense",
+        "question": "Translate: 'Main use kabhi maaf nahi karunga.'",
+        "options": [
+            "I will never forgive him.",
+            "I never forgive him.",
+            "I would never forgive him.",
+            "I am never forgiving him."
+        ],
+        "correct": 0,
+        "hint": "Never future negative.",
+        "rationale": "I + 'will never forgive': 'I will never forgive him.'"
+    },
+    {
+        "id": 210,
+        "levelId": 9,
+        "levelName": "Level 9: Future Simple Tense",
+        "question": "Translate: 'Train thodi der me chalegi.'",
+        "options": [
+            "The train will start in a short while.",
+            "The train starts in a short while.",
+            "The train is starting in a short while.",
+            "Train will starting soon."
+        ],
+        "correct": 0,
+        "hint": "Train departure prediction.",
+        "rationale": "Train + 'will start': 'The train will start in a short while.'"
+    },
+    {
+        "id": 211,
+        "levelId": 9,
+        "levelName": "Level 9: Future Simple Tense",
+        "question": "Translate: 'Kya tum meri madad karoge?'",
+        "options": [
+            "Will you help me?",
+            "Would you help me?",
+            "Do you help me?",
+            "Both A & B"
+        ],
+        "correct": 3,
+        "hint": "Request future / query.",
+        "rationale": "Both 'Will you help me?' and 'Would you help me?' (more polite) are valid translations. Both are correct."
+    },
+    {
+        "id": 212,
+        "levelId": 9,
+        "levelName": "Level 9: Future Simple Tense",
+        "question": "Translate: 'Wo mujhe kal phone karegi.'",
+        "options": [
+            "She will call me tomorrow.",
+            "She calls me tomorrow.",
+            "She is calling me tomorrow.",
+            "She would call me tomorrow."
+        ],
+        "correct": 0,
+        "hint": "She future call.",
+        "rationale": "She + 'will call' + tomorrow: 'She will call me tomorrow.'"
+    },
+    {
+        "id": 213,
+        "levelId": 9,
+        "levelName": "Level 9: Future Simple Tense",
+        "question": "Translate: 'Main aaj shaam ko bazaar jaunga.'",
+        "options": [
+            "I will go to the market this evening.",
+            "I go to the market this evening.",
+            "I will be going to the market this evening.",
+            "I would go to the market this evening."
+        ],
+        "correct": 0,
+        "hint": "Plan future evening.",
+        "rationale": "I + 'will go': 'I will go to the market this evening.'"
+    },
+    {
+        "id": 214,
+        "levelId": 9,
+        "levelName": "Level 9: Future Simple Tense",
+        "question": "Translate: 'Kya unhe sach maloom hoga?'",
+        "options": [
+            "Will they know the truth?",
+            "Do they know the truth?",
+            "Will they knows the truth?",
+            "Shall they know the truth?"
+        ],
+        "correct": 0,
+        "hint": "They query future know.",
+        "rationale": "Will + they + V1 (know): 'Will they know the truth?'"
+    },
+    {
+        "id": 215,
+        "levelId": 9,
+        "levelName": "Level 9: Future Simple Tense",
+        "question": "Translate: 'Papa mere liye ek gift layenge.'",
+        "options": [
+            "Father will bring a gift for me.",
+            "Father brings a gift for me.",
+            "Father has brought a gift for me.",
+            "Father would bring a gift for me."
+        ],
+        "correct": 0,
+        "hint": "Father gift bring future.",
+        "rationale": "Father + 'will bring': 'My father will bring a gift for me.'"
+    },
+    {
+        "id": 216,
+        "levelId": 9,
+        "levelName": "Level 9: Future Simple Tense",
+        "question": "Translate: 'Kya bache match dekhenge?'",
+        "options": [
+            "Will children watch the match?",
+            "Do children watch the match?",
+            "Will children watches the match?",
+            "Are children watching the match?"
+        ],
+        "correct": 0,
+        "hint": "Children query match future.",
+        "rationale": "Will + children + V1: 'Will the children watch the match?'"
+    },
+    {
+        "id": 217,
+        "levelId": 9,
+        "levelName": "Level 9: Future Simple Tense",
+        "question": "Translate: 'Main aapse jaldi hi milunga.'",
+        "options": [
+            "I will see you soon.",
+            "I see you soon.",
+            "I will be seeing you soon.",
+            "Both A & C"
+        ],
+        "correct": 3,
+        "hint": "Spoken transition check.",
+        "rationale": "Both 'I will see you soon' and 'I will be seeing you soon' are common translations. Both are correct."
+    },
+    {
+        "id": 218,
+        "levelId": 9,
+        "levelName": "Level 9: Future Simple Tense",
+        "question": "Translate: 'Kya wo wahan jayegi?'",
+        "options": [
+            "Will she go there?",
+            "Does she go there?",
+            "Will she goes there?",
+            "Shall she go there?"
+        ],
+        "correct": 0,
+        "hint": "She query future motion.",
+        "rationale": "Will + she + V1: 'Will she go there?'"
+    },
+    {
+        "id": 219,
+        "levelId": 9,
+        "levelName": "Level 9: Future Simple Tense",
+        "question": "Translate: 'Main naye kapde kharidunga.'",
+        "options": [
+            "I will buy new clothes.",
+            "I buy new clothes.",
+            "I will be buying new clothes.",
+            "I would buy new clothes."
+        ],
+        "correct": 0,
+        "hint": "Buy intent future.",
+        "rationale": "I + 'will buy': 'I will buy new clothes.' / 'I will purchase new clothes.'"
+    },
+    {
+        "id": 220,
+        "levelId": 9,
+        "levelName": "Level 9: Future Simple Tense",
+        "question": "Translate: 'Kya wo log sach chhupayenge?'",
+        "options": [
+            "Will they hide the truth?",
+            "Do they hide the truth?",
+            "Will they hides the truth?",
+            "Shall they hide the truth?"
+        ],
+        "correct": 0,
+        "hint": "They query hide future.",
+        "rationale": "Will + they + V1: 'Will they hide the truth?'"
+    },
+    {
+        "id": 221,
+        "levelId": 9,
+        "levelName": "Level 9: Future Simple Tense",
+        "question": "Translate: 'Suraj kal 6 baje ugega.'",
+        "options": [
+            "The sun will rise at 6 AM tomorrow.",
+            "The sun rises at 6 AM tomorrow.",
+            "The sun rises 6 AM tomorrow.",
+            "Sun will rising 6 AM tomorrow."
+        ],
+        "correct": 0,
+        "hint": "Sun future rise schedule.",
+        "rationale": "Sun + 'will rise': 'The sun will rise at 6 AM tomorrow.'"
+    },
+    {
+        "id": 222,
+        "levelId": 9,
+        "levelName": "Level 9: Future Simple Tense",
+        "question": "Translate: 'Hum pichle saal ki tarah khush rahenge.'",
+        "options": [
+            "We will be happy like last year.",
+            "We are happy like last year.",
+            "We would be happy like last year.",
+            "We will happy like last year."
+        ],
+        "correct": 0,
+        "hint": "State future check (will be).",
+        "rationale": "We + 'will be' + happy: 'We will be happy like last year.'"
+    },
+    {
+        "id": 223,
+        "levelId": 9,
+        "levelName": "Level 9: Future Simple Tense",
+        "question": "Translate: 'Kya tum kal aayoge?'",
+        "options": [
+            "Will you come tomorrow?",
+            "Do you come tomorrow?",
+            "Are you coming tomorrow?",
+            "Shall you come tomorrow?"
+        ],
+        "correct": 0,
+        "hint": "You query tomorrow.",
+        "rationale": "Will + you + V1: 'Will you come tomorrow?'"
+    },
+    {
+        "id": 224,
+        "levelId": 9,
+        "levelName": "Level 9: Future Simple Tense",
+        "question": "Translate: 'Wo mujhe dhoka nahi dega.'",
+        "options": [
+            "He will not betray me.",
+            "He do not betray me.",
+            "He would not betray me.",
+            "He will not be betray me."
+        ],
+        "correct": 0,
+        "hint": "Negative betray future.",
+        "rationale": "He + 'will not betray': 'He will not betray me.' / 'He will not cheat me.'"
+    },
+    {
+        "id": 225,
+        "levelId": 9,
+        "levelName": "Level 9: Future Simple Tense",
+        "question": "Translate: 'Kya wo thik ho jayega?'",
+        "options": [
+            "Will he recover?",
+            "Does he recover?",
+            "Will he recovers?",
+            "Shall he recover?"
+        ],
+        "correct": 0,
+        "hint": "Recover status query.",
+        "rationale": "Will + he + V1 (recover): 'Will he recover?' / 'Will he get well?'"
+    },
+    {
+        "id": 226,
+        "levelId": 9,
+        "levelName": "Level 9: Future Simple Tense",
+        "question": "Translate: 'Main aapse baat nahi karunga.'",
+        "options": [
+            "I will not talk to you.",
+            "I do not talk to you.",
+            "I would not talk to you.",
+            "I am not talking to you."
+        ],
+        "correct": 0,
+        "hint": "Negative talk intent.",
+        "rationale": "I + 'will not talk': 'I will not talk to you.'"
+    },
+    {
+        "id": 227,
+        "levelId": 9,
+        "levelName": "Level 9: Future Simple Tense",
+        "question": "Translate: 'Kya bus chalegi?'",
+        "options": [
+            "Will the bus start?",
+            "Does the bus start?",
+            "Will the bus starts?",
+            "Shall the bus start?"
+        ],
+        "correct": 0,
+        "hint": "Bus departure query.",
+        "rationale": "Will + bus + V1: 'Will the bus start?'"
+    },
+    {
+        "id": 228,
+        "levelId": 9,
+        "levelName": "Level 9: Future Simple Tense",
+        "question": "Translate: 'Mera dost mere liye rukkega.'",
+        "options": [
+            "My friend will wait for me.",
+            "My friend waits for me.",
+            "My friend has waited for me.",
+            "My friend would wait for me."
+        ],
+        "correct": 0,
+        "hint": "Wait future friend.",
+        "rationale": "Friend + 'will wait': 'My friend will wait for me.'"
+    },
+    {
+        "id": 229,
+        "levelId": 9,
+        "levelName": "Level 9: Future Simple Tense",
+        "question": "Translate: 'Kya wo wahan kaam karega?'",
+        "options": [
+            "Will he work there?",
+            "Does he work there?",
+            "Will he works there?",
+            "Shall he work there?"
+        ],
+        "correct": 0,
+        "hint": "He query work future.",
+        "rationale": "Will + he + V1: 'Will he work there?'"
+    },
+    {
+        "id": 230,
+        "levelId": 9,
+        "levelName": "Level 9: Future Simple Tense",
+        "question": "Translate: 'Main ye kaam kal karunga.'",
+        "options": [
+            "I will do this work tomorrow.",
+            "I do this work tomorrow.",
+            "I will be doing this work tomorrow.",
+            "I would do this work tomorrow."
+        ],
+        "correct": 0,
+        "hint": "Do work tomorrow.",
+        "rationale": "I + 'will do': 'I will do this work tomorrow.'"
+    },
+    {
+        "id": 231,
+        "levelId": 10,
+        "levelName": "Level 10: Future Continuous Tense",
+        "question": "Translate: 'Kal is samay main padh raha hunga.'",
+        "options": [
+            "I will be studying at this time tomorrow.",
+            "I will study at this time tomorrow.",
+            "I would be studying at this time tomorrow.",
+            "I am studying at this time tomorrow."
+        ],
+        "correct": 0,
+        "hint": "Future continuous syntax: will be + V-ing.",
+        "rationale": "I + 'will be studying' + tomorrow: 'I will be studying at this time tomorrow.'"
+    },
+    {
+        "id": 232,
+        "levelId": 10,
+        "levelName": "Level 10: Future Continuous Tense",
+        "question": "Translate: 'Bache khel rahe honge.'",
+        "options": [
+            "Children will be playing.",
+            "Children are playing.",
+            "Children will play.",
+            "Children would be playing."
+        ],
+        "correct": 0,
+        "hint": "Children plural future continuous.",
+        "rationale": "Children + 'will be playing': 'The children will be playing.'"
+    },
+    {
+        "id": 233,
+        "levelId": 10,
+        "levelName": "Level 10: Future Continuous Tense",
+        "question": "Translate: 'Mummy khana bana rahi hogi.'",
+        "options": [
+            "Mother will be cooking food.",
+            "Mother cooks food.",
+            "Mother would be cooking food.",
+            "Mother is cooking food."
+        ],
+        "correct": 0,
+        "hint": "Mother singular prediction future continuous.",
+        "rationale": "Mother + 'will be cooking': 'Mother will be cooking food.'"
+    },
+    {
+        "id": 234,
+        "levelId": 10,
+        "levelName": "Level 10: Future Continuous Tense",
+        "question": "Translate: 'Kal is samay baarish ho rahi hogi.'",
+        "options": [
+            "It will be raining at this time tomorrow.",
+            "It is raining at this time tomorrow.",
+            "It was raining at this time tomorrow.",
+            "It will rain at this time tomorrow."
+        ],
+        "correct": 0,
+        "hint": "Rain future continuous.",
+        "rationale": "It + 'will be raining': 'It will be raining at this time tomorrow.'"
+    },
+    {
+        "id": 235,
+        "levelId": 10,
+        "levelName": "Level 10: Future Continuous Tense",
+        "question": "Translate: 'Kya tum so rahe hoge?'",
+        "options": [
+            "Will you be sleeping?",
+            "Will you sleeping?",
+            "Shall you be sleeping?",
+            "Do you sleep?"
+        ],
+        "correct": 0,
+        "hint": "You query future continuous.",
+        "rationale": "Will + you + be + V-ing: 'Will you be sleeping?'"
+    },
+    {
+        "id": 236,
+        "levelId": 10,
+        "levelName": "Level 10: Future Continuous Tense",
+        "question": "Translate: 'Wo ro nahi rahi hogi.'",
+        "options": [
+            "She will not be crying.",
+            "She would not be crying.",
+            "She is not crying.",
+            "She will not crying."
+        ],
+        "correct": 0,
+        "hint": "She negative future continuous.",
+        "rationale": "She + 'will not be' + V-ing: 'She will not be crying.'"
+    },
+    {
+        "id": 237,
+        "levelId": 10,
+        "levelName": "Level 10: Future Continuous Tense",
+        "question": "Translate: 'Hum movie dekh rahe honge.'",
+        "options": [
+            "We will be watching a movie.",
+            "We watch a movie.",
+            "We are watching a movie.",
+            "We would be watching a movie."
+        ],
+        "correct": 0,
+        "hint": "We plural future continuous.",
+        "rationale": "We + 'will be watching': 'We will be watching a movie.'"
+    },
+    {
+        "id": 238,
+        "levelId": 10,
+        "levelName": "Level 10: Future Continuous Tense",
+        "question": "Translate: 'Kya papa TV dekh rahe honge?'",
+        "options": [
+            "Will father be watching TV?",
+            "Will father watching TV?",
+            "Is father watching TV?",
+            "Would father be watching TV?"
+        ],
+        "correct": 0,
+        "hint": "Father singular query.",
+        "rationale": "Will + father + be + V-ing: 'Will father be watching TV?'"
+    },
+    {
+        "id": 239,
+        "levelId": 10,
+        "levelName": "Level 10: Future Continuous Tense",
+        "question": "Translate: 'Hawa chal rahi hogi.'",
+        "options": [
+            "The wind will be blowing.",
+            "The wind will blowing.",
+            "Wind blows.",
+            "Wind would be blowing."
+        ],
+        "correct": 0,
+        "hint": "Wind blowing future continuous.",
+        "rationale": "Wind + 'will be blowing': 'The wind will be blowing.'"
+    },
+    {
+        "id": 240,
+        "levelId": 10,
+        "levelName": "Level 10: Future Continuous Tense",
+        "question": "Translate: 'Wo log aa rahe honge.'",
+        "options": [
+            "They will be coming.",
+            "They are coming.",
+            "They will come.",
+            "They would be coming."
+        ],
+        "correct": 0,
+        "hint": "They plural continuous.",
+        "rationale": "They + 'will be coming': 'They will be coming.'"
+    },
+    {
+        "id": 241,
+        "levelId": 10,
+        "levelName": "Level 10: Future Continuous Tense",
+        "question": "Translate: 'Tum kal kya kar rahe hoge?'",
+        "options": [
+            "What will you be doing tomorrow?",
+            "What you will be doing tomorrow?",
+            "What do you do tomorrow?",
+            "What will you do tomorrow?"
+        ],
+        "correct": 0,
+        "hint": "Wh- question future continuous.",
+        "rationale": "Wh- word + will + you + be + V-ing: 'What will you be doing tomorrow?'"
+    },
+    {
+        "id": 242,
+        "levelId": 10,
+        "levelName": "Level 10: Future Continuous Tense",
+        "question": "Translate: 'Main tumhara intezar kar raha hunga.'",
+        "options": [
+            "I will be waiting for you.",
+            "I will wait for you.",
+            "I am waiting for you.",
+            "I would be waiting for you."
+        ],
+        "correct": 0,
+        "hint": "I wait future continuous.",
+        "rationale": "I + 'will be waiting' + for: 'I will be waiting for you.'"
+    },
+    {
+        "id": 243,
+        "levelId": 10,
+        "levelName": "Level 10: Future Continuous Tense",
+        "question": "Translate: 'Kya bache so rahe honge?'",
+        "options": [
+            "Will children be sleeping?",
+            "Will children sleeping?",
+            "Are children sleeping?",
+            "Would children be sleeping?"
+        ],
+        "correct": 0,
+        "hint": "Children query sleeping continuous.",
+        "rationale": "Will + children + be + V-ing: 'Will the children be sleeping?'"
+    },
+    {
+        "id": 244,
+        "levelId": 10,
+        "levelName": "Level 10: Future Continuous Tense",
+        "question": "Translate: 'Wo apna room saaf kar rahi hogi.'",
+        "options": [
+            "She will be cleaning her room.",
+            "She is cleaning her room.",
+            "She would be cleaning her room.",
+            "She clean her room."
+        ],
+        "correct": 0,
+        "hint": "Clean future continuous.",
+        "rationale": "She + 'will be cleaning': 'She will be cleaning her room.'"
+    },
+    {
+        "id": 245,
+        "levelId": 10,
+        "levelName": "Level 10: Future Continuous Tense",
+        "question": "Translate: 'Kya tum unse mil rahe hoge?'",
+        "options": [
+            "Will you be meeting them?",
+            "Will you meeting them?",
+            "Did you meet them?",
+            "Are you meeting them?"
+        ],
+        "correct": 0,
+        "hint": "You query meet continuous.",
+        "rationale": "Will + you + be + meeting: 'Will you be meeting them?'"
+    },
+    {
+        "id": 246,
+        "levelId": 10,
+        "levelName": "Level 10: Future Continuous Tense",
+        "question": "Translate: 'Dhoop nikal rahi hogi.'",
+        "options": [
+            "The sun will be shining.",
+            "The sun is shining.",
+            "Sun will shine.",
+            "Sun would be shining."
+        ],
+        "correct": 0,
+        "hint": "Sun shine continuous.",
+        "rationale": "Sun + 'will be shining': 'The sun will be shining.'"
+    },
+    {
+        "id": 247,
+        "levelId": 10,
+        "levelName": "Level 10: Future Continuous Tense",
+        "question": "Translate: 'Hum patra likh rahe honge.'",
+        "options": [
+            "We will be writing a letter.",
+            "We write a letter.",
+            "We are writing a letter.",
+            "We would be writing a letter."
+        ],
+        "correct": 0,
+        "hint": "We writing continuous.",
+        "rationale": "We + 'will be writing': 'We will be writing a letter.'"
+    },
+    {
+        "id": 248,
+        "levelId": 10,
+        "levelName": "Level 10: Future Continuous Tense",
+        "question": "Translate: 'Kya wo dhyan de raha hoga?'",
+        "options": [
+            "Will he be paying attention?",
+            "Will he paying attention?",
+            "Is he paying attention?",
+            "Would he be paying attention?"
+        ],
+        "correct": 0,
+        "hint": "He attention query.",
+        "rationale": "Will + he + be + paying attention: 'Will he be paying attention?'"
+    },
+    {
+        "id": 249,
+        "levelId": 10,
+        "levelName": "Level 10: Future Continuous Tense",
+        "question": "Translate: 'Kutte bhonk rahe honge.'",
+        "options": [
+            "The dogs will be barking.",
+            "The dogs are barking.",
+            "Dogs will bark.",
+            "Dogs would be barking."
+        ],
+        "correct": 0,
+        "hint": "Dogs continuous.",
+        "rationale": "Dogs plural + 'will be barking': 'The dogs will be barking.'"
+    },
+    {
+        "id": 250,
+        "levelId": 10,
+        "levelName": "Level 10: Future Continuous Tense",
+        "question": "Translate: 'Main kal gaadi chala raha hunga.'",
+        "options": [
+            "I will be driving a car tomorrow.",
+            "I will drive a car tomorrow.",
+            "I am driving a car tomorrow.",
+            "I would be driving a car tomorrow."
+        ],
+        "correct": 0,
+        "hint": "Drive continuous.",
+        "rationale": "I + 'will be driving': 'I will be driving a car tomorrow.'"
+    },
+    {
+        "id": 251,
+        "levelId": 10,
+        "levelName": "Level 10: Future Continuous Tense",
+        "question": "Translate: 'Kya tum mera naam pukar rahe hoge?'",
+        "options": [
+            "Will you be calling my name?",
+            "Will you calling my name?",
+            "Are you calling my name?",
+            "Did you call my name?"
+        ],
+        "correct": 0,
+        "hint": "You call query.",
+        "rationale": "Will + you + be + calling: 'Will you be calling my name?'"
+    },
+    {
+        "id": 252,
+        "levelId": 10,
+        "levelName": "Level 10: Future Continuous Tense",
+        "question": "Translate: 'Mera bhai gaana sun raha hoga.'",
+        "options": [
+            "My brother will be listening to music.",
+            "My brother is listening to music.",
+            "My brother will listen to music.",
+            "My brother would be listening to music."
+        ],
+        "correct": 0,
+        "hint": "Brother listen continuous.",
+        "rationale": "Brother + 'will be listening': 'My brother will be listening to music.'"
+    },
+    {
+        "id": 253,
+        "levelId": 10,
+        "levelName": "Level 10: Future Continuous Tense",
+        "question": "Translate: 'Kya tum subah se computer chala rahe hoge?'",
+        "options": [
+            "Will you be using the computer since morning?",
+            "Will you be using the computer?",
+            "Are you using the computer?",
+            "Both A & B"
+        ],
+        "correct": 3,
+        "hint": "Duration vs continuous query.",
+        "rationale": "Both 'Will you be using the computer since morning?' (continuous duration) and standard future continuous work in translation. Both are correct."
+    },
+    {
+        "id": 254,
+        "levelId": 10,
+        "levelName": "Level 10: Future Continuous Tense",
+        "question": "Translate: 'Wo do saal se yahan kaam kar rahe honge.'",
+        "options": [
+            "They will have been working here for two years.",
+            "They will be working here for two years.",
+            "They are working here for two years.",
+            "Both A & B"
+        ],
+        "correct": 3,
+        "hint": "Duration transition.",
+        "rationale": "Both future continuous and perfect continuous translate this in spoken contexts. Both are correct."
+    },
+    {
+        "id": 255,
+        "levelId": 10,
+        "levelName": "Level 10: Future Continuous Tense",
+        "question": "Translate: 'Kya suraj chamak raha hoga?'",
+        "options": [
+            "Will the sun be shining?",
+            "Will the sun shining?",
+            "Is the sun shining?",
+            "Would the sun be shining?"
+        ],
+        "correct": 0,
+        "hint": "Sun shine query.",
+        "rationale": "Will + sun + be + V-ing: 'Will the sun be shining?'"
+    },
+    {
+        "id": 256,
+        "levelId": 10,
+        "levelName": "Level 10: Future Continuous Tense",
+        "question": "Translate: 'Wo gaadi dho raha hoga.'",
+        "options": [
+            "He will be washing the car.",
+            "He is washing the car.",
+            "He will wash the car.",
+            "He would be washing the car."
+        ],
+        "correct": 0,
+        "hint": "Wash car continuous.",
+        "rationale": "He + 'will be washing': 'He will be washing the car.'"
+    },
+    {
+        "id": 257,
+        "levelId": 10,
+        "levelName": "Level 10: Future Continuous Tense",
+        "question": "Translate: 'Kya tum safar kar rahe hoge?'",
+        "options": [
+            "Will you be travelling?",
+            "Will you travelling?",
+            "Are you travelling?",
+            "Would you be travelling?"
+        ],
+        "correct": 0,
+        "hint": "You travel query.",
+        "rationale": "Will + you + be + travelling: 'Will you be travelling?'"
+    },
+    {
+        "id": 258,
+        "levelId": 10,
+        "levelName": "Level 10: Future Continuous Tense",
+        "question": "Translate: 'Hum kal is samay picnic mana rahe honge.'",
+        "options": [
+            "We will be enjoying a picnic at this time tomorrow.",
+            "We enjoy a picnic at this time tomorrow.",
+            "We are enjoying a picnic at this time tomorrow.",
+            "We would be enjoying a picnic tomorrow."
+        ],
+        "correct": 0,
+        "hint": "Picnic continuous.",
+        "rationale": "We + 'will be enjoying': 'We will be enjoying a picnic at this time tomorrow.'"
+    },
+    {
+        "id": 259,
+        "levelId": 10,
+        "levelName": "Level 10: Future Continuous Tense",
+        "question": "Translate: 'Kya wo wahan kaam kar rahi hogi?'",
+        "options": [
+            "Will she be working there?",
+            "Will she working there?",
+            "Is she working there?",
+            "Would she be working there?"
+        ],
+        "correct": 0,
+        "hint": "She work query.",
+        "rationale": "Will + she + be + working: 'Will she be working there?'"
+    },
+    {
+        "id": 260,
+        "levelId": 10,
+        "levelName": "Level 10: Future Continuous Tense",
+        "question": "Translate: 'I am sure they will be waiting for us.'",
+        "options": [
+            "Mujhe yakeen hai wo humara intezar kar rahe honge.",
+            "Mujhe yakeen hai wo humara intezar karenge.",
+            "Mujhe yakeen hai wo humara intezar karte hain.",
+            "None of these"
+        ],
+        "correct": 0,
+        "hint": "Reverse translation validation check.",
+        "rationale": "Correct meaning: 'Mujhe yakeen hai wo humara intezar kar rahe honge.'"
+    },
+    {
+        "id": 261,
+        "levelId": 11,
+        "levelName": "Level 11: Future Perfect Tense",
+        "question": "Translate: 'Agale hafte tak hum apna project poora kar chuke honge.'",
+        "options": [
+            "We will have completed our project by next week.",
+            "We will complete our project by next week.",
+            "We would have completed our project by next week.",
+            "We has completed our project by next week."
+        ],
+        "correct": 0,
+        "hint": "Future perfect syntax: will have + V3.",
+        "rationale": "We + 'will have completed' + by next week: 'We will have completed our project by next week.'"
+    },
+    {
+        "id": 262,
+        "levelId": 11,
+        "levelName": "Level 11: Future Perfect Tense",
+        "question": "Translate: 'Mummy khana bana chuki hogi.'",
+        "options": [
+            "Mother will have cooked food.",
+            "Mother will cook food.",
+            "Mother would have cooked food.",
+            "Mother is cooked food."
+        ],
+        "correct": 0,
+        "hint": "Mother singular completion.",
+        "rationale": "Mother + 'will have cooked': 'Mother will have cooked food.'"
+    },
+    {
+        "id": 263,
+        "levelId": 11,
+        "levelName": "Level 11: Future Perfect Tense",
+        "question": "Translate: 'Kya tum kal tak ye kitab padh chuke hoge?'",
+        "options": [
+            "Will you have read this book by tomorrow?",
+            "Will you read this book by tomorrow?",
+            "Will you have readed this book by tomorrow?",
+            "Shall you read this book by tomorrow?"
+        ],
+        "correct": 0,
+        "hint": "Read V3 read syntax check.",
+        "rationale": "Will + you + have + V3 read: 'Will you have read this book by tomorrow?'"
+    },
+    {
+        "id": 264,
+        "levelId": 11,
+        "levelName": "Level 11: Future Perfect Tense",
+        "question": "Translate: 'Wo so chuki hogi.'",
+        "options": [
+            "She will have gone to sleep.",
+            "She will go to sleep.",
+            "She is sleeping.",
+            "She would have gone to sleep."
+        ],
+        "correct": 0,
+        "hint": "She sleep completion.",
+        "rationale": "She + 'will have gone': 'She will have gone to sleep.' / 'She will have fallen asleep.'"
+    },
+    {
+        "id": 265,
+        "levelId": 11,
+        "levelName": "Level 11: Future Perfect Tense",
+        "question": "Translate: 'Suraj dhalne se pehle hum ghar aa chuke honge.'",
+        "options": [
+            "We will have reached home before the sun sets.",
+            "We reach home before the sun will set.",
+            "We will reach home before the sun sets.",
+            "We would have reached home before sun sets."
+        ],
+        "correct": 0,
+        "hint": "Before clause takes simple present in future perfect syntax.",
+        "rationale": "We + 'will have reached' + before sun sets (simple present): 'We will have reached home before the sun sets.'"
+    },
+    {
+        "id": 266,
+        "levelId": 11,
+        "levelName": "Level 11: Future Perfect Tense",
+        "question": "Translate: 'Kya unhone match shuru kar diya hoga?'",
+        "options": [
+            "Will they have started the match?",
+            "Will they start the match?",
+            "Have they started the match?",
+            "Would they have started the match?"
+        ],
+        "correct": 0,
+        "hint": "They query future perfect.",
+        "rationale": "Will + they + have + V3: 'Will they have started the match?'"
+    },
+    {
+        "id": 267,
+        "levelId": 11,
+        "levelName": "Level 11: Future Perfect Tense",
+        "question": "Translate: 'Maine ye khabar pehle hi sun li hogi.'",
+        "options": [
+            "I will have already heard this news.",
+            "I will hear this news already.",
+            "I would have already heard this news.",
+            "I has already heard this news."
+        ],
+        "correct": 0,
+        "hint": "I future completion.",
+        "rationale": "I + 'will have already heard': 'I will have already heard this news.'"
+    },
+    {
+        "id": 268,
+        "levelId": 11,
+        "levelName": "Level 11: Future Perfect Tense",
+        "question": "Translate: 'Kya wo kal tak ja chuka hoga?'",
+        "options": [
+            "Will he have left by tomorrow?",
+            "Will he leave by tomorrow?",
+            "Will he has left by tomorrow?",
+            "Did he leave by tomorrow?"
+        ],
+        "correct": 0,
+        "hint": "He query future perfect.",
+        "rationale": "Will + he + have + V3 left: 'Will he have left by tomorrow?'"
+    },
+    {
+        "id": 269,
+        "levelId": 11,
+        "levelName": "Level 11: Future Perfect Tense",
+        "question": "Translate: 'Hum kal tak kaam khatam kar chuke honge.'",
+        "options": [
+            "We will have finished the work by tomorrow.",
+            "We will finish the work by tomorrow.",
+            "We has finished the work by tomorrow.",
+            "We would have finished the work."
+        ],
+        "correct": 0,
+        "hint": "We completion by tomorrow.",
+        "rationale": "We + 'will have finished': 'We will have finished the work by tomorrow.'"
+    },
+    {
+        "id": 270,
+        "levelId": 11,
+        "levelName": "Level 11: Future Perfect Tense",
+        "question": "Translate: 'Kya tumne mujhe call kiya hoga?'",
+        "options": [
+            "Will you have called me?",
+            "Will you call me?",
+            "Did you call me?",
+            "Would you have called me?"
+        ],
+        "correct": 0,
+        "hint": "You query perfect.",
+        "rationale": "Will + you + have + V3: 'Will you have called me?'"
+    },
+    {
+        "id": 271,
+        "levelId": 11,
+        "levelName": "Level 11: Future Perfect Tense",
+        "question": "Translate: 'Maine pichle saal graduation poori kar li hogi.'",
+        "options": [
+            "I will have completed my graduation by next year.",
+            "I completed my graduation last year.",
+            "I have completed my graduation.",
+            "Both A & B"
+        ],
+        "correct": 3,
+        "hint": "Temporal indicator meanings.",
+        "rationale": "'Pichle saal... kar li hogi' can denote future perfect retrospect 'will have completed' or past simple retrospect depending on context. Both A & B are correct translations."
+    },
+    {
+        "id": 272,
+        "levelId": 11,
+        "levelName": "Level 11: Future Perfect Tense",
+        "question": "Translate: 'Train ja chuki hogi jab tum station pahunchoge.'",
+        "options": [
+            "The train will have left when you reach the station.",
+            "The train leaves when you will reach the station.",
+            "The train will leave when you reach the station.",
+            "Train will has left when you reach."
+        ],
+        "correct": 0,
+        "hint": "When clause takes simple present in future perfect.",
+        "rationale": "Train 'will have left' + when you reach (simple present): 'The train will have left when you reach the station.'"
+    },
+    {
+        "id": 273,
+        "levelId": 11,
+        "levelName": "Level 11: Future Perfect Tense",
+        "question": "Translate: 'Usne pehle hi ticket book kar li hogi.'",
+        "options": [
+            "He will have already booked the tickets.",
+            "He has already booked the tickets.",
+            "He already booked the tickets.",
+            "He would have already booked the tickets."
+        ],
+        "correct": 0,
+        "hint": "He already book future.",
+        "rationale": "He + 'will have already booked': 'He will have already booked the tickets.'"
+    },
+    {
+        "id": 274,
+        "levelId": 11,
+        "levelName": "Level 11: Future Perfect Tense",
+        "question": "Translate: 'Kya unhone match shuru kiya hoga?'",
+        "options": [
+            "Will they have started the match?",
+            "Have they started the match?",
+            "Did they start the match?",
+            "Would they have started the match?"
+        ],
+        "correct": 0,
+        "hint": "Plural query.",
+        "rationale": "Will + they + have + V3: 'Will they have started the match?'"
+    },
+    {
+        "id": 275,
+        "levelId": 11,
+        "levelName": "Level 11: Future Perfect Tense",
+        "question": "Translate: 'Maine use sach bata diya hoga.'",
+        "options": [
+            "I will have told him the truth.",
+            "I will tell him the truth.",
+            "I have told him the truth.",
+            "I would have told him the truth."
+        ],
+        "correct": 0,
+        "hint": "I tell perfect.",
+        "rationale": "I + 'will have told': 'I will have told him the truth.'"
+    },
+    {
+        "id": 276,
+        "levelId": 11,
+        "levelName": "Level 11: Future Perfect Tense",
+        "question": "Translate: 'Ghar pahunchne se pehle andhera ho chuka hoga.'",
+        "options": [
+            "It will have become dark before we reach home.",
+            "It becomes dark before we reach home.",
+            "It will become dark before we reach home.",
+            "It would have become dark before we reach."
+        ],
+        "correct": 0,
+        "hint": "Dark completion.",
+        "rationale": "It + 'will have become' + before reach (simple present): 'It will have been dark before we reach home.' / 'It will have become dark before we reach home.'"
+    },
+    {
+        "id": 277,
+        "levelId": 11,
+        "levelName": "Level 11: Future Perfect Tense",
+        "question": "Translate: 'Kya wo wahan pehle gayi hogi?'",
+        "options": [
+            "Will she have gone there before?",
+            "Has she gone there before?",
+            "Did she go there before?",
+            "Would she have gone there before?"
+        ],
+        "correct": 0,
+        "hint": "She query before.",
+        "rationale": "Will + she + have + V3 + before: 'Will she have gone there before?'"
+    },
+    {
+        "id": 278,
+        "levelId": 11,
+        "levelName": "Level 11: Future Perfect Tense",
+        "question": "Translate: 'Humne pehle hi faisla kar liya hoga.'",
+        "options": [
+            "We will have already decided.",
+            "We have already decided.",
+            "We already decided.",
+            "We would have already decided."
+        ],
+        "correct": 0,
+        "hint": "We decide perfect.",
+        "rationale": "We + 'will have already decided': 'We will have already decided.'"
+    },
+    {
+        "id": 279,
+        "levelId": 11,
+        "levelName": "Level 11: Future Perfect Tense",
+        "question": "Translate: 'Kya usne khana bana liya hoga?'",
+        "options": [
+            "Will she have cooked food?",
+            "Has she cooked food?",
+            "Did she cook food?",
+            "Would she have cooked food?"
+        ],
+        "correct": 0,
+        "hint": "She query cook.",
+        "rationale": "Will + she + have + V3: 'Will she have cooked food?'"
+    },
+    {
+        "id": 280,
+        "levelId": 11,
+        "levelName": "Level 11: Future Perfect Tense",
+        "question": "Translate: 'Suraj dhalne se pehle hum ghar pahunch chuke honge.'",
+        "options": [
+            "We will have reached home before the sun sets.",
+            "We reached home before the sun will set.",
+            "We will reach home before the sun sets.",
+            "We would have reached home before sun sets."
+        ],
+        "correct": 0,
+        "hint": "Sun sets simple present.",
+        "rationale": "We + 'will have reached' + before sun sets: 'We will have reached home before the sun sets.'"
+    },
+    {
+        "id": 281,
+        "levelId": 11,
+        "levelName": "Level 11: Future Perfect Tense",
+        "question": "Translate: 'Maine ye kitab padh li hogi.'",
+        "options": [
+            "I will have read this book.",
+            "I will read this book.",
+            "I have read this book.",
+            "I would have read this book."
+        ],
+        "correct": 0,
+        "hint": "Book read perfect.",
+        "rationale": "I + 'will have read': 'I will have read this book.'"
+    },
+    {
+        "id": 282,
+        "levelId": 11,
+        "levelName": "Level 11: Future Perfect Tense",
+        "question": "Translate: 'Kya tumne sach sun liya hoga?'",
+        "options": [
+            "Will you have heard the truth?",
+            "Have you heard the truth?",
+            "Did you hear the truth?",
+            "Would you have heard the truth?"
+        ],
+        "correct": 0,
+        "hint": "You query hear.",
+        "rationale": "Will + you + have + V3: 'Will you have heard the truth?'"
+    },
+    {
+        "id": 283,
+        "levelId": 11,
+        "levelName": "Level 11: Future Perfect Tense",
+        "question": "Translate: 'Wo ja chuki hogi.'",
+        "options": [
+            "She will have left.",
+            "She has left.",
+            "She was left.",
+            "She would have left."
+        ],
+        "correct": 0,
+        "hint": "She left perfect.",
+        "rationale": "She + 'will have left': 'She will have left.' / 'She will have gone.'"
+    },
+    {
+        "id": 284,
+        "levelId": 11,
+        "levelName": "Level 11: Future Perfect Tense",
+        "question": "Translate: 'Bachon ne apna kaam poora kar liya hoga.'",
+        "options": [
+            "The children will have finished their work.",
+            "Children finished their work.",
+            "Children will finish their work.",
+            "Children would have finished their work."
+        ],
+        "correct": 0,
+        "hint": "Children plural perfect.",
+        "rationale": "Children + 'will have finished': 'The children will have finished their work.'"
+    },
+    {
+        "id": 285,
+        "levelId": 11,
+        "levelName": "Level 11: Future Perfect Tense",
+        "question": "Translate: 'Kya tumne use pehle dekha hoga?'",
+        "options": [
+            "Will you have seen him before?",
+            "Have you seen him before?",
+            "Did you see him before?",
+            "Would you have seen him before?"
+        ],
+        "correct": 0,
+        "hint": "You query see before.",
+        "rationale": "Will + you + have + V3 + before: 'Will you have seen him before?'"
+    },
+    {
+        "id": 286,
+        "levelId": 12,
+        "levelName": "Level 12: Future Perfect Continuous",
+        "question": "Translate: '2028 tak mujhe yahan kaam karte hue das saal ho chuke honge.'",
+        "options": [
+            "By 2028, I will have been working here for ten years.",
+            "By 2028, I am working here for ten years.",
+            "By 2028, I will be working here for ten years.",
+            "By 2028, I has been working here since ten years."
+        ],
+        "correct": 0,
+        "hint": "Future perfect continuous syntax: will have been + V-ing + for duration.",
+        "rationale": "I + 'will have been working' + for ten years: 'By 2028, I will have been working here for ten years.'"
+    },
+    {
+        "id": 287,
+        "levelId": 12,
+        "levelName": "Level 12: Future Perfect Continuous",
+        "question": "Translate: 'Wo do ghante se khel raha hoga.'",
+        "options": [
+            "He will have been playing for two hours.",
+            "He is playing for two hours.",
+            "He will be playing for two hours.",
+            "He would have been playing for two hours."
+        ],
+        "correct": 0,
+        "hint": "He continuous duration future.",
+        "rationale": "He + 'will have been playing' + for two hours: 'He will have been playing for two hours.'"
+    },
+    {
+        "id": 288,
+        "levelId": 12,
+        "levelName": "Level 12: Future Perfect Continuous",
+        "question": "Translate: 'Subah se baarish ho rahi hogi.'",
+        "options": [
+            "It will have been raining since morning.",
+            "It is raining since morning.",
+            "It will be raining since morning.",
+            "It would have been raining since morning."
+        ],
+        "correct": 0,
+        "hint": "Point of time 'morning' uses 'since'.",
+        "rationale": "It + 'will have been raining' + since morning: 'It will have been raining since morning.'"
+    },
+    {
+        "id": 289,
+        "levelId": 12,
+        "levelName": "Level 12: Future Perfect Continuous",
+        "question": "Translate: 'Kya tum do din se yatra kar rahe hoge?'",
+        "options": [
+            "Will you have been travelling for two days?",
+            "Will you be travelling for two days?",
+            "Are you travelling for two days?",
+            "Would you have been travelling since two days?"
+        ],
+        "correct": 0,
+        "hint": "You query duration.",
+        "rationale": "Will + you + have been + travelling + for two days: 'Will you have been travelling for two days?'"
+    },
+    {
+        "id": 290,
+        "levelId": 12,
+        "levelName": "Level 12: Future Perfect Continuous",
+        "question": "Translate: 'Hum subah se match dekh rahe honge.'",
+        "options": [
+            "We will have been watching the match since morning.",
+            "We will be watching the match since morning.",
+            "We are watching the match since morning.",
+            "We would have been watching since morning."
+        ],
+        "correct": 0,
+        "hint": "We point of time.",
+        "rationale": "We + 'will have been watching' + since morning: 'We will have been watching the match since morning.'"
+    },
+    {
+        "id": 291,
+        "levelId": 12,
+        "levelName": "Level 12: Future Perfect Continuous",
+        "question": "Translate: 'Bache do ghante se ro rahe honge.'",
+        "options": [
+            "The children will have been crying for two hours.",
+            "The children will be crying for two hours.",
+            "The children are crying for two hours.",
+            "Children would have been crying since two hours."
+        ],
+        "correct": 0,
+        "hint": "Children plural duration.",
+        "rationale": "Children + 'will have been crying' + for two hours: 'The children will have been crying for two hours.'"
+    },
+    {
+        "id": 292,
+        "levelId": 12,
+        "levelName": "Level 12: Future Perfect Continuous",
+        "question": "Translate: 'Wo bachpan se wahan reh rahi hogi.'",
+        "options": [
+            "She will have been living there since childhood.",
+            "She will be living there since childhood.",
+            "She is living there since childhood.",
+            "She would have been living since childhood."
+        ],
+        "correct": 0,
+        "hint": "She childhood check.",
+        "rationale": "She + 'will have been living' + since childhood: 'She will have been living there since childhood.'"
+    },
+    {
+        "id": 293,
+        "levelId": 12,
+        "levelName": "Level 12: Future Perfect Continuous",
+        "question": "Translate: 'Kya wo subah se gaana ga raha hoga?'",
+        "options": [
+            "Will he have been singing since morning?",
+            "Will he be singing since morning?",
+            "Is he singing since morning?",
+            "Would he have been singing since morning?"
+        ],
+        "correct": 0,
+        "hint": "He query point of time.",
+        "rationale": "Will + he + have been + singing + since morning: 'Will he have been singing since morning?'"
+    },
+    {
+        "id": 294,
+        "levelId": 12,
+        "levelName": "Level 12: Future Perfect Continuous",
+        "question": "Translate: 'Main ghante bhar se gaadi chala raha hunga.'",
+        "options": [
+            "I will have been driving for an hour.",
+            "I will be driving for an hour.",
+            "I am driving for an hour.",
+            "I would have been driving since an hour."
+        ],
+        "correct": 0,
+        "hint": "I duration hour.",
+        "rationale": "I + 'will have been driving' + for an hour: 'I will have been driving for an hour.'"
+    },
+    {
+        "id": 295,
+        "levelId": 12,
+        "levelName": "Level 12: Future Perfect Continuous",
+        "question": "Translate: 'Papa do din se yatra kar rahe honge.'",
+        "options": [
+            "Father will have been travelling for two days.",
+            "Father will be travelling for two days.",
+            "Father is travelling for two days.",
+            "Father would have been travelling since two days."
+        ],
+        "correct": 0,
+        "hint": "Father singular duration.",
+        "rationale": "Father + 'will have been travelling' + for two days: 'My father will have been travelling for two days.'"
+    },
+    {
+        "id": 296,
+        "levelId": 12,
+        "levelName": "Level 12: Future Perfect Continuous",
+        "question": "Translate: 'Kya tum kal se bimar chal rahe hoge?'",
+        "options": [
+            "Will you have been ill since yesterday?",
+            "Will you be ill since yesterday?",
+            "Are you ill since yesterday?",
+            "Both A & B"
+        ],
+        "correct": 3,
+        "hint": "Ill state duration future.",
+        "rationale": "Both 'Will you have been ill since yesterday?' and 'Will you be ill since yesterday?' work in daily translation context. Both are correct."
+    },
+    {
+        "id": 297,
+        "levelId": 12,
+        "levelName": "Level 12: Future Perfect Continuous",
+        "question": "Translate: 'Wo do din se soya nahi hoga.'",
+        "options": [
+            "He will not have been sleeping for two days.",
+            "He is not sleeping for two days.",
+            "He will not have slept for two days.",
+            "Both A & C"
+        ],
+        "correct": 3,
+        "hint": "Negative duration future.",
+        "rationale": "Both 'will not have been sleeping' and 'will not have slept' are valid negative perfect translations. Both are correct."
+    },
+    {
+        "id": 298,
+        "levelId": 12,
+        "levelName": "Level 12: Future Perfect Continuous",
+        "question": "Translate: 'Mera dost do saal se gaana seekh raha hoga.'",
+        "options": [
+            "My friend will have been learning singing for two years.",
+            "My friend will be learning singing for two years.",
+            "My friend is learning singing for two years.",
+            "My friend would have been learning since two years."
+        ],
+        "correct": 0,
+        "hint": "Friend duration.",
+        "rationale": "Friend + 'will have been learning' + for two years: 'My friend will have been learning singing for two years.'"
+    },
+    {
+        "id": 299,
+        "levelId": 12,
+        "levelName": "Level 12: Future Perfect Continuous",
+        "question": "Translate: 'Kya wo do mahine se driving seekh rahi hogi?'",
+        "options": [
+            "Will she have been learning driving for two months?",
+            "Will she be learning driving for two months?",
+            "Is she learning driving for two months?",
+            "Would she have been learning since two months?"
+        ],
+        "correct": 0,
+        "hint": "She query duration.",
+        "rationale": "Will + she + have been + learning + for two months: 'Will she have been learning driving for two months?'"
+    },
+    {
+        "id": 300,
+        "levelId": 12,
+        "levelName": "Level 12: Future Perfect Continuous",
+        "question": "Translate: 'Baraf raat se gir rahi hogi.'",
+        "options": [
+            "It will have been snowing since night.",
+            "It will be snowing since night.",
+            "It is snowing since night.",
+            "It would have been snowing since night."
+        ],
+        "correct": 0,
+        "hint": "Snow duration.",
+        "rationale": "It + 'will have been snowing' + since night: 'It will have been snowing since night.'"
+    },
+    {
+        "id": 301,
+        "levelId": 12,
+        "levelName": "Level 12: Future Perfect Continuous",
+        "question": "Translate: 'Hum das minute se chai bana rahe honge.'",
+        "options": [
+            "We will have been making tea for ten minutes.",
+            "We will be making tea for ten minutes.",
+            "We are making tea for ten minutes.",
+            "We would have been making tea since ten minutes."
+        ],
+        "correct": 0,
+        "hint": "We duration.",
+        "rationale": "We + 'will have been making' + for ten minutes: 'We will have been making tea for ten minutes.'"
+    },
+    {
+        "id": 302,
+        "levelId": 12,
+        "levelName": "Level 12: Future Perfect Continuous",
+        "question": "Translate: 'Kya tum ghante bhar se intezar kar rahe hoge?'",
+        "options": [
+            "Will you have been waiting for an hour?",
+            "Will you be waiting for an hour?",
+            "Are you waiting for an hour?",
+            "Would you have been waiting since an hour?"
+        ],
+        "correct": 0,
+        "hint": "You query duration hour.",
+        "rationale": "Will + you + have been + waiting + for an hour: 'Will you have been waiting for an hour?'"
+    },
+    {
+        "id": 303,
+        "levelId": 12,
+        "levelName": "Level 12: Future Perfect Continuous",
+        "question": "Translate: 'Kutte subah se bhonk rahe honge.'",
+        "options": [
+            "The dogs will have been barking since morning.",
+            "The dogs will be barking since morning.",
+            "The dogs are barking since morning.",
+            "Dogs would have been barking since morning."
+        ],
+        "correct": 0,
+        "hint": "Dogs plural point of time.",
+        "rationale": "Dogs + 'will have been barking' + since morning: 'The dogs will have been barking since morning.'"
+    },
+    {
+        "id": 304,
+        "levelId": 12,
+        "levelName": "Level 12: Future Perfect Continuous",
+        "question": "Translate: 'Wo do din se mujhse baat nahi kar raha hoga.'",
+        "options": [
+            "He will not have been talking to me for two days.",
+            "He is not talking to me for two days.",
+            "He will not have talked to me for two days.",
+            "Both A & C"
+        ],
+        "correct": 3,
+        "hint": "He negative talk duration.",
+        "rationale": "Both continuous 'will not have been talking' and perfect 'will not have talked' are valid translations. Both A & C are correct."
+    },
+    {
+        "id": 305,
+        "levelId": 12,
+        "levelName": "Level 12: Future Perfect Continuous",
+        "question": "Translate: 'Kya wo do ghante se ro rahi hogi?'",
+        "options": [
+            "Will she have been crying for two hours?",
+            "Will she be crying for two hours?",
+            "Is she crying for two hours?",
+            "Would she have been crying since two hours?"
+        ],
+        "correct": 0,
+        "hint": "She query duration.",
+        "rationale": "Will + she + have been + crying + for two hours: 'Will she have been crying for two hours?'"
+    },
+    {
+        "id": 306,
+        "levelId": 12,
+        "levelName": "Level 12: Future Perfect Continuous",
+        "question": "Translate: 'Main bachpan se coding kar raha hunga.'",
+        "options": [
+            "I will have been coding since childhood.",
+            "I will be coding since childhood.",
+            "I am coding since childhood.",
+            "I would have been coding since childhood."
+        ],
+        "correct": 0,
+        "hint": "Childhood point of time future duration.",
+        "rationale": "I + 'will have been coding' + since childhood: 'I will have been coding since childhood.'"
+    },
+    {
+        "id": 307,
+        "levelId": 12,
+        "levelName": "Level 12: Future Perfect Continuous",
+        "question": "Translate: 'Mera bhai do ghante se gaana sun raha hoga.'",
+        "options": [
+            "My brother will have been listening to music for two hours.",
+            "My brother will be listening to music for two hours.",
+            "My brother is listening to music for two hours.",
+            "My brother would have been listening for two hours."
+        ],
+        "correct": 0,
+        "hint": "Brother singular duration.",
+        "rationale": "Brother + 'will have been listening' + for two hours: 'My brother will have been listening to music for two hours.'"
+    },
+    {
+        "id": 308,
+        "levelId": 12,
+        "levelName": "Level 12: Future Perfect Continuous",
+        "question": "Translate: 'Kya tum subah se computer chala rahe hoge?'",
+        "options": [
+            "Will you have been using the computer since morning?",
+            "Will you be using the computer since morning?",
+            "Are you using the computer since morning?",
+            "Would you have been using since morning?"
+        ],
+        "correct": 0,
+        "hint": "You query point of time.",
+        "rationale": "Will + you + have been + using + since morning: 'Will you have been using the computer since morning?'"
+    },
+    {
+        "id": 309,
+        "levelId": 12,
+        "levelName": "Level 12: Future Perfect Continuous",
+        "question": "Translate: 'Wo do saal se yahan kaam kar rahe honge.'",
+        "options": [
+            "They will have been working here for two years.",
+            "They will be working here for two years.",
+            "They are working here for two years.",
+            "They would have been working here since two years."
+        ],
+        "correct": 0,
+        "hint": "They plural duration.",
+        "rationale": "They + 'will have been working' + for two years: 'They will have been working here for two years.'"
+    },
+    {
+        "id": 310,
+        "levelId": 12,
+        "levelName": "Level 12: Future Perfect Continuous",
+        "question": "Translate: 'Kya suraj subah se chamak raha hoga?'",
+        "options": [
+            "Will the sun have been shining since morning?",
+            "Will the sun be shining since morning?",
+            "Is the sun shining since morning?",
+            "Would the sun have been shining since morning?"
+        ],
+        "correct": 0,
+        "hint": "Sun query point of time.",
+        "rationale": "Sun helper 'Will' + have been + shining + since morning: 'Will the sun have been shining since morning?'"
+    },
+    {
+        "id": 311,
+        "levelId": 12,
+        "levelName": "Level 12: Future Perfect Continuous",
+        "question": "Translate: 'Hum 2025 se yahan reh rahe honge.'",
+        "options": [
+            "We will have been living here since 2025.",
+            "We will be living here since 2025.",
+            "We are living here since 2025.",
+            "We would have been living here since 2025."
+        ],
+        "correct": 0,
+        "hint": "We point of time.",
+        "rationale": "We + 'will have been living' + since 2025: 'We will have been living here since 2025.'"
+    },
+    {
+        "id": 312,
+        "levelId": 12,
+        "levelName": "Level 12: Future Perfect Continuous",
+        "question": "Translate: 'Kya wo do ghante se padh rahi hogi?'",
+        "options": [
+            "Will she have been studying for two hours?",
+            "Will she be studying for two hours?",
+            "Is she studying for two hours?",
+            "Would she have been studying since two hours?"
+        ],
+        "correct": 0,
+        "hint": "She query duration.",
+        "rationale": "Will + she + have been + studying + for two hours: 'Will she have been studying for two hours?'"
+    },
+    {
+        "id": 313,
+        "levelId": 12,
+        "levelName": "Level 12: Future Perfect Continuous",
+        "question": "Translate: 'Wo subah se gaadi saaf kar raha hoga.'",
+        "options": [
+            "He will have been cleaning the car since morning.",
+            "He will be cleaning the car since morning.",
+            "He is cleaning the car since morning.",
+            "He would have been cleaning since morning."
+        ],
+        "correct": 0,
+        "hint": "Car clean point of time.",
+        "rationale": "He + 'will have been cleaning' + since morning: 'He will have been cleaning the car since morning.'"
+    },
+    {
+        "id": 314,
+        "levelId": 12,
+        "levelName": "Level 12: Future Perfect Continuous",
+        "question": "Translate: 'Kya tum do ghante se mera intezar kar rahe hoge?'",
+        "options": [
+            "Will you have been waiting for me for two hours?",
+            "Will you be waiting for me for two hours?",
+            "Are you waiting for me for two hours?",
+            "Would you have been waiting since two hours?"
+        ],
+        "correct": 0,
+        "hint": "You query duration for me.",
+        "rationale": "Will + you + have been + waiting + for me + for two hours: 'Will you have been waiting for me for two hours?'"
+    },
+    {
+        "id": 315,
+        "levelId": 12,
+        "levelName": "Level 12: Future Perfect Continuous",
+        "question": "Translate: 'Mera dost do din se safar kar raha hoga.'",
+        "options": [
+            "My friend will have been travelling for two days.",
+            "My friend will be travelling for two days.",
+            "My friend is travelling for two days.",
+            "My friend would have been travelling since two days."
+        ],
+        "correct": 0,
+        "hint": "Friend duration.",
+        "rationale": "Friend + 'will have been travelling' + for two days: 'My friend will have been travelling for two days.'"
+    },
+    {
+        "id": 316,
+        "levelId": 12,
+        "levelName": "Level 12: Future Perfect Continuous",
+        "question": "Translate: 'Kya bache ghante bhar se khel rahe honge?'",
+        "options": [
+            "Will the children have been playing for an hour?",
+            "Will the children be playing for an hour?",
+            "Are the children playing for an hour?",
+            "Would the children have been playing since an hour?"
+        ],
+        "correct": 0,
+        "hint": "Children query duration.",
+        "rationale": "Will + children + have been + playing + for an hour: 'Will the children have been playing for an hour?'"
+    },
+    {
+        "id": 317,
+        "levelId": 12,
+        "levelName": "Level 12: Future Perfect Continuous",
+        "question": "Translate: 'Mummy do ghante se khana bana rahi hogi.'",
+        "options": [
+            "Mother will have been cooking food for two hours.",
+            "Mother will be cooking food for two hours.",
+            "Mother is cooking food for two hours.",
+            "Mother would have been cooking since two hours."
+        ],
+        "correct": 0,
+        "hint": "Mother duration.",
+        "rationale": "Mother + 'will have been cooking' + for two hours: 'Mother will have been cooking food for two hours.'"
+    },
+    {
+        "id": 318,
+        "levelId": 12,
+        "levelName": "Level 12: Future Perfect Continuous",
+        "question": "Translate: 'Kya wo kal se padh raha hoga?'",
+        "options": [
+            "Will he have been studying since yesterday?",
+            "Will he be studying since yesterday?",
+            "Is he studying since yesterday?",
+            "Would he have been studying since yesterday?"
+        ],
+        "correct": 0,
+        "hint": "He query point of time yesterday.",
+        "rationale": "Will + he + have been + studying + since yesterday: 'Will he have been studying since yesterday?'"
+    },
+    {
+        "id": 319,
+        "levelId": 12,
+        "levelName": "Level 12: Future Perfect Continuous",
+        "question": "Translate: 'Main do mahine se driving seekh raha hunga.'",
+        "options": [
+            "I will have been learning driving for two months.",
+            "I will be learning driving for two months.",
+            "I am learning driving for two months.",
+            "I would have been learning since two months."
+        ],
+        "correct": 0,
+        "hint": "I duration two months.",
+        "rationale": "I + 'will have been learning' + for two months: 'I will have been learning driving for two months.'"
+    },
+    {
+        "id": 320,
+        "levelId": 12,
+        "levelName": "Level 12: Future Perfect Continuous",
+        "question": "Translate: 'Kya wo do saal se yahan reh rahe honge?'",
+        "options": [
+            "Will they have been living here for two years?",
+            "Will they be living here for two years?",
+            "Are they living here for two years?",
+            "Would they have been living since two years?"
+        ],
+        "correct": 0,
+        "hint": "They query duration two years.",
+        "rationale": "Will + they + have been + living + for two years: 'Will they have been living here for two years?'"
+    }
+]
