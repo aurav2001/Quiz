@@ -307,13 +307,14 @@ function App() {
                         setFetchError(null);
                         setCurrentLevel(levelObj);
                         
-                        fetch(`/api/questions?level=${levelId}`)
+                        fetch(`/questions.json`)
                             .then(res => {
                                 if (!res.ok) throw new Error(`HTTP ${res.status}`);
                                 return res.json();
                             })
                             .then(data => {
-                                setQuestions(data);
+                                const filtered = data.filter(q => q.levelId === levelId);
+                                setQuestions(filtered);
                                 setCurrentQ(0);
                                 setScore(0);
                                 setSelected(null);
@@ -328,7 +329,7 @@ function App() {
                             })
                             .catch(err => {
                                 console.error("Router Fetch Error:", err);
-                                setFetchError("Sawal download nahi ho sake. Check karein ki server chal raha hai.");
+                                setFetchError("Sawal download nahi ho sake. Check karein ki internet connection thik hai.");
                                 setLoading(false);
                             });
                     } else {

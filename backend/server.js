@@ -19,40 +19,6 @@ const MIME_TYPES = {
 const server = http.createServer((req, res) => {
     let urlPath = req.url.split('?')[0]; // Strip query parameters
 
-    // 1. Backend API Router (questions.json is in the same directory as server.js)
-    if (urlPath === '/api/questions') {
-        const questionsPath = path.join(__dirname, 'questions.json');
-        fs.readFile(questionsPath, (err, content) => {
-            if (err) {
-                res.writeHead(500, { 'Content-Type': 'application/json' });
-                res.end(JSON.stringify({ error: 'Failed to read questions from backend database' }));
-            } else {
-                // Parse query parameters for level selection
-                const queryStr = req.url.split('?')[1] || '';
-                const params = new URLSearchParams(queryStr);
-                const levelParam = params.get('level');
-
-                if (levelParam) {
-                    try {
-                        const allQuestions = JSON.parse(content);
-                        const levelId = parseInt(levelParam, 10);
-                        const filteredQuestions = allQuestions.filter(q => q.levelId === levelId);
-                        
-                        res.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8' });
-                        res.end(JSON.stringify(filteredQuestions));
-                    } catch (e) {
-                        res.writeHead(500, { 'Content-Type': 'application/json' });
-                        res.end(JSON.stringify({ error: 'Failed to parse questions database' }));
-                    }
-                } else {
-                    res.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8' });
-                    res.end(content);
-                }
-            }
-        });
-        return;
-    }
-
     // 1.5 Favicon Fallback Router
     if (urlPath === '/favicon.ico') {
         res.writeHead(204);
