@@ -595,46 +595,65 @@ function App() {
     });
 
     return (
-        <div className="w-full max-w-3xl px-4 py-8 mx-auto relative z-10">
+        <div className="w-full max-w-3xl px-3 sm:px-4 py-6 sm:py-8 mx-auto relative z-10">
             
             {/* Header with Theme, Sound Toggle, and Main Navigation Toggles */}
-            <header className="flex flex-col sm:flex-row sm:justify-between sm:items-center space-y-4 sm:space-y-0 mb-6 border-b border-white/5 pb-4">
-                <div className="flex items-center space-x-2 cursor-pointer" onClick={backToMenu}>
-                    <div className="w-10 h-10 bg-indigo-600 rounded-xl flex items-center justify-center shadow-neon-indigo hover:scale-105 transition-transform duration-200">
-                        <i className="fas fa-feather-alt text-white text-lg"></i>
+            <header className="flex flex-col space-y-3 sm:space-y-0 sm:flex-row sm:justify-between sm:items-center mb-5 sm:mb-6 border-b border-white/5 pb-3 sm:pb-4">
+                <div className="flex items-center justify-between">
+                    <div className="flex items-center space-x-2 cursor-pointer" onClick={backToMenu}>
+                        <div className="w-9 h-9 sm:w-10 sm:h-10 bg-indigo-600 rounded-xl flex items-center justify-center shadow-neon-indigo hover:scale-105 transition-transform duration-200">
+                            <i className="fas fa-feather-alt text-white text-base sm:text-lg"></i>
+                        </div>
+                        <span className="text-lg sm:text-xl font-bold tracking-tight">GrammarMaster</span>
                     </div>
-                    <span className="text-xl font-bold tracking-tight">GrammarMaster</span>
+                    {/* Sound & Theme - visible on mobile next to logo */}
+                    <div className="flex items-center space-x-1.5 sm:hidden">
+                        <button 
+                            onClick={() => { if (window.audio) window.audio.playClick(); setSoundOn(!soundOn); }}
+                            className="w-8 h-8 rounded-lg flex items-center justify-center transition-all glass-card hover:bg-opacity-80"
+                            aria-label="Toggle Sound"
+                        >
+                            <i className={`fas ${soundOn ? 'fa-volume-up text-indigo-500' : 'fa-volume-mute text-gray-400'} text-xs`}></i>
+                        </button>
+                        <button 
+                            onClick={() => { if (window.audio) window.audio.playClick(); setDarkMode(!darkMode); }}
+                            className="w-8 h-8 rounded-lg flex items-center justify-center transition-all glass-card hover:bg-opacity-80"
+                            aria-label="Toggle Dark Mode"
+                        >
+                            <i className={`fas ${darkMode ? 'fa-sun text-yellow-400' : 'fa-moon text-indigo-700'} text-xs`}></i>
+                        </button>
+                    </div>
                 </div>
 
-                <div className="flex items-center justify-between sm:justify-end space-x-4 w-full sm:w-auto">
+                <div className="flex items-center justify-between sm:justify-end space-x-3 sm:space-x-4 w-full sm:w-auto">
                     {/* Main Nav Toggle (Quiz vs Guide) - Pill Capsules */}
-                    <div className="flex bg-slate-900/50 dark:bg-slate-950/40 p-1 rounded-full border border-white/5 shadow-inner">
+                    <div className="flex flex-1 sm:flex-none bg-slate-900/50 dark:bg-slate-950/40 p-1 rounded-full border border-white/5 shadow-inner">
                         <button
                             onClick={() => { if (window.audio) window.audio.playClick(); window.location.hash = '#levels'; }}
-                            className={`px-4 py-2 rounded-full font-extrabold text-xs sm:text-sm transition-all flex items-center space-x-1 ${
+                            className={`flex-1 sm:flex-none px-3 sm:px-4 py-1.5 sm:py-2 rounded-full font-extrabold text-[11px] sm:text-sm transition-all flex items-center justify-center space-x-1 ${
                                 viewMode === 'quiz' 
                                 ? 'bg-gradient-to-r from-indigo-500 to-indigo-600 text-white shadow-lg shadow-indigo-500/25' 
                                 : 'text-gray-500 hover:text-gray-300'
                             }`}
                         >
-                            <i className="fas fa-gamepad text-xs"></i>
+                            <i className="fas fa-gamepad text-[10px] sm:text-xs"></i>
                             <span>Quiz Arena</span>
                         </button>
                         <button
                             onClick={() => { if (window.audio) window.audio.playClick(); window.location.hash = '#guide'; }}
-                            className={`px-4 py-2 rounded-full font-extrabold text-xs sm:text-sm transition-all flex items-center space-x-1 ${
+                            className={`flex-1 sm:flex-none px-3 sm:px-4 py-1.5 sm:py-2 rounded-full font-extrabold text-[11px] sm:text-sm transition-all flex items-center justify-center space-x-1 ${
                                 viewMode === 'guide' 
                                 ? 'bg-gradient-to-r from-indigo-500 to-indigo-600 text-white shadow-lg shadow-indigo-500/25' 
                                 : 'text-gray-500 hover:text-gray-300'
                             }`}
                         >
-                            <i className="fas fa-book-open text-xs"></i>
+                            <i className="fas fa-book-open text-[10px] sm:text-xs"></i>
                             <span>Tense Guide</span>
                         </button>
                     </div>
 
-                    <div className="flex items-center space-x-2">
-                        {/* Sound Button */}
+                    {/* Sound & Theme - hidden on mobile, shown on sm+ */}
+                    <div className="hidden sm:flex items-center space-x-2">
                         <button 
                             onClick={() => { if (window.audio) window.audio.playClick(); setSoundOn(!soundOn); }}
                             className="w-9 h-9 rounded-xl flex items-center justify-center transition-all glass-card hover:bg-opacity-80"
@@ -642,7 +661,6 @@ function App() {
                         >
                             <i className={`fas ${soundOn ? 'fa-volume-up text-indigo-500' : 'fa-volume-mute text-gray-400'} text-sm`}></i>
                         </button>
-                        {/* Theme Button */}
                         <button 
                             onClick={() => { if (window.audio) window.audio.playClick(); setDarkMode(!darkMode); }}
                             className="w-9 h-9 rounded-xl flex items-center justify-center transition-all glass-card hover:bg-opacity-80"
@@ -655,7 +673,7 @@ function App() {
             </header>
 
             {/* MAIN GAME INTERFACE CONTAINER */}
-            <main className="glass-card rounded-3xl p-6 sm:p-8 shadow-2xl relative overflow-hidden transition-all duration-300">
+            <main className="glass-card rounded-2xl sm:rounded-3xl p-4 sm:p-8 shadow-2xl relative overflow-hidden transition-all duration-300">
                 
                 {/* Start View: Level Selector or Tense Guide depending on viewMode */}
                 {step === 'start' && (
@@ -691,13 +709,13 @@ function App() {
                                 </div>
 
                                 {/* Category Tab Selector - Capsule Pill styling */}
-                                <div className="flex justify-center mb-6">
+                                <div className="flex justify-center mb-4 sm:mb-6 overflow-x-auto no-scrollbar">
                                     <div className="inline-flex bg-slate-900/50 dark:bg-slate-950/40 p-1.5 rounded-full border border-white/5 shadow-inner">
                                         {['present', 'past', 'future'].map((tab) => (
                                             <button 
                                                 key={tab}
                                                 onClick={() => { if (window.audio) window.audio.playClick(); setActiveTab(tab); }}
-                                                className={`px-5 py-2 font-extrabold text-xs sm:text-sm transition-all rounded-full capitalize ${
+                                                className={`px-3 sm:px-5 py-1.5 sm:py-2 font-extrabold text-[11px] sm:text-sm transition-all rounded-full capitalize whitespace-nowrap ${
                                                     activeTab === tab 
                                                     ? 'bg-gradient-to-r from-indigo-500 to-indigo-600 text-white shadow-lg shadow-indigo-500/20' 
                                                     : 'text-gray-400 hover:text-gray-200'
@@ -854,21 +872,21 @@ function App() {
                 {step === 'quiz' && questions.length > 0 && (
                     <div className="space-y-6 slide-up">
                         {/* Top Progress and Status */}
-                        <div className="flex justify-between items-center text-sm font-semibold">
-                            <div className="flex items-center space-x-2">
-                                <button onClick={backToMenu} className="text-xs text-gray-400 hover:text-indigo-500 mr-2 flex items-center">
-                                    <i className="fas fa-arrow-left mr-1"></i> Back
+                        <div className="flex flex-wrap justify-between items-center gap-2 text-sm font-semibold">
+                            <div className="flex items-center space-x-1 sm:space-x-2 min-w-0">
+                                <button onClick={backToMenu} className="text-[10px] sm:text-xs text-gray-400 hover:text-indigo-500 mr-1 sm:mr-2 flex items-center flex-shrink-0">
+                                    <i className="fas fa-arrow-left mr-0.5 sm:mr-1"></i> Back
                                 </button>
-                                <span className="text-xs sm:text-sm text-indigo-500 dark:text-indigo-400">{currentLevel ? currentLevel.name : ''} - Q{currentQ + 1}/{questions.length}</span>
+                                <span className="text-[10px] sm:text-sm text-indigo-500 dark:text-indigo-400 truncate">Q{currentQ + 1}/{questions.length}</span>
                             </div>
-                            <div className="flex items-center space-x-3">
+                            <div className="flex items-center space-x-2 sm:space-x-3 flex-shrink-0">
                                 {timerEnabled && !showFeedback && (
-                                    <div className="flex items-center space-x-1 bg-red-500/10 text-red-500 px-3 py-1 rounded-full text-xs">
+                                    <div className="flex items-center space-x-1 bg-red-500/10 text-red-500 px-2 sm:px-3 py-1 rounded-full text-[10px] sm:text-xs">
                                         <i className="fas fa-clock animate-pulse"></i>
                                         <span>{timeLeft}s</span>
                                     </div>
                                 )}
-                                <div className="bg-indigo-500/10 text-indigo-500 dark:text-indigo-300 px-3 py-1 rounded-full text-xs">
+                                <div className="bg-indigo-500/10 text-indigo-500 dark:text-indigo-300 px-2 sm:px-3 py-1 rounded-full text-[10px] sm:text-xs">
                                     Score: {score}
                                 </div>
                             </div>
