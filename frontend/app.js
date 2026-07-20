@@ -598,7 +598,7 @@ function App() {
         <div className="w-full max-w-3xl px-3 sm:px-4 py-6 sm:py-8 mx-auto relative z-10">
             
             {/* Header with Theme, Sound Toggle, and Main Navigation Toggles */}
-            <header className="flex flex-col space-y-3 sm:space-y-0 sm:flex-row sm:justify-between sm:items-center mb-5 sm:mb-6 border-b border-white/5 pb-3 sm:pb-4">
+            <header className="flex flex-col space-y-3 sm:space-y-0 sm:flex-row sm:justify-between sm:items-center mb-5 sm:mb-6 border-b border-gray-200 dark:border-white/5 pb-3 sm:pb-4">
                 <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-2 cursor-pointer" onClick={backToMenu}>
                         <div className="w-9 h-9 sm:w-10 sm:h-10 bg-indigo-600 rounded-xl flex items-center justify-center shadow-neon-indigo hover:scale-105 transition-transform duration-200">
@@ -627,13 +627,13 @@ function App() {
 
                 <div className="flex items-center justify-between sm:justify-end space-x-3 sm:space-x-4 w-full sm:w-auto">
                     {/* Main Nav Toggle (Quiz vs Guide) - Pill Capsules */}
-                    <div className="flex flex-1 sm:flex-none bg-slate-900/50 dark:bg-slate-950/40 p-1 rounded-full border border-white/5 shadow-inner">
+                    <div className="flex flex-1 sm:flex-none bg-gray-100 dark:bg-slate-900/50 p-1 rounded-full border border-gray-200 dark:border-white/5 shadow-inner">
                         <button
                             onClick={() => { if (window.audio) window.audio.playClick(); window.location.hash = '#levels'; }}
                             className={`flex-1 sm:flex-none px-3 sm:px-4 py-1.5 sm:py-2 rounded-full font-extrabold text-[11px] sm:text-sm transition-all flex items-center justify-center space-x-1 ${
                                 viewMode === 'quiz' 
                                 ? 'bg-gradient-to-r from-indigo-500 to-indigo-600 text-white shadow-lg shadow-indigo-500/25' 
-                                : 'text-gray-500 hover:text-gray-300'
+                                : 'text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300'
                             }`}
                         >
                             <i className="fas fa-gamepad text-[10px] sm:text-xs"></i>
@@ -644,7 +644,7 @@ function App() {
                             className={`flex-1 sm:flex-none px-3 sm:px-4 py-1.5 sm:py-2 rounded-full font-extrabold text-[11px] sm:text-sm transition-all flex items-center justify-center space-x-1 ${
                                 viewMode === 'guide' 
                                 ? 'bg-gradient-to-r from-indigo-500 to-indigo-600 text-white shadow-lg shadow-indigo-500/25' 
-                                : 'text-gray-500 hover:text-gray-300'
+                                : 'text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300'
                             }`}
                         >
                             <i className="fas fa-book-open text-[10px] sm:text-xs"></i>
@@ -695,7 +695,7 @@ function App() {
                                 </div>
 
                                 {/* Configurations Toggle (Clean/Minimal) */}
-                                <div className="p-3.5 rounded-2xl bg-indigo-50/5 dark:bg-slate-800/30 border border-indigo-500/10 text-left max-w-xl mx-auto flex justify-between items-center">
+                                <div className="p-3.5 rounded-2xl bg-indigo-50 dark:bg-slate-800/30 border border-indigo-200 dark:border-indigo-500/10 text-left max-w-xl mx-auto flex justify-between items-center">
                                     <div className="flex items-center space-x-2">
                                         <i className="fas fa-stopwatch text-indigo-500 w-5"></i>
                                         <span className="text-xs sm:text-sm font-medium">15-Second Per-Question Timer</span>
@@ -710,7 +710,7 @@ function App() {
 
                                 {/* Category Tab Selector - Capsule Pill styling */}
                                 <div className="flex justify-center mb-4 sm:mb-6 overflow-x-auto no-scrollbar">
-                                    <div className="inline-flex bg-slate-900/50 dark:bg-slate-950/40 p-1.5 rounded-full border border-white/5 shadow-inner">
+                                    <div className="inline-flex bg-gray-100 dark:bg-slate-900/50 p-1.5 rounded-full border border-gray-200 dark:border-white/5 shadow-inner">
                                         {['present', 'past', 'future'].map((tab) => (
                                             <button 
                                                 key={tab}
@@ -718,7 +718,7 @@ function App() {
                                                 className={`px-3 sm:px-5 py-1.5 sm:py-2 font-extrabold text-[11px] sm:text-sm transition-all rounded-full capitalize whitespace-nowrap ${
                                                     activeTab === tab 
                                                     ? 'bg-gradient-to-r from-indigo-500 to-indigo-600 text-white shadow-lg shadow-indigo-500/20' 
-                                                    : 'text-gray-400 hover:text-gray-200'
+                                                    : 'text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200'
                                                 }`}
                                             >
                                                 {tab} Tenses
@@ -733,7 +733,7 @@ function App() {
                                         <button
                                             key={level.id}
                                             onClick={() => selectLevel(level)}
-                                            className="option-button p-4 sm:p-5 rounded-2xl border border-gray-200 dark:border-slate-800/80 bg-white/5 text-left flex flex-col justify-between space-y-3 hover:border-indigo-500/20 group"
+                                            className="option-button p-4 sm:p-5 rounded-2xl border border-gray-200 dark:border-slate-800/80 bg-white dark:bg-white/5 text-left flex flex-col justify-between space-y-3 hover:border-indigo-500/40 dark:hover:border-indigo-500/20 group"
                                         >
                                             {/* Glossy Refraction gradient highlight */}
                                             <div className="absolute inset-0 bg-gradient-to-b from-white/[0.04] to-transparent pointer-events-none rounded-2xl"></div>
@@ -750,8 +750,8 @@ function App() {
                                                     <h3 className="font-extrabold text-sm sm:text-base text-ellipsis overflow-hidden whitespace-nowrap group-hover:text-indigo-400 transition-colors mt-0.5">{level.name}</h3>
                                                 </div>
                                             </div>
-                                            <p className="text-xs text-gray-400 leading-relaxed flex-1 line-clamp-2">{level.desc}</p>
-                                            <div className="flex justify-between items-center text-[10px] font-semibold text-gray-500 border-t border-white/5 pt-2.5 w-full">
+                                            <p className="text-xs text-gray-500 dark:text-gray-400 leading-relaxed flex-1 line-clamp-2">{level.desc}</p>
+                                            <div className="flex justify-between items-center text-[10px] font-semibold text-gray-500 border-t border-gray-100 dark:border-white/5 pt-2.5 w-full">
                                                 <span><i className="fas fa-question-circle mr-1"></i>{level.count} Questions</span>
                                                 <span className="group-hover:translate-x-1 transition-transform">Start <i className="fas fa-arrow-right ml-0.5"></i></span>
                                             </div>
@@ -778,7 +778,7 @@ function App() {
 
                                 {/* Category Tab Selector - Capsule Pill styling */}
                                 <div className="flex justify-center mb-6">
-                                    <div className="inline-flex bg-slate-900/50 dark:bg-slate-950/40 p-1.5 rounded-full border border-white/5 shadow-inner">
+                                    <div className="inline-flex bg-gray-100 dark:bg-slate-900/50 p-1.5 rounded-full border border-gray-200 dark:border-white/5 shadow-inner">
                                         {['present', 'past', 'future'].map((tab) => (
                                             <button 
                                                 key={tab}
@@ -786,7 +786,7 @@ function App() {
                                                 className={`px-5 py-2 font-extrabold text-xs sm:text-sm transition-all rounded-full capitalize ${
                                                     activeTab === tab 
                                                     ? 'bg-gradient-to-r from-indigo-500 to-indigo-600 text-white shadow-lg shadow-indigo-500/20' 
-                                                    : 'text-gray-400 hover:text-gray-200'
+                                                    : 'text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200'
                                                 }`}
                                             >
                                                 {tab} Tenses
@@ -800,7 +800,7 @@ function App() {
                                     {filteredGuide.map((guide) => (
                                         <div 
                                             key={guide.id}
-                                            className="p-5 sm:p-6 rounded-3xl border border-gray-200 dark:border-slate-800/80 bg-white/5 text-left space-y-4 shadow-sm relative"
+                                            className="p-5 sm:p-6 rounded-3xl border border-gray-200 dark:border-slate-800/80 bg-white dark:bg-white/5 text-left space-y-4 shadow-sm relative"
                                         >
                                             <div className="absolute inset-0 bg-gradient-to-b from-white/[0.03] to-transparent pointer-events-none rounded-3xl"></div>
 
@@ -816,33 +816,33 @@ function App() {
                                             </p>
 
                                             {/* Formula Card Block with syntax highlights */}
-                                            <div className="p-4 rounded-2xl bg-slate-950/80 border border-slate-800 text-xxs sm:text-xs space-y-2.5 font-mono text-gray-300">
-                                                <div className="text-[10px] font-black text-indigo-400 uppercase tracking-wider mb-1">Sentence Formulas (Syntax Editor):</div>
-                                                <div className="flex flex-col sm:flex-row sm:justify-between border-b border-white/5 pb-1">
-                                                    <span className="font-bold text-gray-400">🟢 Affirmative:</span>
+                                            <div className="p-4 rounded-2xl bg-slate-100 dark:bg-slate-950/80 border border-slate-200 dark:border-slate-800 text-xxs sm:text-xs space-y-2.5 font-mono text-slate-600 dark:text-gray-300">
+                                                <div className="text-[10px] font-black text-indigo-600 dark:text-indigo-400 uppercase tracking-wider mb-1">Sentence Formulas (Syntax Editor):</div>
+                                                <div className="flex flex-col sm:flex-row sm:justify-between border-b border-slate-200 dark:border-white/5 pb-1">
+                                                    <span className="font-bold text-gray-600 dark:text-gray-400">🟢 Affirmative:</span>
                                                     <span className="sm:text-right" dangerouslySetInnerHTML={{ __html: highlightFormula(guide.formula.aff) }} />
                                                 </div>
-                                                <div className="flex flex-col sm:flex-row sm:justify-between border-b border-white/5 pb-1">
-                                                    <span className="font-bold text-gray-400">🔴 Negative:</span>
+                                                <div className="flex flex-col sm:flex-row sm:justify-between border-b border-slate-200 dark:border-white/5 pb-1">
+                                                    <span className="font-bold text-gray-600 dark:text-gray-400">🔴 Negative:</span>
                                                     <span className="sm:text-right" dangerouslySetInnerHTML={{ __html: highlightFormula(guide.formula.neg) }} />
                                                 </div>
                                                 <div className="flex flex-col sm:flex-row sm:justify-between">
-                                                    <span className="font-bold text-gray-400">🔵 Interrogative:</span>
+                                                    <span className="font-bold text-gray-600 dark:text-gray-400">🔵 Interrogative:</span>
                                                     <span className="sm:text-right" dangerouslySetInnerHTML={{ __html: highlightFormula(guide.formula.int) }} />
                                                 </div>
                                             </div>
 
                                             {/* Example Translations */}
                                             <div className="space-y-2.5">
-                                                <div className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Example Sentences:</div>
+                                                <div className="text-[10px] font-bold text-gray-500 dark:text-gray-400 uppercase tracking-widest">Example Sentences:</div>
                                                 <div className="grid gap-2">
                                                     {guide.examples.map((ex, idx) => (
-                                                        <div key={idx} className="p-3 rounded-xl bg-white/5 border border-white/5 text-xs sm:text-sm flex flex-col sm:flex-row sm:justify-between space-y-1 sm:space-y-0 hover:bg-white/10 transition-colors">
+                                                        <div key={idx} className="p-3 rounded-xl bg-gray-50 dark:bg-white/5 border border-gray-100 dark:border-white/5 text-xs sm:text-sm flex flex-col sm:flex-row sm:justify-between space-y-1 sm:space-y-0 hover:bg-gray-100 dark:hover:bg-white/10 transition-colors">
                                                             <div className="text-gray-500 dark:text-gray-400 flex items-center">
-                                                                <span className="mr-1.5 text-xxs bg-white/10 px-1.5 py-0.5 rounded text-gray-400 font-extrabold">🗣️ HIN</span> {ex.hin}
+                                                                <span className="mr-1.5 text-xxs bg-gray-200 dark:bg-white/10 px-1.5 py-0.5 rounded text-gray-500 dark:text-gray-400 font-extrabold">🗣️ HIN</span> {ex.hin}
                                                             </div>
                                                             <div className="text-indigo-600 dark:text-indigo-400 font-bold flex items-center">
-                                                                <span className="mr-1.5 text-xxs bg-indigo-500/10 px-1.5 py-0.5 rounded text-indigo-400 font-extrabold">🇬🇧 ENG</span> {ex.eng}
+                                                                <span className="mr-1.5 text-xxs bg-indigo-500/10 px-1.5 py-0.5 rounded text-indigo-600 dark:text-indigo-400 font-extrabold">🇬🇧 ENG</span> {ex.eng}
                                                             </div>
                                                         </div>
                                                     ))}
@@ -950,7 +950,7 @@ function App() {
                                     const isCorrect = idx === questions[currentQ].correct;
                                     const isEliminated = eliminatedOptions.includes(idx);
                                     
-                                    let btnStyle = "border-gray-200 dark:border-slate-800 bg-white/5";
+                                    let btnStyle = "border-gray-300 dark:border-slate-800 bg-white dark:bg-white/5";
                                     let icon = null;
 
                                     if (showFeedback) {
@@ -987,7 +987,7 @@ function App() {
 
                         {/* Rationale feedback */}
                         {showFeedback && (
-                            <div className="mt-4 p-4 rounded-2xl bg-indigo-500/5 border border-indigo-500/10 slide-up space-y-3">
+                            <div className="mt-4 p-4 rounded-2xl bg-indigo-50 dark:bg-indigo-500/5 border border-indigo-200 dark:border-indigo-500/10 slide-up space-y-3">
                                 <div className="flex items-center space-x-2">
                                     {selected === questions[currentQ].correct ? (
                                         <span className="inline-flex items-center bg-emerald-500/10 text-emerald-500 px-2.5 py-0.5 rounded-full text-[10px] font-extrabold uppercase">
@@ -1006,7 +1006,7 @@ function App() {
                                 </div>
 
                                 <div className="space-y-1">
-                                    <h4 className="text-[10px] uppercase font-black text-gray-400 tracking-wider">Translation Rule & Rationale:</h4>
+                                    <h4 className="text-[10px] uppercase font-black text-gray-500 dark:text-gray-400 tracking-wider">Translation Rule & Rationale:</h4>
                                     <p className="text-xs sm:text-sm leading-relaxed text-gray-600 dark:text-gray-300">
                                         {questions[currentQ].rationale}
                                     </p>
@@ -1041,23 +1041,23 @@ function App() {
 
                             {/* Score Stats */}
                             <div className="grid grid-cols-2 gap-3 max-w-xs mx-auto">
-                                <div className="p-3.5 rounded-2xl bg-indigo-500/5 border border-indigo-500/10 relative overflow-hidden">
+                                <div className="p-3.5 rounded-2xl bg-indigo-50 dark:bg-indigo-500/5 border border-indigo-200 dark:border-indigo-500/10 relative overflow-hidden">
                                     <div className="absolute inset-0 bg-gradient-to-b from-white/[0.02] to-transparent pointer-events-none"></div>
                                     <span className="text-xl font-black text-indigo-500">{score}/{questions.length}</span>
-                                    <p className="text-[9px] font-bold text-gray-400 uppercase tracking-widest mt-0.5">Total Score</p>
+                                    <p className="text-[9px] font-bold text-gray-500 dark:text-gray-400 uppercase tracking-widest mt-0.5">Total Score</p>
                                 </div>
-                                <div className="p-3.5 rounded-2xl bg-indigo-500/5 border border-indigo-500/10 relative overflow-hidden">
+                                <div className="p-3.5 rounded-2xl bg-indigo-50 dark:bg-indigo-500/5 border border-indigo-200 dark:border-indigo-500/10 relative overflow-hidden">
                                     <div className="absolute inset-0 bg-gradient-to-b from-white/[0.02] to-transparent pointer-events-none"></div>
                                     <span className="text-xl font-black text-indigo-500">{Math.round((score / questions.length) * 100)}%</span>
-                                    <p className="text-[9px] font-bold text-gray-400 uppercase tracking-widest mt-0.5">Percentage</p>
+                                    <p className="text-[9px] font-bold text-gray-500 dark:text-gray-400 uppercase tracking-widest mt-0.5">Percentage</p>
                                 </div>
                             </div>
 
                             {/* Tier Badge */}
-                            <div className="p-3.5 rounded-2xl bg-white/5 max-w-sm mx-auto border border-white/5 space-y-0.5 relative">
+                            <div className="p-3.5 rounded-2xl bg-gray-50 dark:bg-white/5 max-w-sm mx-auto border border-gray-200 dark:border-white/5 space-y-0.5 relative">
                                 <div className="absolute inset-0 bg-gradient-to-b from-white/[0.02] to-transparent pointer-events-none"></div>
                                 <h3 className={`text-base font-extrabold ${scoreDetails.color}`}>{scoreDetails.title}</h3>
-                                <p className="text-[11px] text-gray-400 italic">
+                                <p className="text-[11px] text-gray-500 dark:text-gray-400 italic">
                                     "{scoreDetails.desc}"
                                 </p>
                             </div>
@@ -1068,7 +1068,7 @@ function App() {
                         {/* Translation Review list */}
                         <div className="space-y-4">
                             <div className="flex justify-between items-center">
-                                <h3 className="text-xs font-bold uppercase tracking-wider text-gray-400">Translation Review</h3>
+                                <h3 className="text-xs font-bold uppercase tracking-wider text-gray-500 dark:text-gray-400">Translation Review</h3>
                                 
                                 <div className="flex bg-gray-200 dark:bg-slate-800/80 p-0.5 rounded-xl text-[10px] space-x-0.5">
                                     {['all', 'correct', 'incorrect'].map((filter) => (
@@ -1095,7 +1095,7 @@ function App() {
                                         return (
                                             <div 
                                                 key={idx} 
-                                                className={`p-3.5 rounded-2xl border text-left text-xs space-y-2 bg-white/5 relative ${
+                                                className={`p-3.5 rounded-2xl border text-left text-xs space-y-2 bg-gray-50 dark:bg-white/5 relative ${
                                                     ans.isCorrect 
                                                     ? 'border-emerald-500/20' 
                                                     : 'border-red-500/20'
@@ -1144,7 +1144,7 @@ function App() {
                             
                             <button 
                                 onClick={() => selectLevel(currentLevel)}
-                                className="py-3 bg-white/5 border border-white/10 hover:bg-white/10 active:scale-95 text-gray-200 font-extrabold rounded-2xl transition-all text-xs uppercase tracking-widest flex items-center justify-center space-x-2"
+                                className="py-3 bg-gray-100 dark:bg-white/5 border border-gray-300 dark:border-white/10 hover:bg-gray-200 dark:hover:bg-white/10 active:scale-95 text-gray-700 dark:text-gray-200 font-extrabold rounded-2xl transition-all text-xs uppercase tracking-widest flex items-center justify-center space-x-2"
                             >
                                 <i className="fas fa-undo"></i>
                                 <span>Level Retry Karein</span>
@@ -1152,7 +1152,7 @@ function App() {
 
                             <button 
                                 onClick={backToMenu}
-                                className="py-3 bg-white/5 border border-white/10 hover:bg-white/10 active:scale-95 text-gray-200 font-extrabold rounded-2xl transition-all text-xs uppercase tracking-widest flex items-center justify-center space-x-2"
+                                className="py-3 bg-gray-100 dark:bg-white/5 border border-gray-300 dark:border-white/10 hover:bg-gray-200 dark:hover:bg-white/10 active:scale-95 text-gray-700 dark:text-gray-200 font-extrabold rounded-2xl transition-all text-xs uppercase tracking-widest flex items-center justify-center space-x-2"
                             >
                                 <i className="fas fa-home"></i>
                                 <span>Main Menu Wapas</span>
@@ -1163,7 +1163,7 @@ function App() {
             </main>
 
             {/* Footer branding */}
-            <footer className="text-center mt-6 text-xs text-gray-400 dark:text-gray-500 font-medium flex items-center justify-center flex-wrap gap-1">
+            <footer className="text-center mt-6 text-xs text-gray-500 dark:text-gray-500 font-medium flex items-center justify-center flex-wrap gap-1">
                 <span>Designed with</span>
                 <i className="fas fa-heart text-red-500 animate-pulse"></i>
                 <span>by</span>
