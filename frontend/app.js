@@ -16,21 +16,165 @@ function shuffleQuestionOptions(questions) {
     });
 }
 
-// 12-Level Tense Curriculum Catalog
-const LEVELS = [
-    { id: 1, name: "Level 1: Present Simple Tense", desc: "Habits, facts aur daily routine translations. (e.g. 'Main daudta hoon')", count: 25, difficulty: "Basic", icon: "fa-bolt", color: "from-blue-500 to-indigo-600", category: "present" },
-    { id: 2, name: "Level 2: Present Continuous Tense", desc: "Abhi chal rahe actions ki translations. (e.g. 'Bache khel rahe hain')", count: 25, difficulty: "Basic", icon: "fa-sync", color: "from-indigo-500 to-purple-600", category: "present" },
-    { id: 3, name: "Level 3: Present Perfect Tense", desc: "Abhi-abhi khatam hue actions ki translations. (e.g. 'Maine khana kha liya hai')", count: 25, difficulty: "Basic", icon: "fa-check-double", color: "from-purple-500 to-pink-600", category: "present" },
-    { id: 4, name: "Level 4: Present Perfect Continuous", desc: "Kisi samay se chal rahe present actions. (e.g. 'Subah se baarish ho rahi hai')", count: 25, difficulty: "Conversational", icon: "fa-hourglass-half", color: "from-emerald-500 to-teal-600", category: "present" },
-    { id: 5, name: "Level 5: Past Simple Tense", desc: "Completed past actions ki translations. (e.g. 'Main kal wahan gaya')", count: 25, difficulty: "Basic", icon: "fa-history", color: "from-amber-500 to-orange-600", category: "past" },
-    { id: 6, name: "Level 6: Past Continuous Tense", desc: "Past mein chal rahe actions ki translations. (e.g. 'Mummy khana bana rahi thi')", count: 25, difficulty: "Basic", icon: "fa-running", color: "from-teal-500 to-cyan-600", category: "past" },
-    { id: 7, name: "Level 7: Past Perfect Tense", desc: "Earlier past completed actions. (e.g. 'Train ja chuki thi mere aane se pehle')", count: 25, difficulty: "Intermediate", icon: "fa-calendar-check", color: "from-cyan-500 to-blue-600", category: "past" },
-    { id: 8, name: "Level 8: Past Perfect Continuous", desc: "Past range duration translations. (e.g. 'Wo do ghante se padh raha tha')", count: 25, difficulty: "Intermediate", icon: "fa-clock", color: "from-rose-500 to-red-600", category: "past" },
-    { id: 9, name: "Level 9: Future Simple Tense", desc: "Aane wale kal ke plans aur promises. (e.g. 'Main kal tumse milunga')", count: 30, difficulty: "Basic", icon: "fa-paper-plane", color: "from-blue-600 to-teal-500", category: "future" },
-    { id: 10, name: "Level 10: Future Continuous Tense", desc: "Future in-progress actions. (e.g. 'Kal is samay hum safar kar rahe honge')", count: 30, difficulty: "Intermediate", icon: "fa-location-arrow", color: "from-emerald-600 to-indigo-500", category: "future" },
-    { id: 11, name: "Level 11: Future Perfect Tense", desc: "Future completions checklist. (e.g. 'Hum kaam poora kar chuke honge')", count: 30, difficulty: "Intermediate", icon: "fa-flag-checkered", color: "from-pink-600 to-rose-500", category: "future" },
-    { id: 12, name: "Level 12: Future Perfect Continuous", desc: "Future duration milestone challenges. (e.g. 'Das saal ho chuke honge yahan')", count: 35, difficulty: "Advanced", icon: "fa-crown", color: "from-amber-600 to-red-600", category: "future" }
+// ──────────────────────────────────────────────────────────────
+// Tense Type Catalog with Multiple Sub-Levels per Tense
+// Each tense type has 3 sub-levels: Basic → Intermediate → Advanced
+// levelId mapping: Original(1-12)=L1, L2=(orig+12), L3=(orig+24)
+// ──────────────────────────────────────────────────────────────
+const TENSE_TYPES = [
+    {
+        id: "present-simple", name: "Present Simple Tense", category: "present",
+        icon: "fa-bolt", color: "from-blue-500 to-indigo-600",
+        desc: "Habits, facts aur daily routine translations.",
+        levels: [
+            { subLevel: 1, levelId: 1, count: 25, difficulty: "Basic", desc: "Rozana ki simple sentences — habits aur facts. (e.g. 'Main daudta hoon')" },
+            { subLevel: 2, levelId: 13, count: 25, difficulty: "Intermediate", desc: "Negative, interrogative aur mixed form translations." },
+            { subLevel: 3, levelId: 25, count: 25, difficulty: "Advanced", desc: "Complex aur tricky sentences — adverbs aur clauses ke sath." },
+        ]
+    },
+    {
+        id: "present-continuous", name: "Present Continuous Tense", category: "present",
+        icon: "fa-sync", color: "from-indigo-500 to-purple-600",
+        desc: "Abhi chal rahe actions ki translations.",
+        levels: [
+            { subLevel: 1, levelId: 2, count: 25, difficulty: "Basic", desc: "Basic in-progress actions. (e.g. 'Bache khel rahe hain')" },
+            { subLevel: 2, levelId: 14, count: 25, difficulty: "Intermediate", desc: "Negative aur question forms — continuous actions." },
+            { subLevel: 3, levelId: 26, count: 25, difficulty: "Advanced", desc: "Advanced continuous tense ke tricky patterns aur usage." },
+        ]
+    },
+    {
+        id: "present-perfect", name: "Present Perfect Tense", category: "present",
+        icon: "fa-check-double", color: "from-purple-500 to-pink-600",
+        desc: "Abhi-abhi khatam hue actions ki translations.",
+        levels: [
+            { subLevel: 1, levelId: 3, count: 25, difficulty: "Basic", desc: "Basic completed action translations. (e.g. 'Maine khana kha liya hai')" },
+            { subLevel: 2, levelId: 15, count: 25, difficulty: "Intermediate", desc: "Since/For aur complex perfect tense patterns." },
+            { subLevel: 3, levelId: 27, count: 25, difficulty: "Advanced", desc: "Advanced perfect tense scenarios aur tricky confusions." },
+        ]
+    },
+    {
+        id: "present-perfect-continuous", name: "Present Perfect Continuous", category: "present",
+        icon: "fa-hourglass-half", color: "from-emerald-500 to-teal-600",
+        desc: "Kisi samay se chal rahe present actions.",
+        levels: [
+            { subLevel: 1, levelId: 4, count: 25, difficulty: "Basic", desc: "Basic duration-based present actions. (e.g. 'Subah se baarish ho rahi hai')" },
+            { subLevel: 2, levelId: 16, count: 25, difficulty: "Intermediate", desc: "Since/For ke sath complex continuous sentences." },
+            { subLevel: 3, levelId: 28, count: 25, difficulty: "Advanced", desc: "Advanced scenarios — tricky since/for aur long-duration patterns." },
+        ]
+    },
+    {
+        id: "past-simple", name: "Past Simple Tense", category: "past",
+        icon: "fa-history", color: "from-amber-500 to-orange-600",
+        desc: "Completed past actions ki translations.",
+        levels: [
+            { subLevel: 1, levelId: 5, count: 25, difficulty: "Basic", desc: "Basic past action translations. (e.g. 'Main kal wahan gaya')" },
+            { subLevel: 2, levelId: 17, count: 25, difficulty: "Intermediate", desc: "Negative aur interrogative past simple patterns." },
+            { subLevel: 3, levelId: 29, count: 25, difficulty: "Advanced", desc: "Complex past simple — irregular verbs aur tricky sentences." },
+        ]
+    },
+    {
+        id: "past-continuous", name: "Past Continuous Tense", category: "past",
+        icon: "fa-running", color: "from-teal-500 to-cyan-600",
+        desc: "Past mein chal rahe actions ki translations.",
+        levels: [
+            { subLevel: 1, levelId: 6, count: 25, difficulty: "Basic", desc: "Basic past in-progress actions. (e.g. 'Mummy khana bana rahi thi')" },
+            { subLevel: 2, levelId: 18, count: 25, difficulty: "Intermediate", desc: "While/When ke sath past continuous sentences." },
+            { subLevel: 3, levelId: 30, count: 25, difficulty: "Advanced", desc: "Advanced past continuous — multiple clauses aur complex scenarios." },
+        ]
+    },
+    {
+        id: "past-perfect", name: "Past Perfect Tense", category: "past",
+        icon: "fa-calendar-check", color: "from-cyan-500 to-blue-600",
+        desc: "Earlier past completed actions.",
+        levels: [
+            { subLevel: 1, levelId: 7, count: 25, difficulty: "Basic", desc: "Basic 'pehle ho chuka tha' translations. (e.g. 'Train ja chuki thi')" },
+            { subLevel: 2, levelId: 19, count: 25, difficulty: "Intermediate", desc: "Before/After ke sath past perfect patterns." },
+            { subLevel: 3, levelId: 31, count: 25, difficulty: "Advanced", desc: "Complex past perfect — conditional aur reported speech." },
+        ]
+    },
+    {
+        id: "past-perfect-continuous", name: "Past Perfect Continuous", category: "past",
+        icon: "fa-clock", color: "from-rose-500 to-red-600",
+        desc: "Past range duration translations.",
+        levels: [
+            { subLevel: 1, levelId: 8, count: 25, difficulty: "Basic", desc: "Basic past duration actions. (e.g. 'Wo do ghante se padh raha tha')" },
+            { subLevel: 2, levelId: 20, count: 25, difficulty: "Intermediate", desc: "Since/For ke sath past perfect continuous." },
+            { subLevel: 3, levelId: 32, count: 25, difficulty: "Advanced", desc: "Advanced past perfect continuous — complex duration scenarios." },
+        ]
+    },
+    {
+        id: "future-simple", name: "Future Simple Tense", category: "future",
+        icon: "fa-paper-plane", color: "from-blue-600 to-teal-500",
+        desc: "Aane wale kal ke plans aur promises.",
+        levels: [
+            { subLevel: 1, levelId: 9, count: 25, difficulty: "Basic", desc: "Basic future plans aur promises. (e.g. 'Main kal tumse milunga')" },
+            { subLevel: 2, levelId: 21, count: 25, difficulty: "Intermediate", desc: "Shall/Will ke negative aur interrogative patterns." },
+            { subLevel: 3, levelId: 33, count: 25, difficulty: "Advanced", desc: "Advanced future simple — conditions aur complex clauses." },
+        ]
+    },
+    {
+        id: "future-continuous", name: "Future Continuous Tense", category: "future",
+        icon: "fa-location-arrow", color: "from-emerald-600 to-indigo-500",
+        desc: "Future in-progress actions.",
+        levels: [
+            { subLevel: 1, levelId: 10, count: 25, difficulty: "Basic", desc: "Basic future in-progress actions. (e.g. 'Kal is samay hum safar kar rahe honge')" },
+            { subLevel: 2, levelId: 22, count: 25, difficulty: "Intermediate", desc: "Negative aur interrogative future continuous." },
+            { subLevel: 3, levelId: 34, count: 25, difficulty: "Advanced", desc: "Complex future continuous — advanced sentence patterns." },
+        ]
+    },
+    {
+        id: "future-perfect", name: "Future Perfect Tense", category: "future",
+        icon: "fa-flag-checkered", color: "from-pink-600 to-rose-500",
+        desc: "Future completions checklist.",
+        levels: [
+            { subLevel: 1, levelId: 11, count: 25, difficulty: "Basic", desc: "Basic future completion translations. (e.g. 'Hum kaam poora kar chuke honge')" },
+            { subLevel: 2, levelId: 23, count: 25, difficulty: "Intermediate", desc: "By/Before ke sath future perfect patterns." },
+            { subLevel: 3, levelId: 35, count: 25, difficulty: "Advanced", desc: "Advanced future perfect — complex completion scenarios." },
+        ]
+    },
+    {
+        id: "future-perfect-continuous", name: "Future Perfect Continuous", category: "future",
+        icon: "fa-crown", color: "from-amber-600 to-red-600",
+        desc: "Future duration milestone challenges.",
+        levels: [
+            { subLevel: 1, levelId: 12, count: 25, difficulty: "Basic", desc: "Basic future duration milestones. (e.g. 'Das saal ho chuke honge yahan')" },
+            { subLevel: 2, levelId: 24, count: 25, difficulty: "Intermediate", desc: "Since/For ke sath future perfect continuous." },
+            { subLevel: 3, levelId: 36, count: 25, difficulty: "Advanced", desc: "Advanced future perfect continuous — complex duration milestones." },
+        ]
+    }
 ];
+
+// Derive flat level array for quiz lookups and routing
+const ALL_LEVELS = [];
+TENSE_TYPES.forEach(tense => {
+    tense.levels.forEach(level => {
+        ALL_LEVELS.push({
+            id: level.levelId,
+            subLevel: level.subLevel,
+            name: `${tense.name} — Level ${level.subLevel}`,
+            desc: level.desc,
+            count: level.count,
+            difficulty: level.difficulty,
+            icon: tense.icon,
+            color: tense.color,
+            category: tense.category,
+            tenseId: tense.id,
+            tenseName: tense.name,
+        });
+    });
+});
+
+// Difficulty badge colors
+const DIFFICULTY_COLORS = {
+    "Basic": "bg-emerald-500/10 text-emerald-500",
+    "Intermediate": "bg-amber-500/10 text-amber-500",
+    "Advanced": "bg-red-500/10 text-red-500",
+};
+const DIFFICULTY_ICONS = {
+    "Basic": "fa-seedling",
+    "Intermediate": "fa-fire",
+    "Advanced": "fa-crown",
+};
 
 // Grammar Reference Study Guide Data
 const TENSE_GUIDE_DATA = [
@@ -38,6 +182,7 @@ const TENSE_GUIDE_DATA = [
         id: 1,
         name: "Level 1: Present Simple Tense",
         category: "present",
+        tenseTypeId: "present-simple",
         desc: "Jab koi kaam rozana hota hai (Habits/Routines), ya koi general fact/universal truth ho.",
         formula: {
             aff: "Subject + V1 (s/es) + Object",
@@ -54,6 +199,7 @@ const TENSE_GUIDE_DATA = [
         id: 2,
         name: "Level 2: Present Continuous Tense",
         category: "present",
+        tenseTypeId: "present-continuous",
         desc: "Jab koi kaam abhi active chal raha hai (Actions in progress right now).",
         formula: {
             aff: "Subject + is/am/are + V-ing + Object",
@@ -70,6 +216,7 @@ const TENSE_GUIDE_DATA = [
         id: 3,
         name: "Level 3: Present Perfect Tense",
         category: "present",
+        tenseTypeId: "present-perfect",
         desc: "Jab koi kaam beete kal me shuru hua par abhi-abhi poora hua hai (Just finished actions).",
         formula: {
             aff: "Subject + has/have + V3 + Object",
@@ -86,6 +233,7 @@ const TENSE_GUIDE_DATA = [
         id: 4,
         name: "Level 4: Present Perfect Continuous",
         category: "present",
+        tenseTypeId: "present-perfect-continuous",
         desc: "Jab koi kaam pehle shuru hua, abhi chal raha ho aur sath me time duration (since/for) diya gaya ho.",
         formula: {
             aff: "Subject + has/have + been + V-ing + since/for + Object",
@@ -102,6 +250,7 @@ const TENSE_GUIDE_DATA = [
         id: 5,
         name: "Level 5: Past Simple Tense",
         category: "past",
+        tenseTypeId: "past-simple",
         desc: "Beete kal ke khatam hue actions ko darshane ke liye (Completed past actions).",
         formula: {
             aff: "Subject + V2 + Object",
@@ -118,6 +267,7 @@ const TENSE_GUIDE_DATA = [
         id: 6,
         name: "Level 6: Past Continuous Tense",
         category: "past",
+        tenseTypeId: "past-continuous",
         desc: "Beete kal mein koi kaam chal raha tha (Actions in progress in the past).",
         formula: {
             aff: "Subject + was/were + V-ing + Object",
@@ -134,6 +284,7 @@ const TENSE_GUIDE_DATA = [
         id: 7,
         name: "Level 7: Past Perfect Tense",
         category: "past",
+        tenseTypeId: "past-perfect",
         desc: "Past mein do actions me se pehla action jo pehle hi complete ho chuka tha.",
         formula: {
             aff: "Subject + had + V3 + Object",
@@ -149,6 +300,7 @@ const TENSE_GUIDE_DATA = [
         id: 8,
         name: "Level 8: Past Perfect Continuous",
         category: "past",
+        tenseTypeId: "past-perfect-continuous",
         desc: "Past mein koi kaam chal raha tha aur beete samay ke time milestone (since/for) ke sath relate ho.",
         formula: {
             aff: "Subject + had + been + V-ing + since/for + Object",
@@ -164,6 +316,7 @@ const TENSE_GUIDE_DATA = [
         id: 9,
         name: "Level 9: Future Simple Tense",
         category: "future",
+        tenseTypeId: "future-simple",
         desc: "Aane wale kal mein aam plans, commitments ya predictions ke liye.",
         formula: {
             aff: "Subject + will + V1 + Object",
@@ -180,6 +333,7 @@ const TENSE_GUIDE_DATA = [
         id: 10,
         name: "Level 10: Future Continuous Tense",
         category: "future",
+        tenseTypeId: "future-continuous",
         desc: "Aane wale kal mein koi kaam chal raha hoga (Actions in progress in future).",
         formula: {
             aff: "Subject + will + be + V-ing + Object",
@@ -196,6 +350,7 @@ const TENSE_GUIDE_DATA = [
         id: 11,
         name: "Level 11: Future Perfect Tense",
         category: "future",
+        tenseTypeId: "future-perfect",
         desc: "Aane wale kal mein ek specific time/action se pehle jo completed ho chuka hoga.",
         formula: {
             aff: "Subject + will + have + V3 + Object",
@@ -211,6 +366,7 @@ const TENSE_GUIDE_DATA = [
         id: 12,
         name: "Level 12: Future Perfect Continuous",
         category: "future",
+        tenseTypeId: "future-perfect-continuous",
         desc: "Future mein kisi time milestone tak continuous action ki duration poori ho rahi hogi.",
         formula: {
             aff: "Subject + will + have + been + V-ing + since/for + Object",
@@ -240,12 +396,13 @@ const highlightFormula = (formulaStr) => {
 };
 
 function App() {
-    const [currentLevel, setCurrentLevel] = useState(null); // Selected level object
+    const [currentLevel, setCurrentLevel] = useState(null); // Selected level object from ALL_LEVELS
+    const [selectedTense, setSelectedTense] = useState(null); // Selected tense type object
     const [questions, setQuestions] = useState([]);
     const [loading, setLoading] = useState(false);
     const [fetchError, setFetchError] = useState(null);
 
-    const [step, setStep] = useState('start'); // start, quiz, results
+    const [step, setStep] = useState('start'); // start, tenseDetail, quiz, results
     const [currentQ, setCurrentQ] = useState(0);
     const [score, setScore] = useState(0);
     const [selected, setSelected] = useState(null);
@@ -281,12 +438,14 @@ function App() {
 
     // Refs to store state values for event listeners to avoid stale closure traps
     const currentLevelRef = useRef(currentLevel);
+    const selectedTenseRef = useRef(selectedTense);
     const stepRef = useRef(step);
     
     useEffect(() => {
         currentLevelRef.current = currentLevel;
+        selectedTenseRef.current = selectedTense;
         stepRef.current = step;
-    }, [currentLevel, step]);
+    }, [currentLevel, selectedTense, step]);
 
     // Synchronize state with Hash Routing (Back button support)
     useEffect(() => {
@@ -298,22 +457,39 @@ function App() {
             // Handle home states
             if (!hash || hash === '#/' || hash === '#levels') {
                 setCurrentLevel(null);
+                setSelectedTense(null);
                 setQuestions([]);
                 setStep('start');
                 setViewMode('quiz');
             } else if (hash === '#guide') {
                 setCurrentLevel(null);
+                setSelectedTense(null);
                 setQuestions([]);
                 setStep('start');
                 setViewMode('guide');
+            } else if (hash.startsWith('#tense-')) {
+                // Tense detail view — show sub-levels for a tense type
+                const tenseId = hash.replace('#tense-', '');
+                const tense = TENSE_TYPES.find(t => t.id === tenseId);
+                if (tense) {
+                    setSelectedTense(tense);
+                    setActiveTab(tense.category);
+                    setCurrentLevel(null);
+                    setQuestions([]);
+                    setStep('tenseDetail');
+                    setViewMode('quiz');
+                }
             } else if (hash.startsWith('#level-')) {
                 // Parse level parameters e.g., #level-1 or #level-1/results
                 const parts = hash.replace('#level-', '').split('/');
                 const levelId = parseInt(parts[0], 10);
                 const isResults = parts[1] === 'results';
                 
-                const levelObj = LEVELS.find(l => l.id === levelId);
+                const levelObj = ALL_LEVELS.find(l => l.id === levelId);
                 if (levelObj) {
+                    // Also set the parent tense
+                    const tense = TENSE_TYPES.find(t => t.id === levelObj.tenseId);
+                    setSelectedTense(tense || null);
                     setViewMode('quiz');
                     setActiveTab(levelObj.category);
 
@@ -435,9 +611,22 @@ function App() {
         }]);
     };
 
-    // SPA state change commands (routing update triggers)
+    // ─── Navigation Functions ─────────────────────────────────
+    const selectTense = (tenseObj) => {
+        if (window.audio) window.audio.playClick();
+        window.location.hash = `#tense-${tenseObj.id}`;
+    };
+
     const selectLevel = (levelObj) => {
         window.location.hash = `#level-${levelObj.id}`;
+    };
+
+    const selectSubLevel = (tenseObj, subLevelData) => {
+        if (window.audio) window.audio.playClick();
+        const levelObj = ALL_LEVELS.find(l => l.id === subLevelData.levelId);
+        if (levelObj) {
+            window.location.hash = `#level-${levelObj.id}`;
+        }
     };
 
     const applyFiftyFifty = () => {
@@ -503,9 +692,38 @@ function App() {
         }
     };
 
+    // Get the next level object (next sub-level or next tense's first level)
+    const getNextLevel = () => {
+        if (!currentLevel) return null;
+        const tense = TENSE_TYPES.find(t => t.id === currentLevel.tenseId);
+        if (!tense) return null;
+        const currentSubIdx = tense.levels.findIndex(l => l.levelId === currentLevel.id);
+        // Next sub-level in same tense
+        if (currentSubIdx < tense.levels.length - 1) {
+            const nextSub = tense.levels[currentSubIdx + 1];
+            return ALL_LEVELS.find(l => l.id === nextSub.levelId);
+        }
+        // Next tense type's first level
+        const tenseIdx = TENSE_TYPES.findIndex(t => t.id === tense.id);
+        if (tenseIdx < TENSE_TYPES.length - 1) {
+            return ALL_LEVELS.find(l => l.id === TENSE_TYPES[tenseIdx + 1].levels[0].levelId);
+        }
+        return null; // This was the very last level
+    };
+
     const loadNextLevel = () => {
-        if (currentLevel.id < LEVELS.length) {
-            window.location.hash = `#level-${currentLevel.id + 1}`;
+        const next = getNextLevel();
+        if (next) {
+            window.location.hash = `#level-${next.id}`;
+        }
+    };
+
+    const backToTenses = () => {
+        if (window.audio) window.audio.playClick();
+        if (selectedTense) {
+            window.location.hash = `#tense-${selectedTense.id}`;
+        } else {
+            window.location.hash = '#levels';
         }
     };
 
@@ -540,7 +758,7 @@ function App() {
     };
 
     // Filtered items based on active tab category
-    const filteredLevels = LEVELS.filter(level => level.category === activeTab);
+    const filteredTenseTypes = TENSE_TYPES.filter(t => t.category === activeTab);
     const filteredGuide = TENSE_GUIDE_DATA.filter(guide => guide.category === activeTab);
 
     // Loading Screen
@@ -586,6 +804,7 @@ function App() {
     }
 
     const scoreDetails = getScoreCategory();
+    const nextLevel = getNextLevel();
 
     // Filter review list
     const filteredAnswers = answers.filter((ans, idx) => {
@@ -675,11 +894,13 @@ function App() {
             {/* MAIN GAME INTERFACE CONTAINER */}
             <main className="glass-card rounded-2xl sm:rounded-3xl p-4 sm:p-8 shadow-2xl relative overflow-hidden transition-all duration-300">
                 
-                {/* Start View: Level Selector or Tense Guide depending on viewMode */}
+                {/* ═══════════════════════════════════════════════════════
+                    START VIEW: Tense Type Selector or Study Guide
+                ═══════════════════════════════════════════════════════ */}
                 {step === 'start' && (
                     <div className="space-y-6 slide-up">
                         
-                        {/* Quiz Selector Screen */}
+                        {/* Quiz Selector Screen — Now shows Tense Type Cards */}
                         {viewMode === 'quiz' && (
                             <>
                                 <div className="text-center space-y-2 py-2">
@@ -727,33 +948,35 @@ function App() {
                                     </div>
                                 </div>
 
-                                {/* Category Filtered Level Cards */}
+                                {/* Tense Type Cards (4 per category) */}
                                 <div className="grid gap-4 sm:grid-cols-2">
-                                    {filteredLevels.map((level) => (
+                                    {filteredTenseTypes.map((tense) => (
                                         <button
-                                            key={level.id}
-                                            onClick={() => selectLevel(level)}
+                                            key={tense.id}
+                                            onClick={() => selectTense(tense)}
                                             className="option-button p-4 sm:p-5 rounded-2xl border border-gray-200 dark:border-slate-800/80 bg-white dark:bg-white/5 text-left flex flex-col justify-between space-y-3 hover:border-indigo-500/40 dark:hover:border-indigo-500/20 group"
                                         >
                                             {/* Glossy Refraction gradient highlight */}
                                             <div className="absolute inset-0 bg-gradient-to-b from-white/[0.04] to-transparent pointer-events-none rounded-2xl"></div>
 
                                             <div className="flex items-start space-x-3 w-full">
-                                                <div className={`w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-tr ${level.color} text-white flex items-center justify-center text-lg shadow-md group-hover:scale-105 transition-transform duration-200`}>
-                                                    <i className={`fas ${level.icon}`}></i>
+                                                <div className={`w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-tr ${tense.color} text-white flex items-center justify-center text-lg shadow-md group-hover:scale-105 transition-transform duration-200`}>
+                                                    <i className={`fas ${tense.icon}`}></i>
                                                 </div>
                                                 <div className="flex-1 min-w-0">
                                                     <div className="flex justify-between items-center">
-                                                        <span className="text-[10px] uppercase font-black text-indigo-500 dark:text-indigo-400">Level {level.id}</span>
-                                                        <span className="px-1.5 py-0.5 rounded text-[8px] sm:text-[9px] font-bold bg-indigo-500/10 text-indigo-400">{level.difficulty}</span>
+                                                        <span className="text-[10px] uppercase font-black text-indigo-500 dark:text-indigo-400">{tense.category} Tense</span>
+                                                        <span className="px-1.5 py-0.5 rounded text-[8px] sm:text-[9px] font-bold bg-indigo-500/10 text-indigo-400">{tense.levels.length} Levels</span>
                                                     </div>
-                                                    <h3 className="font-extrabold text-sm sm:text-base text-ellipsis overflow-hidden whitespace-nowrap group-hover:text-indigo-400 transition-colors mt-0.5">{level.name}</h3>
+                                                    <h3 className="font-extrabold text-sm sm:text-base text-ellipsis overflow-hidden whitespace-nowrap group-hover:text-indigo-400 transition-colors mt-0.5">{tense.name}</h3>
                                                 </div>
                                             </div>
-                                            <p className="text-xs text-gray-500 dark:text-gray-400 leading-relaxed flex-1 line-clamp-2">{level.desc}</p>
+                                            <p className="text-xs text-gray-500 dark:text-gray-400 leading-relaxed flex-1 line-clamp-2">{tense.desc}</p>
                                             <div className="flex justify-between items-center text-[10px] font-semibold text-gray-500 border-t border-gray-100 dark:border-white/5 pt-2.5 w-full">
-                                                <span><i className="fas fa-question-circle mr-1"></i>{level.count} Questions</span>
-                                                <span className="group-hover:translate-x-1 transition-transform">Start <i className="fas fa-arrow-right ml-0.5"></i></span>
+                                                <span>
+                                                    <i className="fas fa-layer-group mr-1"></i>{tense.levels.length} Levels · {tense.levels.reduce((s, l) => s + l.count, 0)} Questions
+                                                </span>
+                                                <span className="group-hover:translate-x-1 transition-transform">Explore <i className="fas fa-arrow-right ml-0.5"></i></span>
                                             </div>
                                         </button>
                                     ))}
@@ -849,16 +1072,16 @@ function App() {
                                                 </div>
                                             </div>
 
-                                            {/* Quiz arena link */}
+                                            {/* Quiz arena link — navigates to tense detail */}
                                             <button
                                                 onClick={() => {
-                                                    const matchingLevelObj = LEVELS.find(l => l.id === guide.id);
-                                                    if (matchingLevelObj) selectLevel(matchingLevelObj);
+                                                    const tense = TENSE_TYPES.find(t => t.id === guide.tenseTypeId);
+                                                    if (tense) selectTense(tense);
                                                 }}
                                                 className="w-full mt-2 py-2.5 bg-indigo-600 hover:bg-indigo-700 active:scale-95 text-white font-extrabold rounded-xl transition-all text-xs uppercase tracking-widest flex items-center justify-center space-x-2"
                                             >
                                                 <i className="fas fa-play"></i>
-                                                <span>Ab Iska Test Karein! (Play Level {guide.id} Quiz)</span>
+                                                <span>Practice Karein — {guide.name.replace(/Level \d+: /, '')}</span>
                                             </button>
                                         </div>
                                     ))}
@@ -868,13 +1091,97 @@ function App() {
                     </div>
                 )}
 
-                {/* Quiz View */}
+                {/* ═══════════════════════════════════════════════════════
+                    TENSE DETAIL VIEW: Sub-Level Selector
+                ═══════════════════════════════════════════════════════ */}
+                {step === 'tenseDetail' && selectedTense && (
+                    <div className="space-y-6 slide-up">
+                        {/* Back to category selector */}
+                        <button onClick={backToMenu} className="text-xs text-gray-400 hover:text-indigo-500 flex items-center transition-colors">
+                            <i className="fas fa-arrow-left mr-1.5"></i> Wapas Tense Types
+                        </button>
+
+                        {/* Tense Header */}
+                        <div className="text-center space-y-2 py-2">
+                            <div className="relative inline-block">
+                                <div className={`w-14 h-14 bg-gradient-to-tr ${selectedTense.color} rounded-2xl flex items-center justify-center mx-auto shadow-md pulse-glowing`}>
+                                    <i className={`fas ${selectedTense.icon} text-white text-2xl`}></i>
+                                </div>
+                            </div>
+                            <h1 className="text-xl sm:text-2xl font-extrabold tracking-tight">{selectedTense.name}</h1>
+                            <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400 max-w-lg mx-auto">
+                                {selectedTense.desc} — Apna level choose karein aur practice shuru karein!
+                            </p>
+                        </div>
+
+                        {/* Configurations Toggle */}
+                        <div className="p-3.5 rounded-2xl bg-indigo-50 dark:bg-slate-800/30 border border-indigo-200 dark:border-indigo-500/10 text-left max-w-xl mx-auto flex justify-between items-center">
+                            <div className="flex items-center space-x-2">
+                                <i className="fas fa-stopwatch text-indigo-500 w-5"></i>
+                                <span className="text-xs sm:text-sm font-medium">15-Second Per-Question Timer</span>
+                            </div>
+                            <button
+                                onClick={() => { if (window.audio) window.audio.playClick(); setTimerEnabled(!timerEnabled); }}
+                                className={`relative inline-flex h-5 w-10 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none ${timerEnabled ? 'bg-indigo-600' : 'bg-gray-300 dark:bg-gray-700'}`}
+                            >
+                                <span className={`pointer-events-none inline-block h-4 w-4 transform rounded-full bg-white shadow ring-0 transition duration-200 ease-in-out ${timerEnabled ? 'translate-x-5' : 'translate-x-0'}`}></span>
+                            </button>
+                        </div>
+
+                        {/* Sub-Level Cards */}
+                        <div className="grid gap-4">
+                            {selectedTense.levels.map((level, idx) => {
+                                const diffColor = DIFFICULTY_COLORS[level.difficulty] || "bg-gray-500/10 text-gray-500";
+                                const diffIcon = DIFFICULTY_ICONS[level.difficulty] || "fa-circle";
+                                return (
+                                    <button
+                                        key={level.levelId}
+                                        onClick={() => selectSubLevel(selectedTense, level)}
+                                        className="option-button p-4 sm:p-5 rounded-2xl border border-gray-200 dark:border-slate-800/80 bg-white dark:bg-white/5 text-left flex items-center space-x-4 hover:border-indigo-500/40 dark:hover:border-indigo-500/20 group"
+                                    >
+                                        {/* Level Number Badge */}
+                                        <div className={`w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-gradient-to-tr ${selectedTense.color} text-white flex flex-col items-center justify-center shadow-md group-hover:scale-105 transition-transform duration-200 flex-shrink-0`}>
+                                            <span className="text-[9px] uppercase font-bold opacity-80">Level</span>
+                                            <span className="text-xl sm:text-2xl font-black leading-none">{level.subLevel}</span>
+                                        </div>
+
+                                        {/* Level Info */}
+                                        <div className="flex-1 min-w-0 space-y-1.5">
+                                            <div className="flex items-center space-x-2">
+                                                <h3 className="font-extrabold text-sm sm:text-base group-hover:text-indigo-400 transition-colors">
+                                                    Level {level.subLevel} — {level.difficulty}
+                                                </h3>
+                                                <span className={`px-2 py-0.5 rounded-full text-[9px] font-bold ${diffColor} flex items-center space-x-1`}>
+                                                    <i className={`fas ${diffIcon} text-[8px]`}></i>
+                                                    <span>{level.difficulty}</span>
+                                                </span>
+                                            </div>
+                                            <p className="text-xs text-gray-500 dark:text-gray-400 leading-relaxed line-clamp-2">{level.desc}</p>
+                                            <div className="flex items-center text-[10px] font-semibold text-gray-500 space-x-3">
+                                                <span><i className="fas fa-question-circle mr-1"></i>{level.count} Questions</span>
+                                            </div>
+                                        </div>
+
+                                        {/* Play Arrow */}
+                                        <div className="flex-shrink-0 w-8 h-8 rounded-xl bg-indigo-500/10 text-indigo-500 flex items-center justify-center group-hover:bg-indigo-500 group-hover:text-white transition-all">
+                                            <i className="fas fa-play text-xs"></i>
+                                        </div>
+                                    </button>
+                                );
+                            })}
+                        </div>
+                    </div>
+                )}
+
+                {/* ═══════════════════════════════════════════════════════
+                    QUIZ VIEW
+                ═══════════════════════════════════════════════════════ */}
                 {step === 'quiz' && questions.length > 0 && (
                     <div className="space-y-6 slide-up">
                         {/* Top Progress and Status */}
                         <div className="flex flex-wrap justify-between items-center gap-2 text-sm font-semibold">
                             <div className="flex items-center space-x-1 sm:space-x-2 min-w-0">
-                                <button onClick={backToMenu} className="text-[10px] sm:text-xs text-gray-400 hover:text-indigo-500 mr-1 sm:mr-2 flex items-center flex-shrink-0">
+                                <button onClick={backToTenses} className="text-[10px] sm:text-xs text-gray-400 hover:text-indigo-500 mr-1 sm:mr-2 flex items-center flex-shrink-0">
                                     <i className="fas fa-arrow-left mr-0.5 sm:mr-1"></i> Back
                                 </button>
                                 <span className="text-[10px] sm:text-sm text-indigo-500 dark:text-indigo-400 truncate">Q{currentQ + 1}/{questions.length}</span>
@@ -891,6 +1198,16 @@ function App() {
                                 </div>
                             </div>
                         </div>
+
+                        {/* Level info badge */}
+                        {currentLevel && (
+                            <div className="text-center">
+                                <span className="inline-flex items-center space-x-1.5 bg-indigo-500/5 border border-indigo-500/10 text-indigo-500 dark:text-indigo-400 px-3 py-1 rounded-full text-[10px] font-bold">
+                                    <i className={`fas ${currentLevel.icon} text-[9px]`}></i>
+                                    <span>{currentLevel.name}</span>
+                                </span>
+                            </div>
+                        )}
 
                         {/* Progress Bar */}
                         <div className="h-1.5 w-full bg-gray-200 dark:bg-slate-700 rounded-full overflow-hidden">
@@ -1024,7 +1341,9 @@ function App() {
                     </div>
                 )}
 
-                {/* Results View */}
+                {/* ═══════════════════════════════════════════════════════
+                    RESULTS VIEW
+                ═══════════════════════════════════════════════════════ */}
                 {step === 'results' && (
                     <div className="space-y-6 slide-up relative">
                         <canvas ref={confettiCanvasRef} id="confetti" className="absolute top-0 left-0 w-full h-full pointer-events-none z-20"></canvas>
@@ -1132,13 +1451,13 @@ function App() {
 
                         {/* Navigation buttons */}
                         <div className="grid gap-3 sm:grid-cols-2">
-                            {currentLevel && currentLevel.id < LEVELS.length && (
+                            {nextLevel && (
                                 <button 
                                     onClick={loadNextLevel}
                                     className="sm:col-span-2 py-3.5 bg-indigo-600 hover:bg-indigo-700 active:scale-95 text-white font-extrabold rounded-2xl transition-all shadow-lg shadow-indigo-600/20 text-xs uppercase tracking-widest flex items-center justify-center space-x-2"
                                 >
                                     <i className="fas fa-play"></i>
-                                    <span>Agla Level Shuru Karein! (Go to Level {currentLevel.id + 1})</span>
+                                    <span>Agla Level Shuru Karein! ({nextLevel.name})</span>
                                 </button>
                             )}
                             
@@ -1151,11 +1470,11 @@ function App() {
                             </button>
 
                             <button 
-                                onClick={backToMenu}
+                                onClick={backToTenses}
                                 className="py-3 bg-gray-100 dark:bg-white/5 border border-gray-300 dark:border-white/10 hover:bg-gray-200 dark:hover:bg-white/10 active:scale-95 text-gray-700 dark:text-gray-200 font-extrabold rounded-2xl transition-all text-xs uppercase tracking-widest flex items-center justify-center space-x-2"
                             >
-                                <i className="fas fa-home"></i>
-                                <span>Main Menu Wapas</span>
+                                <i className="fas fa-layer-group"></i>
+                                <span>Tense Levels Dekhein</span>
                             </button>
                         </div>
                     </div>
