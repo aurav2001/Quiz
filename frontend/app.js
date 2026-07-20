@@ -1482,15 +1482,24 @@ function App() {
             </main>
 
             {/* Footer branding */}
-            <footer className="text-center mt-6 text-xs text-gray-500 dark:text-gray-500 font-medium flex items-center justify-center flex-wrap gap-1">
-                <span>Designed with</span>
-                <i className="fas fa-heart text-red-500 animate-pulse"></i>
-                <span>by</span>
-                <span className="font-extrabold text-indigo-500 dark:text-indigo-400 hover:text-indigo-300 transition-all flex items-center gap-0.5 cursor-pointer">
-                    <i className="fas fa-user-shield text-[10px]"></i>
-                    <span>Gaurav Pandey</span>
-                </span>
-                <span>for Indian English Learners.</span>
+            <footer className="text-center mt-6 text-xs text-gray-500 dark:text-gray-500 font-medium flex flex-col items-center justify-center space-y-2">
+                <div className="flex items-center justify-center flex-wrap gap-1">
+                    <span>Designed with</span>
+                    <i className="fas fa-heart text-red-500 animate-pulse"></i>
+                    <span>by</span>
+                    <span className="font-extrabold text-indigo-500 dark:text-indigo-400 hover:text-indigo-300 transition-all flex items-center gap-0.5 cursor-pointer">
+                        <i className="fas fa-user-shield text-[10px]"></i>
+                        <span>Gaurav Pandey</span>
+                    </span>
+                    <span>for Indian English Learners.</span>
+                </div>
+                <div className="flex items-center justify-center space-x-3 text-[10px] sm:text-xs">
+                    <a href="about.html" className="text-gray-400 hover:text-indigo-500 transition-colors font-semibold">About Us</a>
+                    <span className="text-gray-600 dark:text-slate-800">•</span>
+                    <a href="privacy.html" className="text-gray-400 hover:text-indigo-500 transition-colors font-semibold">Privacy Policy</a>
+                    <span className="text-gray-600 dark:text-slate-800">•</span>
+                    <a href="terms.html" className="text-gray-400 hover:text-indigo-500 transition-colors font-semibold">Terms & Conditions</a>
+                </div>
             </footer>
         </div>
     );
