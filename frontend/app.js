@@ -1,5 +1,21 @@
 const { useState, useEffect, useRef } = React;
 
+// Shuffle options for each question so correct answer isn't always at the same position
+function shuffleQuestionOptions(questions) {
+    return questions.map(q => {
+        const correctText = q.options[q.correct];
+        // Fisher-Yates shuffle on a copy of the options array
+        const shuffled = [...q.options];
+        for (let i = shuffled.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+        }
+        // Find the new index of the correct answer
+        const newCorrectIndex = shuffled.indexOf(correctText);
+        return { ...q, options: shuffled, correct: newCorrectIndex };
+    });
+}
+
 // 12-Level Tense Curriculum Catalog
 const LEVELS = [
     { id: 1, name: "Level 1: Present Simple Tense", desc: "Habits, facts aur daily routine translations. (e.g. 'Main daudta hoon')", count: 25, difficulty: "Basic", icon: "fa-bolt", color: "from-blue-500 to-indigo-600", category: "present" },
@@ -314,7 +330,8 @@ function App() {
                             })
                             .then(data => {
                                 const filtered = data.filter(q => q.levelId === levelId);
-                                setQuestions(filtered);
+                                const shuffled = shuffleQuestionOptions(filtered);
+                                setQuestions(shuffled);
                                 setCurrentQ(0);
                                 setScore(0);
                                 setSelected(null);
